@@ -2,8 +2,6 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-# ---------------- PATH SETUP ----------------
-
 BASE_DIR = Path("output")
 
 MIGRATION_FILE = BASE_DIR / "pc_migration_synthetic.csv"
@@ -11,8 +9,6 @@ SYSTEM_LOAD_FILE = BASE_DIR / "pc_system_load_synthetic.csv"
 DEMOGRAPHIC_FILE = BASE_DIR / "pc_voter_demographics_synthetic.csv"
 
 OUTPUT_FILE = BASE_DIR / "pc_final_metrics.csv"
-
-# ---------------- LOAD DATA ----------------
 
 migration_df = pd.read_csv(MIGRATION_FILE)
 system_df = pd.read_csv(SYSTEM_LOAD_FILE)
@@ -24,8 +20,6 @@ df = (
     .merge(migration_df, on=["pc_id", "state", "constituency_name"], how="left")
     .merge(system_df, on=["pc_id", "state", "constituency_name"], how="left")
 )
-
-# ---------------- HELPER FUNCTIONS ----------------
 
 def safe_div(a, b):
     """Safely divide two numbers, returning NaN if division is invalid."""
@@ -50,8 +44,6 @@ def normalize_partial(scores, weights):
         return np.nan
     total_weight = sum(w for _, w in valid)
     return sum(s * w for s, w in valid) / total_weight
-
-# ---------------- NATIONAL AGGREGATES ----------------
 
 # Gender ratio - ideal is 0.5 (1000 females per 1000 males = 50% female voters)
 IDEAL_GENDER_RATIO = 0.5
@@ -79,7 +71,6 @@ national_objection_rate_avg = (df["objections_raised"] / df["total_requests"]).m
 # National maximum cases per officer (for normalization)
 national_max_cases_per_officer = df["cases_per_officer"].max()
 
-# ---------------- METRIC COMPUTATION ----------------
 
 results = []
 
@@ -186,9 +177,9 @@ for _, row in df.iterrows():
 final_df = pd.DataFrame(results)
 final_df.to_csv(OUTPUT_FILE, index=False)
 
-print("✅ Final constituency-level metrics computed successfully.")
-print(f"📁 Output saved to: {OUTPUT_FILE}")
-print(f"\n📊 National Benchmarks Used:")
+print(" Final constituency-level metrics computed successfully.")
+print(f" Output saved to: {OUTPUT_FILE}")
+print(f"\n National Benchmarks Used:")
 print(f"   - Ideal Gender Ratio: {IDEAL_GENDER_RATIO:.4f} (50% female voters)")
 print(f"   - National Literacy Rate: {national_literacy_avg:.2f}%")
 print(f"   - National Turnout Rate: {national_turnout_avg:.2f}%")
