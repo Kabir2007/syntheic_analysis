@@ -26,19 +26,11 @@ def safe_div(a, b):
     return a / b if b not in (0, None, np.nan) else np.nan
 
 def deviation_score(value, reference):
-    """
-    Calculate how close a value is to a reference (1.0 = perfect match, 0.0 = complete deviation).
-    Returns NaN if inputs are invalid.
-    """
     if pd.isna(value) or pd.isna(reference) or reference == 0:
         return np.nan
     return 1 - abs(value - reference) / reference
 
 def normalize_partial(scores, weights):
-    """
-    Calculate weighted average of scores, ignoring NaN values and renormalizing weights.
-    Returns NaN if all scores are NaN.
-    """
     valid = [(s, w) for s, w in zip(scores, weights) if not pd.isna(s)]
     if not valid:
         return np.nan
