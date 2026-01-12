@@ -4,8 +4,6 @@ import pandas as pd
 from faker import Faker
 from datetime import datetime, timedelta
 
-# ================= SETUP =================
-
 fake = Faker('en_IN')  # Indian locale for Faker
 Faker.seed(42)  # Reproducibility
 
@@ -23,16 +21,15 @@ SOURCE_LOG_OUT = f"{OUTPUT_DIR}/data_sources.txt"
 
 if not os.path.exists(CONSTITUENCIES_FILE):
     raise RuntimeError(
-        f"❌ Constituencies file not found: {CONSTITUENCIES_FILE}\n"
+        f" Constituencies file not found: {CONSTITUENCIES_FILE}\n"
         f"   Run fetch_constituencies.py first to generate it."
     )
 
 pc_df = pd.read_csv(CONSTITUENCIES_FILE)
 TOTAL_PCS = len(pc_df)
 
-print(f"📊 Loaded {TOTAL_PCS} constituencies from {CONSTITUENCIES_FILE}")
+print(f" Loaded {TOTAL_PCS} constituencies from {CONSTITUENCIES_FILE}")
 
-# ================= REALISTIC ANCHORS (ECI-based) =================
 
 # Based on Election Commission of India reports and parliamentary data
 ANNUAL_FORM6_NATIONAL = 2_000_000  # Conservative estimate of annual Form 6 applications
@@ -42,7 +39,7 @@ AVG_VOTERS_PER_PC = TOTAL_VOTERS_INDIA / 543  # ~1.78 million per constituency
 AVG_FORM6_PER_PC = ANNUAL_FORM6_NATIONAL / TOTAL_PCS
 ANCHOR_LEVEL = "ECI_aggregate_estimate"
 
-print(f"🎯 Using realistic anchors:")
+print(f" Using realistic anchors:")
 print(f"   - Avg voters per PC: {AVG_VOTERS_PER_PC:,.0f}")
 print(f"   - Avg Form 6 per PC: {AVG_FORM6_PER_PC:,.0f}")
 
@@ -99,11 +96,11 @@ for idx, row in pc_df.iterrows():
 
 demo_df = pd.DataFrame(demographic_rows)
 demo_df.to_csv(VOTER_DEMOGRAPHICS_OUT, index=False)
-print(f"✅ Saved to {VOTER_DEMOGRAPHICS_OUT}")
+print(f" Saved to {VOTER_DEMOGRAPHICS_OUT}")
 
 # ================= CATEGORY B: MIGRATION (Form 6 data) =================
 
-print("\n🔄 Generating migration data...")
+print("\n Generating migration data...")
 
 migration_rows = []
 
@@ -151,7 +148,7 @@ for idx, row in pc_df.iterrows():
 
 migration_df = pd.DataFrame(migration_rows)
 migration_df.to_csv(MIGRATION_OUT, index=False)
-print(f"✅ Saved to {MIGRATION_OUT}")
+print(f" Saved to {MIGRATION_OUT}")
 
 # ================= CATEGORY C: SYSTEM LOAD & PROCESSING =================
 
@@ -228,11 +225,11 @@ for idx, mig_row in migration_df.iterrows():
 
 system_df = pd.DataFrame(system_rows)
 system_df.to_csv(SYSTEM_LOAD_OUT, index=False)
-print(f"✅ Saved to {SYSTEM_LOAD_OUT}")
+print(f" Saved to {SYSTEM_LOAD_OUT}")
 
 # ================= SOURCES & METHODOLOGY LOG =================
 
-print("\n📝 Writing methodology documentation...")
+print("\n Writing methodology documentation...")
 
 with open(SOURCE_LOG_OUT, "w", encoding="utf-8") as f:
     f.write("=" * 70 + "\n")
@@ -286,11 +283,11 @@ with open(SOURCE_LOG_OUT, "w", encoding="utf-8") as f:
     
     f.write("CRITICAL DISCLAIMER:\n")
     f.write("=" * 70 + "\n")
-    f.write("⚠️  ALL NUMERICAL VALUES ARE SYNTHETIC (FAKE)\n")
-    f.write("⚠️  Only constituency names and state mappings are real\n")
-    f.write("⚠️  Data is for research, testing, or demonstration purposes only\n")
-    f.write("⚠️  Do NOT use for official analysis, policy-making, or publication\n")
-    f.write("⚠️  For real data, consult Election Commission of India (eci.gov.in)\n\n")
+    f.write("  ALL NUMERICAL VALUES ARE SYNTHETIC (FAKE)\n")
+    f.write("  Only constituency names and state mappings are real\n")
+    f.write("  Data is for research, testing, or demonstration purposes only\n")
+    f.write("  Do NOT use for official analysis, policy-making, or publication\n")
+    f.write("  For real data, consult Election Commission of India (eci.gov.in)\n\n")
     
     f.write("OUTPUT FILES:\n")
     f.write("-" * 70 + "\n")
@@ -299,15 +296,15 @@ with open(SOURCE_LOG_OUT, "w", encoding="utf-8") as f:
     f.write(f"3. {SYSTEM_LOAD_OUT}\n")
     f.write(f"4. {SOURCE_LOG_OUT} (this file)\n\n")
 
-print(f"✅ Saved to {SOURCE_LOG_OUT}")
+print(f" Saved to {SOURCE_LOG_OUT}")
 
 # ================= SUMMARY STATISTICS =================
 
 print("\n" + "=" * 70)
-print("📊 SUMMARY STATISTICS")
+print(" SUMMARY STATISTICS")
 print("=" * 70)
 
-print(f"\n🗳️  VOTER DEMOGRAPHICS:")
+print(f"\n  VOTER DEMOGRAPHICS:")
 print(f"   Total voters (all PCs): {demo_df['total_registered_voters'].sum():,}")
 print(f"   Average per PC: {demo_df['total_registered_voters'].mean():,.0f}")
 print(f"   Male voters: {demo_df['male_voters'].sum():,}")
@@ -315,7 +312,7 @@ print(f"   Female voters: {demo_df['female_voters'].sum():,}")
 print(f"   Avg literacy rate: {demo_df['literacy_rate_percent'].mean():.1f}%")
 print(f"   Avg turnout: {demo_df['last_election_turnout_percent'].mean():.1f}%")
 
-print(f"\n🔄 MIGRATION DATA:")
+print(f"\n MIGRATION DATA:")
 print(f"   Total Form 6 requests: {migration_df['form6_addition_requests'].sum():,}")
 print(f"   Total inward migration: {migration_df['form6_inward_migration'].sum():,}")
 print(f"   Total outward migration: {migration_df['form6_outward_migration'].sum():,}")
@@ -323,7 +320,7 @@ print(f"   Net migration: {migration_df['net_migration'].sum():,}")
 print(f"   Form 7 deletions: {migration_df['form7_deletion_requests'].sum():,}")
 print(f"   Form 8 corrections: {migration_df['form8_correction_requests'].sum():,}")
 
-print(f"\n⚙️  SYSTEM LOAD:")
+print(f"\n  SYSTEM LOAD:")
 print(f"   Total requests processed: {system_df['total_requests'].sum():,}")
 print(f"   Approved: {system_df['approved'].sum():,}")
 print(f"   Rejected: {system_df['rejected'].sum():,}")
@@ -331,5 +328,5 @@ print(f"   Pending: {system_df['pending'].sum():,}")
 print(f"   Objections raised: {system_df['objections_raised'].sum():,}")
 print(f"   Avg processing time: {system_df['avg_processing_time_days'].mean():.1f} days")
 
-print("\n✨ All synthetic data generated successfully!")
-print(f"📁 Check the '{OUTPUT_DIR}' directory for output files")
+print("\n All synthetic data generated successfully!")
+print(f" Check the '{OUTPUT_DIR}' directory for output files")
