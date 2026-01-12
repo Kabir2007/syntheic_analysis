@@ -4,8 +4,6 @@ import requests
 import pandas as pd
 from dotenv import load_dotenv
 
-# ================= ENV SETUP =================
-
 load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -20,8 +18,6 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 CONSTITUENCIES_OUT = f"{OUTPUT_DIR}/indian_constituencies.csv"
 GOOGLE_URL = "https://www.googleapis.com/customsearch/v1"
 
-# ================= GOOGLE SEARCH =================
-
 def google_search(query, start=1):
     """Search Google Custom Search API"""
     params = {
@@ -33,12 +29,11 @@ def google_search(query, start=1):
     }
     r = requests.get(GOOGLE_URL, params=params, timeout=15)
     if r.status_code != 200:
-        print(f"⚠️  Search failed with status {r.status_code}")
+        print(f"Search failed with status {r.status_code}")
         return []
     
     return r.json().get("items", [])
 
-# ================= CONSTITUENCY EXTRACTION =================
 
 def extract_constituencies_from_search():
     """Extract real Indian Lok Sabha constituencies from web search"""
@@ -52,7 +47,7 @@ def extract_constituencies_from_search():
     ]
     
     for query in queries:
-        print(f"🔍 Searching: {query}")
+        print(f" Searching: {query}")
         results = google_search(query)
         
         for item in results:
@@ -82,10 +77,8 @@ def extract_constituencies_from_search():
                 if len(cleaned) > 3 and cleaned not in ["List", "Lok", "Sabha", "India", "Indian"]:
                     constituencies[cleaned] = True
     
-    print(f"✅ Extracted {len(constituencies)} unique constituency names")
+    print(f"Extracted {len(constituencies)} unique constituency names")
     return list(constituencies.keys()), sources
-
-# ================= FALLBACK: HARDCODED REAL CONSTITUENCIES =================
 
 KNOWN_CONSTITUENCIES = [
     # Major metropolitan constituencies
@@ -171,8 +164,7 @@ KNOWN_CONSTITUENCIES = [
 def generate_extended_constituencies(base_list, target_count=543):
     """Extend constituency list to match actual Lok Sabha count"""
     extended = list(base_list)
-    
-    # Add numbered constituencies if we need more
+
     states = ["Uttar Pradesh", "Maharashtra", "West Bengal", "Bihar", "Madhya Pradesh", 
               "Tamil Nadu", "Rajasthan", "Karnataka", "Gujarat", "Andhra Pradesh",
               "Odisha", "Telangana", "Kerala", "Jharkhand", "Assam", "Punjab",
@@ -188,9 +180,8 @@ def generate_extended_constituencies(base_list, target_count=543):
     
     return extended[:target_count]
 
-# ================= MAIN EXECUTION =================
 
-print("🚀 Starting constituency data fetch...")
+print(" Starting constituency data fetch...")
 print("=" * 60)
 
 # Try to extract from search
@@ -218,7 +209,7 @@ for state, name in KNOWN_CONSTITUENCIES:
 # Extend to 543 constituencies (actual Lok Sabha count)
 all_constituencies = generate_extended_constituencies(all_constituencies, target_count=543)
 
-print(f"📊 Total constituencies: {len(all_constituencies)}")
+print(f" Total constituencies: {len(all_constituencies)}")
 
 # Create DataFrame
 rows = []
@@ -232,11 +223,11 @@ for i, (state, name) in enumerate(all_constituencies, start=1):
 df = pd.DataFrame(rows)
 df.to_csv(CONSTITUENCIES_OUT, index=False)
 
-print(f"✅ Saved {len(rows)} constituencies to {CONSTITUENCIES_OUT}")
-print(f"📚 Sources used: {len(sources)}")
+print(f" Saved {len(rows)} constituencies to {CONSTITUENCIES_OUT}")
+print(f" Sources used: {len(sources)}")
 for src in sources[:5]:
     print(f"   - {src}")
 if len(sources) > 5:
     print(f"   ... and {len(sources) - 5} more")
 
-print("\n✨ Run generate_synthetic_data.py next to create synthetic electoral data")
+print("\n Run generate_synthetic_data.py next to create synthetic electoral data")
