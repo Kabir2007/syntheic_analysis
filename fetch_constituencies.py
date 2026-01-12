@@ -47,7 +47,7 @@ def extract_constituencies_from_search():
     ]
     
     for query in queries:
-        print(f"🔍 Searching: {query}")
+        print(f" Searching: {query}")
         results = google_search(query)
         
         for item in results:
