@@ -1,0 +1,65 @@
+======================================================================
+SYNTHETIC ELECTORAL DATA - SOURCES & METHODOLOGY
+======================================================================
+
+Generated: 2026-01-11 02:54:21
+Total Constituencies: 543
+
+CONSTITUENCY NAMES:
+----------------------------------------------------------------------
+Source: Real Indian Lok Sabha constituencies
+File: data/indian_constituencies.csv
+Obtained via: Google Custom Search + Hardcoded verified list
+
+AGGREGATE ANCHORS (Real Reference Points):
+----------------------------------------------------------------------
+1. Total Indian Voters (2024): ~968,000,000
+2. Annual Form 6 Applications: ~2,000,000
+3. Average Voters per Constituency: ~1,782,688
+4. Average Form 6 per Constituency: ~3,683
+
+Sources:
+- Election Commission of India (ECI) reports
+- Parliamentary answers on electoral reforms
+- Census data (literacy, demographics)
+
+SYNTHETIC DATA GENERATION METHOD:
+----------------------------------------------------------------------
+Library: Faker (Python) with Indian locale
+Seed: 42 (for reproducibility)
+
+Data Categories:
+1. Voter Demographics:
+   - Total voters: ±50-180% of national average
+   - Gender ratio: 48-54% male (realistic Indian distribution)
+   - Age groups: Realistic demographic pyramids
+   - Literacy: 55-95% (varied by region)
+
+2. Migration Data (Form 6/7/8):
+   - Form 6 volume: ±40-200% of national average per PC
+   - Inward/outward ratio: 35-65% realistic variance
+   - Form 7 deletions: 5-15% of Form 6 volume
+   - Form 8 corrections: 10-25% of Form 6 volume
+
+3. System Load & Processing:
+   - Approval rate: 75-92%
+   - Rejection rate: 3-12%
+   - Objections: 1-8% of total requests
+   - Processing time: Log-scaled based on load (5-90 days)
+   - Officer workload: 2-12 officers per constituency
+
+CRITICAL DISCLAIMER:
+======================================================================
+⚠️  ALL NUMERICAL VALUES ARE SYNTHETIC (FAKE)
+⚠️  Only constituency names and state mappings are real
+⚠️  Data is for research, testing, or demonstration purposes only
+⚠️  Do NOT use for official analysis, policy-making, or publication
+⚠️  For real data, consult Election Commission of India (eci.gov.in)
+
+OUTPUT FILES:
+----------------------------------------------------------------------
+1. output/pc_voter_demographics_synthetic.csv
+2. output/pc_migration_synthetic.csv
+3. output/pc_system_load_synthetic.csv
+4. output/data_sources.txt (this file)
+

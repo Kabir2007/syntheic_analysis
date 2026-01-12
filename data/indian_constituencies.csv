@@ -1,0 +1,544 @@
+pc_id,state,constituency_name
+PC001,Maharashtra,Mumbai North
+PC002,Maharashtra,Mumbai South
+PC003,Maharashtra,Mumbai North West
+PC004,Maharashtra,Mumbai North East
+PC005,Maharashtra,Mumbai North Central
+PC006,Maharashtra,Mumbai South Central
+PC007,Maharashtra,Pune
+PC008,Maharashtra,Nagpur
+PC009,Maharashtra,Thane
+PC010,Maharashtra,Nashik
+PC011,Delhi,Chandni Chowk
+PC012,Delhi,New Delhi
+PC013,Delhi,North East Delhi
+PC014,Delhi,East Delhi
+PC015,Delhi,North West Delhi
+PC016,Delhi,West Delhi
+PC017,Delhi,South Delhi
+PC018,Karnataka,Bangalore North
+PC019,Karnataka,Bangalore Central
+PC020,Karnataka,Bangalore South
+PC021,Karnataka,Bangalore Rural
+PC022,Karnataka,Mysore
+PC023,Karnataka,Mangalore
+PC024,Tamil Nadu,Chennai North
+PC025,Tamil Nadu,Chennai South
+PC026,Tamil Nadu,Chennai Central
+PC027,Tamil Nadu,Coimbatore
+PC028,Tamil Nadu,Madurai
+PC029,West Bengal,Kolkata North
+PC030,West Bengal,Kolkata South
+PC031,West Bengal,Howrah
+PC032,West Bengal,Darjeeling
+PC033,Gujarat,Ahmedabad East
+PC034,Gujarat,Ahmedabad West
+PC035,Gujarat,Surat
+PC036,Gujarat,Vadodara
+PC037,Rajasthan,Jaipur
+PC038,Rajasthan,Jaipur Rural
+PC039,Rajasthan,Jodhpur
+PC040,Rajasthan,Udaipur
+PC041,Uttar Pradesh,Lucknow
+PC042,Uttar Pradesh,Kanpur
+PC043,Uttar Pradesh,Varanasi
+PC044,Uttar Pradesh,Allahabad
+PC045,Uttar Pradesh,Agra
+PC046,Uttar Pradesh,Meerut
+PC047,Uttar Pradesh,Ghaziabad
+PC048,Uttar Pradesh,Noida
+PC049,Telangana,Hyderabad
+PC050,Telangana,Secunderabad
+PC051,Kerala,Thiruvananthapuram
+PC052,Kerala,Ernakulam
+PC053,Kerala,Thrissur
+PC054,Punjab,Amritsar
+PC055,Punjab,Ludhiana
+PC056,Haryana,Gurugram
+PC057,Haryana,Faridabad
+PC058,Bihar,Patna Sahib
+PC059,Bihar,Gaya
+PC060,Madhya Pradesh,Bhopal
+PC061,Madhya Pradesh,Indore
+PC062,Andhra Pradesh,Visakhapatnam
+PC063,Andhra Pradesh,Vijayawada
+PC064,Maharashtra,Maharashtra 1
+PC065,West Bengal,West Bengal 2
+PC066,Bihar,Bihar 3
+PC067,Madhya Pradesh,Madhya Pradesh 4
+PC068,Tamil Nadu,Tamil Nadu 5
+PC069,Rajasthan,Rajasthan 6
+PC070,Karnataka,Karnataka 7
+PC071,Gujarat,Gujarat 8
+PC072,Andhra Pradesh,Andhra Pradesh 9
+PC073,Odisha,Odisha 10
+PC074,Telangana,Telangana 11
+PC075,Kerala,Kerala 12
+PC076,Jharkhand,Jharkhand 13
+PC077,Assam,Assam 14
+PC078,Punjab,Punjab 15
+PC079,Chhattisgarh,Chhattisgarh 16
+PC080,Haryana,Haryana 17
+PC081,Uttarakhand,Uttarakhand 18
+PC082,Himachal Pradesh,Himachal Pradesh 19
+PC083,Tripura,Tripura 20
+PC084,Meghalaya,Meghalaya 21
+PC085,Manipur,Manipur 22
+PC086,Nagaland,Nagaland 23
+PC087,Goa,Goa 24
+PC088,Arunachal Pradesh,Arunachal Pradesh 25
+PC089,Mizoram,Mizoram 26
+PC090,Sikkim,Sikkim 27
+PC091,Jammu and Kashmir,Jammu and Kashmir 28
+PC092,Ladakh,Ladakh 29
+PC093,Uttar Pradesh,Uttar Pradesh 30
+PC094,Maharashtra,Maharashtra 31
+PC095,West Bengal,West Bengal 32
+PC096,Bihar,Bihar 33
+PC097,Madhya Pradesh,Madhya Pradesh 34
+PC098,Tamil Nadu,Tamil Nadu 35
+PC099,Rajasthan,Rajasthan 36
+PC100,Karnataka,Karnataka 37
+PC101,Gujarat,Gujarat 38
+PC102,Andhra Pradesh,Andhra Pradesh 39
+PC103,Odisha,Odisha 40
+PC104,Telangana,Telangana 41
+PC105,Kerala,Kerala 42
+PC106,Jharkhand,Jharkhand 43
+PC107,Assam,Assam 44
+PC108,Punjab,Punjab 45
+PC109,Chhattisgarh,Chhattisgarh 46
+PC110,Haryana,Haryana 47
+PC111,Uttarakhand,Uttarakhand 48
+PC112,Himachal Pradesh,Himachal Pradesh 49
+PC113,Tripura,Tripura 50
+PC114,Meghalaya,Meghalaya 51
+PC115,Manipur,Manipur 52
+PC116,Nagaland,Nagaland 53
+PC117,Goa,Goa 54
+PC118,Arunachal Pradesh,Arunachal Pradesh 55
+PC119,Mizoram,Mizoram 56
+PC120,Sikkim,Sikkim 57
+PC121,Jammu and Kashmir,Jammu and Kashmir 58
+PC122,Ladakh,Ladakh 59
+PC123,Uttar Pradesh,Uttar Pradesh 60
+PC124,Maharashtra,Maharashtra 61
+PC125,West Bengal,West Bengal 62
+PC126,Bihar,Bihar 63
+PC127,Madhya Pradesh,Madhya Pradesh 64
+PC128,Tamil Nadu,Tamil Nadu 65
+PC129,Rajasthan,Rajasthan 66
+PC130,Karnataka,Karnataka 67
+PC131,Gujarat,Gujarat 68
+PC132,Andhra Pradesh,Andhra Pradesh 69
+PC133,Odisha,Odisha 70
+PC134,Telangana,Telangana 71
+PC135,Kerala,Kerala 72
+PC136,Jharkhand,Jharkhand 73
+PC137,Assam,Assam 74
+PC138,Punjab,Punjab 75
+PC139,Chhattisgarh,Chhattisgarh 76
+PC140,Haryana,Haryana 77
+PC141,Uttarakhand,Uttarakhand 78
+PC142,Himachal Pradesh,Himachal Pradesh 79
+PC143,Tripura,Tripura 80
+PC144,Meghalaya,Meghalaya 81
+PC145,Manipur,Manipur 82
+PC146,Nagaland,Nagaland 83
+PC147,Goa,Goa 84
+PC148,Arunachal Pradesh,Arunachal Pradesh 85
+PC149,Mizoram,Mizoram 86
+PC150,Sikkim,Sikkim 87
+PC151,Jammu and Kashmir,Jammu and Kashmir 88
+PC152,Ladakh,Ladakh 89
+PC153,Uttar Pradesh,Uttar Pradesh 90
+PC154,Maharashtra,Maharashtra 91
+PC155,West Bengal,West Bengal 92
+PC156,Bihar,Bihar 93
+PC157,Madhya Pradesh,Madhya Pradesh 94
+PC158,Tamil Nadu,Tamil Nadu 95
+PC159,Rajasthan,Rajasthan 96
+PC160,Karnataka,Karnataka 97
+PC161,Gujarat,Gujarat 98
+PC162,Andhra Pradesh,Andhra Pradesh 99
+PC163,Odisha,Odisha 100
+PC164,Telangana,Telangana 101
+PC165,Kerala,Kerala 102
+PC166,Jharkhand,Jharkhand 103
+PC167,Assam,Assam 104
+PC168,Punjab,Punjab 105
+PC169,Chhattisgarh,Chhattisgarh 106
+PC170,Haryana,Haryana 107
+PC171,Uttarakhand,Uttarakhand 108
+PC172,Himachal Pradesh,Himachal Pradesh 109
+PC173,Tripura,Tripura 110
+PC174,Meghalaya,Meghalaya 111
+PC175,Manipur,Manipur 112
+PC176,Nagaland,Nagaland 113
+PC177,Goa,Goa 114
+PC178,Arunachal Pradesh,Arunachal Pradesh 115
+PC179,Mizoram,Mizoram 116
+PC180,Sikkim,Sikkim 117
+PC181,Jammu and Kashmir,Jammu and Kashmir 118
+PC182,Ladakh,Ladakh 119
+PC183,Uttar Pradesh,Uttar Pradesh 120
+PC184,Maharashtra,Maharashtra 121
+PC185,West Bengal,West Bengal 122
+PC186,Bihar,Bihar 123
+PC187,Madhya Pradesh,Madhya Pradesh 124
+PC188,Tamil Nadu,Tamil Nadu 125
+PC189,Rajasthan,Rajasthan 126
+PC190,Karnataka,Karnataka 127
+PC191,Gujarat,Gujarat 128
+PC192,Andhra Pradesh,Andhra Pradesh 129
+PC193,Odisha,Odisha 130
+PC194,Telangana,Telangana 131
+PC195,Kerala,Kerala 132
+PC196,Jharkhand,Jharkhand 133
+PC197,Assam,Assam 134
+PC198,Punjab,Punjab 135
+PC199,Chhattisgarh,Chhattisgarh 136
+PC200,Haryana,Haryana 137
+PC201,Uttarakhand,Uttarakhand 138
+PC202,Himachal Pradesh,Himachal Pradesh 139
+PC203,Tripura,Tripura 140
+PC204,Meghalaya,Meghalaya 141
+PC205,Manipur,Manipur 142
+PC206,Nagaland,Nagaland 143
+PC207,Goa,Goa 144
+PC208,Arunachal Pradesh,Arunachal Pradesh 145
+PC209,Mizoram,Mizoram 146
+PC210,Sikkim,Sikkim 147
+PC211,Jammu and Kashmir,Jammu and Kashmir 148
+PC212,Ladakh,Ladakh 149
+PC213,Uttar Pradesh,Uttar Pradesh 150
+PC214,Maharashtra,Maharashtra 151
+PC215,West Bengal,West Bengal 152
+PC216,Bihar,Bihar 153
+PC217,Madhya Pradesh,Madhya Pradesh 154
+PC218,Tamil Nadu,Tamil Nadu 155
+PC219,Rajasthan,Rajasthan 156
+PC220,Karnataka,Karnataka 157
+PC221,Gujarat,Gujarat 158
+PC222,Andhra Pradesh,Andhra Pradesh 159
+PC223,Odisha,Odisha 160
+PC224,Telangana,Telangana 161
+PC225,Kerala,Kerala 162
+PC226,Jharkhand,Jharkhand 163
+PC227,Assam,Assam 164
+PC228,Punjab,Punjab 165
+PC229,Chhattisgarh,Chhattisgarh 166
+PC230,Haryana,Haryana 167
+PC231,Uttarakhand,Uttarakhand 168
+PC232,Himachal Pradesh,Himachal Pradesh 169
+PC233,Tripura,Tripura 170
+PC234,Meghalaya,Meghalaya 171
+PC235,Manipur,Manipur 172
+PC236,Nagaland,Nagaland 173
+PC237,Goa,Goa 174
+PC238,Arunachal Pradesh,Arunachal Pradesh 175
+PC239,Mizoram,Mizoram 176
+PC240,Sikkim,Sikkim 177
+PC241,Jammu and Kashmir,Jammu and Kashmir 178
+PC242,Ladakh,Ladakh 179
+PC243,Uttar Pradesh,Uttar Pradesh 180
+PC244,Maharashtra,Maharashtra 181
+PC245,West Bengal,West Bengal 182
+PC246,Bihar,Bihar 183
+PC247,Madhya Pradesh,Madhya Pradesh 184
+PC248,Tamil Nadu,Tamil Nadu 185
+PC249,Rajasthan,Rajasthan 186
+PC250,Karnataka,Karnataka 187
+PC251,Gujarat,Gujarat 188
+PC252,Andhra Pradesh,Andhra Pradesh 189
+PC253,Odisha,Odisha 190
+PC254,Telangana,Telangana 191
+PC255,Kerala,Kerala 192
+PC256,Jharkhand,Jharkhand 193
+PC257,Assam,Assam 194
+PC258,Punjab,Punjab 195
+PC259,Chhattisgarh,Chhattisgarh 196
+PC260,Haryana,Haryana 197
+PC261,Uttarakhand,Uttarakhand 198
+PC262,Himachal Pradesh,Himachal Pradesh 199
+PC263,Tripura,Tripura 200
+PC264,Meghalaya,Meghalaya 201
+PC265,Manipur,Manipur 202
+PC266,Nagaland,Nagaland 203
+PC267,Goa,Goa 204
+PC268,Arunachal Pradesh,Arunachal Pradesh 205
+PC269,Mizoram,Mizoram 206
+PC270,Sikkim,Sikkim 207
+PC271,Jammu and Kashmir,Jammu and Kashmir 208
+PC272,Ladakh,Ladakh 209
+PC273,Uttar Pradesh,Uttar Pradesh 210
+PC274,Maharashtra,Maharashtra 211
+PC275,West Bengal,West Bengal 212
+PC276,Bihar,Bihar 213
+PC277,Madhya Pradesh,Madhya Pradesh 214
+PC278,Tamil Nadu,Tamil Nadu 215
+PC279,Rajasthan,Rajasthan 216
+PC280,Karnataka,Karnataka 217
+PC281,Gujarat,Gujarat 218
+PC282,Andhra Pradesh,Andhra Pradesh 219
+PC283,Odisha,Odisha 220
+PC284,Telangana,Telangana 221
+PC285,Kerala,Kerala 222
+PC286,Jharkhand,Jharkhand 223
+PC287,Assam,Assam 224
+PC288,Punjab,Punjab 225
+PC289,Chhattisgarh,Chhattisgarh 226
+PC290,Haryana,Haryana 227
+PC291,Uttarakhand,Uttarakhand 228
+PC292,Himachal Pradesh,Himachal Pradesh 229
+PC293,Tripura,Tripura 230
+PC294,Meghalaya,Meghalaya 231
+PC295,Manipur,Manipur 232
+PC296,Nagaland,Nagaland 233
+PC297,Goa,Goa 234
+PC298,Arunachal Pradesh,Arunachal Pradesh 235
+PC299,Mizoram,Mizoram 236
+PC300,Sikkim,Sikkim 237
+PC301,Jammu and Kashmir,Jammu and Kashmir 238
+PC302,Ladakh,Ladakh 239
+PC303,Uttar Pradesh,Uttar Pradesh 240
+PC304,Maharashtra,Maharashtra 241
+PC305,West Bengal,West Bengal 242
+PC306,Bihar,Bihar 243
+PC307,Madhya Pradesh,Madhya Pradesh 244
+PC308,Tamil Nadu,Tamil Nadu 245
+PC309,Rajasthan,Rajasthan 246
+PC310,Karnataka,Karnataka 247
+PC311,Gujarat,Gujarat 248
+PC312,Andhra Pradesh,Andhra Pradesh 249
+PC313,Odisha,Odisha 250
+PC314,Telangana,Telangana 251
+PC315,Kerala,Kerala 252
+PC316,Jharkhand,Jharkhand 253
+PC317,Assam,Assam 254
+PC318,Punjab,Punjab 255
+PC319,Chhattisgarh,Chhattisgarh 256
+PC320,Haryana,Haryana 257
+PC321,Uttarakhand,Uttarakhand 258
+PC322,Himachal Pradesh,Himachal Pradesh 259
+PC323,Tripura,Tripura 260
+PC324,Meghalaya,Meghalaya 261
+PC325,Manipur,Manipur 262
+PC326,Nagaland,Nagaland 263
+PC327,Goa,Goa 264
+PC328,Arunachal Pradesh,Arunachal Pradesh 265
+PC329,Mizoram,Mizoram 266
+PC330,Sikkim,Sikkim 267
+PC331,Jammu and Kashmir,Jammu and Kashmir 268
+PC332,Ladakh,Ladakh 269
+PC333,Uttar Pradesh,Uttar Pradesh 270
+PC334,Maharashtra,Maharashtra 271
+PC335,West Bengal,West Bengal 272
+PC336,Bihar,Bihar 273
+PC337,Madhya Pradesh,Madhya Pradesh 274
+PC338,Tamil Nadu,Tamil Nadu 275
+PC339,Rajasthan,Rajasthan 276
+PC340,Karnataka,Karnataka 277
+PC341,Gujarat,Gujarat 278
+PC342,Andhra Pradesh,Andhra Pradesh 279
+PC343,Odisha,Odisha 280
+PC344,Telangana,Telangana 281
+PC345,Kerala,Kerala 282
+PC346,Jharkhand,Jharkhand 283
+PC347,Assam,Assam 284
+PC348,Punjab,Punjab 285
+PC349,Chhattisgarh,Chhattisgarh 286
+PC350,Haryana,Haryana 287
+PC351,Uttarakhand,Uttarakhand 288
+PC352,Himachal Pradesh,Himachal Pradesh 289
+PC353,Tripura,Tripura 290
+PC354,Meghalaya,Meghalaya 291
+PC355,Manipur,Manipur 292
+PC356,Nagaland,Nagaland 293
+PC357,Goa,Goa 294
+PC358,Arunachal Pradesh,Arunachal Pradesh 295
+PC359,Mizoram,Mizoram 296
+PC360,Sikkim,Sikkim 297
+PC361,Jammu and Kashmir,Jammu and Kashmir 298
+PC362,Ladakh,Ladakh 299
+PC363,Uttar Pradesh,Uttar Pradesh 300
+PC364,Maharashtra,Maharashtra 301
+PC365,West Bengal,West Bengal 302
+PC366,Bihar,Bihar 303
+PC367,Madhya Pradesh,Madhya Pradesh 304
+PC368,Tamil Nadu,Tamil Nadu 305
+PC369,Rajasthan,Rajasthan 306
+PC370,Karnataka,Karnataka 307
+PC371,Gujarat,Gujarat 308
+PC372,Andhra Pradesh,Andhra Pradesh 309
+PC373,Odisha,Odisha 310
+PC374,Telangana,Telangana 311
+PC375,Kerala,Kerala 312
+PC376,Jharkhand,Jharkhand 313
+PC377,Assam,Assam 314
+PC378,Punjab,Punjab 315
+PC379,Chhattisgarh,Chhattisgarh 316
+PC380,Haryana,Haryana 317
+PC381,Uttarakhand,Uttarakhand 318
+PC382,Himachal Pradesh,Himachal Pradesh 319
+PC383,Tripura,Tripura 320
+PC384,Meghalaya,Meghalaya 321
+PC385,Manipur,Manipur 322
+PC386,Nagaland,Nagaland 323
+PC387,Goa,Goa 324
+PC388,Arunachal Pradesh,Arunachal Pradesh 325
+PC389,Mizoram,Mizoram 326
+PC390,Sikkim,Sikkim 327
+PC391,Jammu and Kashmir,Jammu and Kashmir 328
+PC392,Ladakh,Ladakh 329
+PC393,Uttar Pradesh,Uttar Pradesh 330
+PC394,Maharashtra,Maharashtra 331
+PC395,West Bengal,West Bengal 332
+PC396,Bihar,Bihar 333
+PC397,Madhya Pradesh,Madhya Pradesh 334
+PC398,Tamil Nadu,Tamil Nadu 335
+PC399,Rajasthan,Rajasthan 336
+PC400,Karnataka,Karnataka 337
+PC401,Gujarat,Gujarat 338
+PC402,Andhra Pradesh,Andhra Pradesh 339
+PC403,Odisha,Odisha 340
+PC404,Telangana,Telangana 341
+PC405,Kerala,Kerala 342
+PC406,Jharkhand,Jharkhand 343
+PC407,Assam,Assam 344
+PC408,Punjab,Punjab 345
+PC409,Chhattisgarh,Chhattisgarh 346
+PC410,Haryana,Haryana 347
+PC411,Uttarakhand,Uttarakhand 348
+PC412,Himachal Pradesh,Himachal Pradesh 349
+PC413,Tripura,Tripura 350
+PC414,Meghalaya,Meghalaya 351
+PC415,Manipur,Manipur 352
+PC416,Nagaland,Nagaland 353
+PC417,Goa,Goa 354
+PC418,Arunachal Pradesh,Arunachal Pradesh 355
+PC419,Mizoram,Mizoram 356
+PC420,Sikkim,Sikkim 357
+PC421,Jammu and Kashmir,Jammu and Kashmir 358
+PC422,Ladakh,Ladakh 359
+PC423,Uttar Pradesh,Uttar Pradesh 360
+PC424,Maharashtra,Maharashtra 361
+PC425,West Bengal,West Bengal 362
+PC426,Bihar,Bihar 363
+PC427,Madhya Pradesh,Madhya Pradesh 364
+PC428,Tamil Nadu,Tamil Nadu 365
+PC429,Rajasthan,Rajasthan 366
+PC430,Karnataka,Karnataka 367
+PC431,Gujarat,Gujarat 368
+PC432,Andhra Pradesh,Andhra Pradesh 369
+PC433,Odisha,Odisha 370
+PC434,Telangana,Telangana 371
+PC435,Kerala,Kerala 372
+PC436,Jharkhand,Jharkhand 373
+PC437,Assam,Assam 374
+PC438,Punjab,Punjab 375
+PC439,Chhattisgarh,Chhattisgarh 376
+PC440,Haryana,Haryana 377
+PC441,Uttarakhand,Uttarakhand 378
+PC442,Himachal Pradesh,Himachal Pradesh 379
+PC443,Tripura,Tripura 380
+PC444,Meghalaya,Meghalaya 381
+PC445,Manipur,Manipur 382
+PC446,Nagaland,Nagaland 383
+PC447,Goa,Goa 384
+PC448,Arunachal Pradesh,Arunachal Pradesh 385
+PC449,Mizoram,Mizoram 386
+PC450,Sikkim,Sikkim 387
+PC451,Jammu and Kashmir,Jammu and Kashmir 388
+PC452,Ladakh,Ladakh 389
+PC453,Uttar Pradesh,Uttar Pradesh 390
+PC454,Maharashtra,Maharashtra 391
+PC455,West Bengal,West Bengal 392
+PC456,Bihar,Bihar 393
+PC457,Madhya Pradesh,Madhya Pradesh 394
+PC458,Tamil Nadu,Tamil Nadu 395
+PC459,Rajasthan,Rajasthan 396
+PC460,Karnataka,Karnataka 397
+PC461,Gujarat,Gujarat 398
+PC462,Andhra Pradesh,Andhra Pradesh 399
+PC463,Odisha,Odisha 400
+PC464,Telangana,Telangana 401
+PC465,Kerala,Kerala 402
+PC466,Jharkhand,Jharkhand 403
+PC467,Assam,Assam 404
+PC468,Punjab,Punjab 405
+PC469,Chhattisgarh,Chhattisgarh 406
+PC470,Haryana,Haryana 407
+PC471,Uttarakhand,Uttarakhand 408
+PC472,Himachal Pradesh,Himachal Pradesh 409
+PC473,Tripura,Tripura 410
+PC474,Meghalaya,Meghalaya 411
+PC475,Manipur,Manipur 412
+PC476,Nagaland,Nagaland 413
+PC477,Goa,Goa 414
+PC478,Arunachal Pradesh,Arunachal Pradesh 415
+PC479,Mizoram,Mizoram 416
+PC480,Sikkim,Sikkim 417
+PC481,Jammu and Kashmir,Jammu and Kashmir 418
+PC482,Ladakh,Ladakh 419
+PC483,Uttar Pradesh,Uttar Pradesh 420
+PC484,Maharashtra,Maharashtra 421
+PC485,West Bengal,West Bengal 422
+PC486,Bihar,Bihar 423
+PC487,Madhya Pradesh,Madhya Pradesh 424
+PC488,Tamil Nadu,Tamil Nadu 425
+PC489,Rajasthan,Rajasthan 426
+PC490,Karnataka,Karnataka 427
+PC491,Gujarat,Gujarat 428
+PC492,Andhra Pradesh,Andhra Pradesh 429
+PC493,Odisha,Odisha 430
+PC494,Telangana,Telangana 431
+PC495,Kerala,Kerala 432
+PC496,Jharkhand,Jharkhand 433
+PC497,Assam,Assam 434
+PC498,Punjab,Punjab 435
+PC499,Chhattisgarh,Chhattisgarh 436
+PC500,Haryana,Haryana 437
+PC501,Uttarakhand,Uttarakhand 438
+PC502,Himachal Pradesh,Himachal Pradesh 439
+PC503,Tripura,Tripura 440
+PC504,Meghalaya,Meghalaya 441
+PC505,Manipur,Manipur 442
+PC506,Nagaland,Nagaland 443
+PC507,Goa,Goa 444
+PC508,Arunachal Pradesh,Arunachal Pradesh 445
+PC509,Mizoram,Mizoram 446
+PC510,Sikkim,Sikkim 447
+PC511,Jammu and Kashmir,Jammu and Kashmir 448
+PC512,Ladakh,Ladakh 449
+PC513,Uttar Pradesh,Uttar Pradesh 450
+PC514,Maharashtra,Maharashtra 451
+PC515,West Bengal,West Bengal 452
+PC516,Bihar,Bihar 453
+PC517,Madhya Pradesh,Madhya Pradesh 454
+PC518,Tamil Nadu,Tamil Nadu 455
+PC519,Rajasthan,Rajasthan 456
+PC520,Karnataka,Karnataka 457
+PC521,Gujarat,Gujarat 458
+PC522,Andhra Pradesh,Andhra Pradesh 459
+PC523,Odisha,Odisha 460
+PC524,Telangana,Telangana 461
+PC525,Kerala,Kerala 462
+PC526,Jharkhand,Jharkhand 463
+PC527,Assam,Assam 464
+PC528,Punjab,Punjab 465
+PC529,Chhattisgarh,Chhattisgarh 466
+PC530,Haryana,Haryana 467
+PC531,Uttarakhand,Uttarakhand 468
+PC532,Himachal Pradesh,Himachal Pradesh 469
+PC533,Tripura,Tripura 470
+PC534,Meghalaya,Meghalaya 471
+PC535,Manipur,Manipur 472
+PC536,Nagaland,Nagaland 473
+PC537,Goa,Goa 474
+PC538,Arunachal Pradesh,Arunachal Pradesh 475
+PC539,Mizoram,Mizoram 476
+PC540,Sikkim,Sikkim 477
+PC541,Jammu and Kashmir,Jammu and Kashmir 478
+PC542,Ladakh,Ladakh 479
+PC543,Uttar Pradesh,Uttar Pradesh 480
