@@ -35,7 +35,7 @@ print(f"📊 Loaded {TOTAL_PCS} constituencies from {CONSTITUENCIES_FILE}")
 # ================= REALISTIC ANCHORS (ECI-based) =================
 
 # Based on Election Commission of India reports and parliamentary data
-ANNUAL_FORM6_NATIONAL = 2_000_000  # Conservative estimate of annual Form 6 applications
+ANNUAL_FORM6_NATIONAL = 12_000_000  # Conservative estimate of annual Form 6 applications
 TOTAL_VOTERS_INDIA = 968_000_000  # Approximate voter population (2024)
 AVG_VOTERS_PER_PC = TOTAL_VOTERS_INDIA / 543  # ~1.78 million per constituency
 

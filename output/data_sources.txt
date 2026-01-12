@@ -2,7 +2,7 @@
 SYNTHETIC ELECTORAL DATA - SOURCES & METHODOLOGY
 ======================================================================
 
-Generated: 2026-01-11 02:54:21
+Generated: 2026-01-12 10:33:09
 Total Constituencies: 543
 
 CONSTITUENCY NAMES:
@@ -14,9 +14,9 @@ Obtained via: Google Custom Search + Hardcoded verified list
 AGGREGATE ANCHORS (Real Reference Points):
 ----------------------------------------------------------------------
 1. Total Indian Voters (2024): ~968,000,000
-2. Annual Form 6 Applications: ~2,000,000
+2. Annual Form 6 Applications: ~12,000,000
 3. Average Voters per Constituency: ~1,782,688
-4. Average Form 6 per Constituency: ~3,683
+4. Average Form 6 per Constituency: ~22,099
 
 Sources:
 - Election Commission of India (ECI) reports

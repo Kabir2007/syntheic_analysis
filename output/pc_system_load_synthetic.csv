@@ -1,544 +1,544 @@
 pc_id,state,constituency_name,total_requests,approved,rejected,pending,objections_raised,objections_resolved,objections_pending,freeze_period_pending,avg_processing_time_days,officers_assigned,cases_per_officer,data_origin,anchor_level
-PC001,Maharashtra,Mumbai North,6593,6034,389,170,207,181,26,68,38.8,6,1098.8,synthetic,ECI_aggregate_estimate
-PC002,Maharashtra,Mumbai South,4387,3900,211,276,340,290,50,108,65.3,11,398.8,synthetic,ECI_aggregate_estimate
-PC003,Maharashtra,Mumbai North West,6020,4766,473,781,234,145,89,426,42.1,10,602.0,synthetic,ECI_aggregate_estimate
-PC004,Maharashtra,Mumbai North East,9183,7182,329,1672,654,453,201,1110,67.8,3,3061.0,synthetic,ECI_aggregate_estimate
-PC005,Maharashtra,Mumbai North Central,2836,2277,248,311,41,26,15,193,40.1,3,945.3,synthetic,ECI_aggregate_estimate
-PC006,Maharashtra,Mumbai South Central,5902,5320,528,54,378,258,120,34,66.0,6,983.7,synthetic,ECI_aggregate_estimate
-PC007,Maharashtra,Pune,4495,4057,315,123,206,162,44,72,35.1,11,408.6,synthetic,ECI_aggregate_estimate
-PC008,Maharashtra,Nagpur,4318,3308,339,671,127,80,47,398,44.7,9,479.8,synthetic,ECI_aggregate_estimate
-PC009,Maharashtra,Thane,4296,3840,457,0,238,181,57,0,42.9,8,537.0,synthetic,ECI_aggregate_estimate
-PC010,Maharashtra,Nashik,6787,5666,443,678,257,158,99,409,69.2,5,1357.4,synthetic,ECI_aggregate_estimate
-PC011,Delhi,Chandni Chowk,6365,5212,546,607,303,229,74,279,27.6,2,3182.5,synthetic,ECI_aggregate_estimate
-PC012,Delhi,New Delhi,7838,6617,760,461,312,239,73,287,40.9,12,653.2,synthetic,ECI_aggregate_estimate
-PC013,Delhi,North East Delhi,2940,2670,340,0,87,70,17,0,26.3,3,980.0,synthetic,ECI_aggregate_estimate
-PC014,Delhi,East Delhi,7363,5708,306,1349,263,173,90,457,40.1,11,669.4,synthetic,ECI_aggregate_estimate
-PC015,Delhi,North West Delhi,5806,4818,687,301,158,139,19,189,60.1,9,645.1,synthetic,ECI_aggregate_estimate
-PC016,Delhi,West Delhi,8319,6460,300,1559,334,301,33,525,59.8,8,1039.9,synthetic,ECI_aggregate_estimate
-PC017,Delhi,South Delhi,7562,6274,374,914,548,465,83,584,41.7,2,3781.0,synthetic,ECI_aggregate_estimate
-PC018,Karnataka,Bangalore North,6229,4672,324,1233,343,262,81,736,59.8,8,778.6,synthetic,ECI_aggregate_estimate
-PC019,Karnataka,Bangalore Central,6318,5278,640,400,370,300,70,196,50.6,7,902.6,synthetic,ECI_aggregate_estimate
-PC020,Karnataka,Bangalore South,3117,2443,156,518,223,197,26,217,32.6,4,779.2,synthetic,ECI_aggregate_estimate
-PC021,Karnataka,Bangalore Rural,2443,1937,211,295,76,71,5,125,32.2,7,349.0,synthetic,ECI_aggregate_estimate
-PC022,Karnataka,Mysore,3381,3058,316,7,243,225,18,3,28.5,5,676.2,synthetic,ECI_aggregate_estimate
-PC023,Karnataka,Mangalore,8983,8252,1058,0,312,187,125,0,48.8,7,1283.3,synthetic,ECI_aggregate_estimate
-PC024,Tamil Nadu,Chennai North,3481,2640,280,561,158,145,13,207,60.8,8,435.1,synthetic,ECI_aggregate_estimate
-PC025,Tamil Nadu,Chennai South,8561,6566,440,1555,286,211,75,478,29.4,4,2140.2,synthetic,ECI_aggregate_estimate
-PC026,Tamil Nadu,Chennai Central,5653,5014,389,250,163,146,17,103,55.9,9,628.1,synthetic,ECI_aggregate_estimate
-PC027,Tamil Nadu,Coimbatore,1803,1376,98,329,65,52,13,182,58.0,12,150.2,synthetic,ECI_aggregate_estimate
-PC028,Tamil Nadu,Madurai,5202,4492,259,451,177,125,52,265,42.4,6,867.0,synthetic,ECI_aggregate_estimate
-PC029,West Bengal,Kolkata North,2998,2733,137,128,171,130,41,72,30.7,10,299.8,synthetic,ECI_aggregate_estimate
-PC030,West Bengal,Kolkata South,7532,5864,679,989,158,124,34,325,30.5,8,941.5,synthetic,ECI_aggregate_estimate
-PC031,West Bengal,Howrah,6549,5372,716,461,185,149,36,211,53.4,5,1309.8,synthetic,ECI_aggregate_estimate
-PC032,West Bengal,Darjeeling,8243,7020,914,309,166,132,34,111,71.8,2,4121.5,synthetic,ECI_aggregate_estimate
-PC033,Gujarat,Ahmedabad East,3737,2823,217,697,219,199,20,251,30.4,2,1868.5,synthetic,ECI_aggregate_estimate
-PC034,Gujarat,Ahmedabad West,7919,6780,742,397,617,384,233,250,42.9,3,2639.7,synthetic,ECI_aggregate_estimate
-PC035,Gujarat,Surat,4567,3981,262,324,276,228,48,176,51.4,12,380.6,synthetic,ECI_aggregate_estimate
-PC036,Gujarat,Vadodara,1860,1540,213,107,48,30,18,53,26.8,7,265.7,synthetic,ECI_aggregate_estimate
-PC037,Rajasthan,Jaipur,6500,5356,657,487,307,226,81,154,30.5,6,1083.3,synthetic,ECI_aggregate_estimate
-PC038,Rajasthan,Jaipur Rural,3192,2664,135,393,146,111,35,262,51.3,4,798.0,synthetic,ECI_aggregate_estimate
-PC039,Rajasthan,Jodhpur,9528,7819,1107,602,238,218,20,377,38.4,2,4764.0,synthetic,ECI_aggregate_estimate
-PC040,Rajasthan,Udaipur,7705,6826,852,27,590,422,168,14,58.7,10,770.5,synthetic,ECI_aggregate_estimate
-PC041,Uttar Pradesh,Lucknow,3644,3014,422,208,206,185,21,121,28.6,11,331.3,synthetic,ECI_aggregate_estimate
-PC042,Uttar Pradesh,Kanpur,4439,3666,412,361,63,46,17,118,58.3,5,887.8,synthetic,ECI_aggregate_estimate
-PC043,Uttar Pradesh,Varanasi,6670,5005,479,1186,526,407,119,748,66.3,11,606.4,synthetic,ECI_aggregate_estimate
-PC044,Uttar Pradesh,Allahabad,5685,4779,622,284,176,139,37,167,29.4,5,1137.0,synthetic,ECI_aggregate_estimate
-PC045,Uttar Pradesh,Agra,1936,1494,181,261,84,60,24,90,32.6,6,322.7,synthetic,ECI_aggregate_estimate
-PC046,Uttar Pradesh,Meerut,2037,1533,101,403,89,69,20,248,43.2,10,203.7,synthetic,ECI_aggregate_estimate
-PC047,Uttar Pradesh,Ghaziabad,2267,1957,111,199,112,92,20,61,57.4,11,206.1,synthetic,ECI_aggregate_estimate
-PC048,Uttar Pradesh,Noida,9332,7256,435,1641,640,390,250,1016,54.2,8,1166.5,synthetic,ECI_aggregate_estimate
-PC049,Telangana,Hyderabad,2181,1866,217,98,147,104,43,31,35.9,2,1090.5,synthetic,ECI_aggregate_estimate
-PC050,Telangana,Secunderabad,3124,2646,258,220,245,171,74,142,32.1,10,312.4,synthetic,ECI_aggregate_estimate
-PC051,Kerala,Thiruvananthapuram,2785,2153,177,455,35,27,8,163,41.7,2,1392.5,synthetic,ECI_aggregate_estimate
-PC052,Kerala,Ernakulam,9372,8548,887,0,514,462,52,0,47.0,6,1562.0,synthetic,ECI_aggregate_estimate
-PC053,Kerala,Thrissur,6685,6128,746,0,136,86,50,0,47.4,3,2228.3,synthetic,ECI_aggregate_estimate
-PC054,Punjab,Amritsar,3640,3225,334,81,76,54,22,26,50.0,6,606.7,synthetic,ECI_aggregate_estimate
-PC055,Punjab,Ludhiana,6547,5209,654,684,113,86,27,259,51.6,6,1091.2,synthetic,ECI_aggregate_estimate
-PC056,Haryana,Gurugram,3787,3143,233,411,90,76,14,253,34.8,5,757.4,synthetic,ECI_aggregate_estimate
-PC057,Haryana,Faridabad,3371,2957,238,176,48,31,17,96,57.5,4,842.8,synthetic,ECI_aggregate_estimate
-PC058,Bihar,Patna Sahib,2619,2281,254,84,180,133,47,36,39.2,12,218.2,synthetic,ECI_aggregate_estimate
-PC059,Bihar,Gaya,2677,2331,145,201,201,140,61,86,59.0,3,892.3,synthetic,ECI_aggregate_estimate
-PC060,Madhya Pradesh,Bhopal,3572,2886,195,491,236,222,14,260,57.5,12,297.7,synthetic,ECI_aggregate_estimate
-PC061,Madhya Pradesh,Indore,9082,7412,690,980,370,222,148,324,37.8,9,1009.1,synthetic,ECI_aggregate_estimate
-PC062,Andhra Pradesh,Visakhapatnam,3912,3208,371,333,257,239,18,188,61.6,6,652.0,synthetic,ECI_aggregate_estimate
-PC063,Andhra Pradesh,Vijayawada,3955,3429,378,148,284,172,112,68,65.8,5,791.0,synthetic,ECI_aggregate_estimate
-PC064,Maharashtra,Maharashtra 1,6607,5255,734,618,507,307,200,392,32.6,5,1321.4,synthetic,ECI_aggregate_estimate
-PC065,West Bengal,West Bengal 2,5717,4998,192,527,224,134,90,205,55.3,3,1905.7,synthetic,ECI_aggregate_estimate
-PC066,Bihar,Bihar 3,2326,1955,156,215,183,134,49,105,35.4,2,1163.0,synthetic,ECI_aggregate_estimate
-PC067,Madhya Pradesh,Madhya Pradesh 4,8858,7786,881,191,663,528,135,62,41.4,5,1771.6,synthetic,ECI_aggregate_estimate
-PC068,Tamil Nadu,Tamil Nadu 5,4391,4036,135,220,323,277,46,70,48.2,6,731.8,synthetic,ECI_aggregate_estimate
-PC069,Rajasthan,Rajasthan 6,3052,2803,340,0,90,68,22,0,58.2,12,254.3,synthetic,ECI_aggregate_estimate
-PC070,Karnataka,Karnataka 7,8282,7331,618,333,316,266,50,141,55.6,2,4141.0,synthetic,ECI_aggregate_estimate
-PC071,Gujarat,Gujarat 8,7406,6274,340,792,313,209,104,388,38.2,9,822.9,synthetic,ECI_aggregate_estimate
-PC072,Andhra Pradesh,Andhra Pradesh 9,6096,5213,530,353,447,375,72,106,56.4,4,1524.0,synthetic,ECI_aggregate_estimate
-PC073,Odisha,Odisha 10,3935,3068,469,398,119,88,31,187,38.3,10,393.5,synthetic,ECI_aggregate_estimate
-PC074,Telangana,Telangana 11,2196,1705,179,312,134,108,26,130,24.4,8,274.5,synthetic,ECI_aggregate_estimate
-PC075,Kerala,Kerala 12,6107,5488,606,13,419,251,168,7,51.9,4,1526.8,synthetic,ECI_aggregate_estimate
-PC076,Jharkhand,Jharkhand 13,7259,5807,277,1175,332,251,81,620,31.4,10,725.9,synthetic,ECI_aggregate_estimate
-PC077,Assam,Assam 14,7335,5915,597,823,283,202,81,565,31.2,9,815.0,synthetic,ECI_aggregate_estimate
-PC078,Punjab,Punjab 15,6231,5732,655,0,203,176,27,0,27.4,2,3115.5,synthetic,ECI_aggregate_estimate
-PC079,Chhattisgarh,Chhattisgarh 16,8672,7620,296,756,186,142,44,302,67.5,7,1238.9,synthetic,ECI_aggregate_estimate
-PC080,Haryana,Haryana 17,8794,6767,824,1203,250,190,60,507,63.7,9,977.1,synthetic,ECI_aggregate_estimate
-PC081,Uttarakhand,Uttarakhand 18,6370,4967,584,819,303,212,91,270,28.9,2,3185.0,synthetic,ECI_aggregate_estimate
-PC082,Himachal Pradesh,Himachal Pradesh 19,3641,2964,199,478,176,128,48,181,39.5,6,606.8,synthetic,ECI_aggregate_estimate
-PC083,Tripura,Tripura 20,2931,2382,134,415,229,181,48,228,53.0,5,586.2,synthetic,ECI_aggregate_estimate
-PC084,Meghalaya,Meghalaya 21,1884,1459,165,260,22,13,9,128,25.2,6,314.0,synthetic,ECI_aggregate_estimate
-PC085,Manipur,Manipur 22,8108,6342,516,1250,345,242,103,568,60.3,5,1621.6,synthetic,ECI_aggregate_estimate
-PC086,Nagaland,Nagaland 23,6514,5182,373,959,381,298,83,439,68.6,4,1628.5,synthetic,ECI_aggregate_estimate
-PC087,Goa,Goa 24,3472,3050,190,232,169,119,50,74,40.8,8,434.0,synthetic,ECI_aggregate_estimate
-PC088,Arunachal Pradesh,Arunachal Pradesh 25,6337,5134,266,937,84,67,17,455,69.6,10,633.7,synthetic,ECI_aggregate_estimate
-PC089,Mizoram,Mizoram 26,7834,7152,608,74,393,306,87,51,59.0,2,3917.0,synthetic,ECI_aggregate_estimate
-PC090,Sikkim,Sikkim 27,5819,4728,183,908,227,152,75,446,29.8,2,2909.5,synthetic,ECI_aggregate_estimate
-PC091,Jammu and Kashmir,Jammu and Kashmir 28,2628,2077,269,282,160,148,12,112,48.9,4,657.0,synthetic,ECI_aggregate_estimate
-PC092,Ladakh,Ladakh 29,6311,5496,258,557,126,82,44,190,42.0,12,525.9,synthetic,ECI_aggregate_estimate
-PC093,Uttar Pradesh,Uttar Pradesh 30,6616,5113,770,733,274,256,18,473,65.9,7,945.1,synthetic,ECI_aggregate_estimate
-PC094,Maharashtra,Maharashtra 31,2458,1904,172,382,158,106,52,141,24.9,7,351.1,synthetic,ECI_aggregate_estimate
-PC095,West Bengal,West Bengal 32,2921,2623,251,47,149,126,23,14,30.8,11,265.5,synthetic,ECI_aggregate_estimate
-PC096,Bihar,Bihar 33,9245,7892,1061,292,410,370,40,156,63.1,6,1540.8,synthetic,ECI_aggregate_estimate
-PC097,Madhya Pradesh,Madhya Pradesh 34,9666,8120,1038,508,513,476,37,170,65.2,5,1933.2,synthetic,ECI_aggregate_estimate
-PC098,Tamil Nadu,Tamil Nadu 35,6114,4936,219,959,417,328,89,609,28.4,2,3057.0,synthetic,ECI_aggregate_estimate
-PC099,Rajasthan,Rajasthan 36,8585,7434,283,868,132,113,19,358,28.7,2,4292.5,synthetic,ECI_aggregate_estimate
-PC100,Karnataka,Karnataka 37,7710,6294,657,759,543,515,28,338,32.3,6,1285.0,synthetic,ECI_aggregate_estimate
-PC101,Gujarat,Gujarat 38,6271,5574,429,268,310,273,37,147,65.2,6,1045.2,synthetic,ECI_aggregate_estimate
-PC102,Andhra Pradesh,Andhra Pradesh 39,4306,3406,312,588,272,185,87,280,60.2,2,2153.0,synthetic,ECI_aggregate_estimate
-PC103,Odisha,Odisha 40,3155,2695,189,271,146,132,14,153,56.5,11,286.8,synthetic,ECI_aggregate_estimate
-PC104,Telangana,Telangana 41,9109,7274,277,1558,352,273,79,1001,69.2,6,1518.2,synthetic,ECI_aggregate_estimate
-PC105,Kerala,Kerala 42,2024,1650,139,235,95,85,10,94,34.4,3,674.7,synthetic,ECI_aggregate_estimate
-PC106,Jharkhand,Jharkhand 43,6380,5631,444,305,91,85,6,172,35.5,3,2126.7,synthetic,ECI_aggregate_estimate
-PC107,Assam,Assam 44,2221,1908,154,159,80,66,14,64,46.3,12,185.1,synthetic,ECI_aggregate_estimate
-PC108,Punjab,Punjab 45,3130,2809,122,199,135,123,12,62,63.6,10,313.0,synthetic,ECI_aggregate_estimate
-PC109,Chhattisgarh,Chhattisgarh 46,5707,4808,548,351,338,250,88,228,38.1,8,713.4,synthetic,ECI_aggregate_estimate
-PC110,Haryana,Haryana 47,2159,1916,193,50,51,37,14,24,38.6,10,215.9,synthetic,ECI_aggregate_estimate
-PC111,Uttarakhand,Uttarakhand 48,7858,7005,784,69,84,77,7,23,30.9,8,982.2,synthetic,ECI_aggregate_estimate
-PC112,Himachal Pradesh,Himachal Pradesh 49,7901,6367,710,824,105,63,42,389,29.7,3,2633.7,synthetic,ECI_aggregate_estimate
-PC113,Tripura,Tripura 50,4555,3941,192,422,312,210,102,220,35.0,5,911.0,synthetic,ECI_aggregate_estimate
-PC114,Meghalaya,Meghalaya 51,8461,7634,800,27,250,213,37,17,53.2,4,2115.2,synthetic,ECI_aggregate_estimate
-PC115,Manipur,Manipur 52,6621,5864,302,455,262,235,27,203,64.8,2,3310.5,synthetic,ECI_aggregate_estimate
-PC116,Nagaland,Nagaland 53,7297,6676,723,0,207,155,52,0,38.4,8,912.1,synthetic,ECI_aggregate_estimate
-PC117,Goa,Goa 54,4502,4086,196,220,129,105,24,80,25.4,5,900.4,synthetic,ECI_aggregate_estimate
-PC118,Arunachal Pradesh,Arunachal Pradesh 55,6445,4978,703,764,175,156,19,364,44.3,11,585.9,synthetic,ECI_aggregate_estimate
-PC119,Mizoram,Mizoram 56,8231,7407,347,477,383,336,47,215,54.4,2,4115.5,synthetic,ECI_aggregate_estimate
-PC120,Sikkim,Sikkim 57,2699,2337,194,168,62,55,7,73,34.0,3,899.7,synthetic,ECI_aggregate_estimate
-PC121,Jammu and Kashmir,Jammu and Kashmir 58,1961,1763,201,0,151,114,37,0,53.8,12,163.4,synthetic,ECI_aggregate_estimate
-PC122,Ladakh,Ladakh 59,6704,6024,735,0,330,201,129,0,62.7,2,3352.0,synthetic,ECI_aggregate_estimate
-PC123,Uttar Pradesh,Uttar Pradesh 60,5749,4977,327,445,263,191,72,133,34.6,8,718.6,synthetic,ECI_aggregate_estimate
-PC124,Maharashtra,Maharashtra 61,4224,3825,267,132,209,192,17,67,48.7,3,1408.0,synthetic,ECI_aggregate_estimate
-PC125,West Bengal,West Bengal 62,7034,5560,431,1043,549,356,193,698,51.8,11,639.5,synthetic,ECI_aggregate_estimate
-PC126,Bihar,Bihar 63,6544,5386,223,935,129,120,9,557,40.9,8,818.0,synthetic,ECI_aggregate_estimate
-PC127,Madhya Pradesh,Madhya Pradesh 64,4698,3627,528,543,223,188,35,207,30.5,5,939.6,synthetic,ECI_aggregate_estimate
-PC128,Tamil Nadu,Tamil Nadu 65,3176,2592,114,470,146,136,10,297,53.6,10,317.6,synthetic,ECI_aggregate_estimate
-PC129,Rajasthan,Rajasthan 66,5205,4036,288,881,130,94,36,593,37.3,10,520.5,synthetic,ECI_aggregate_estimate
-PC130,Karnataka,Karnataka 67,7915,6802,454,659,109,93,16,216,69.5,2,3957.5,synthetic,ECI_aggregate_estimate
-PC131,Gujarat,Gujarat 68,4995,4510,431,54,177,142,35,35,33.6,6,832.5,synthetic,ECI_aggregate_estimate
-PC132,Andhra Pradesh,Andhra Pradesh 69,7704,7024,348,332,304,225,79,182,31.9,4,1926.0,synthetic,ECI_aggregate_estimate
-PC133,Odisha,Odisha 70,6653,5160,565,928,360,267,93,589,40.6,12,554.4,synthetic,ECI_aggregate_estimate
-PC134,Telangana,Telangana 71,4858,4354,272,232,237,171,66,140,41.4,7,694.0,synthetic,ECI_aggregate_estimate
-PC135,Kerala,Kerala 72,5658,4987,675,0,212,199,13,0,61.8,3,1886.0,synthetic,ECI_aggregate_estimate
-PC136,Jharkhand,Jharkhand 73,8218,6229,811,1178,120,88,32,585,47.4,3,2739.3,synthetic,ECI_aggregate_estimate
-PC137,Assam,Assam 74,7493,5756,301,1436,503,442,61,446,46.6,11,681.2,synthetic,ECI_aggregate_estimate
-PC138,Punjab,Punjab 75,7838,7161,392,285,259,214,45,160,33.7,10,783.8,synthetic,ECI_aggregate_estimate
-PC139,Chhattisgarh,Chhattisgarh 76,7990,6488,953,549,448,387,61,383,59.6,7,1141.4,synthetic,ECI_aggregate_estimate
-PC140,Haryana,Haryana 77,5737,5214,658,0,223,169,54,0,42.4,4,1434.2,synthetic,ECI_aggregate_estimate
-PC141,Uttarakhand,Uttarakhand 78,5428,4382,342,704,429,361,68,468,45.3,4,1357.0,synthetic,ECI_aggregate_estimate
-PC142,Himachal Pradesh,Himachal Pradesh 79,6465,5741,696,28,499,326,173,11,49.8,11,587.7,synthetic,ECI_aggregate_estimate
-PC143,Tripura,Tripura 80,6541,5620,273,648,100,71,29,411,59.3,10,654.1,synthetic,ECI_aggregate_estimate
-PC144,Meghalaya,Meghalaya 81,4760,3799,319,642,298,194,104,417,52.7,6,793.3,synthetic,ECI_aggregate_estimate
-PC145,Manipur,Manipur 82,7588,6972,658,0,289,244,45,0,32.2,5,1517.6,synthetic,ECI_aggregate_estimate
-PC146,Nagaland,Nagaland 83,8093,6904,516,673,140,109,31,282,42.8,5,1618.6,synthetic,ECI_aggregate_estimate
-PC147,Goa,Goa 84,2553,2145,144,264,195,178,17,112,52.4,7,364.7,synthetic,ECI_aggregate_estimate
-PC148,Arunachal Pradesh,Arunachal Pradesh 85,8783,6789,941,1053,179,163,16,367,42.8,8,1097.9,synthetic,ECI_aggregate_estimate
-PC149,Mizoram,Mizoram 86,3465,3164,273,28,89,82,7,8,61.3,7,495.0,synthetic,ECI_aggregate_estimate
-PC150,Sikkim,Sikkim 87,8802,7464,357,981,191,158,33,414,31.7,10,880.2,synthetic,ECI_aggregate_estimate
-PC151,Jammu and Kashmir,Jammu and Kashmir 88,4920,4440,163,317,344,269,75,110,42.5,9,546.7,synthetic,ECI_aggregate_estimate
-PC152,Ladakh,Ladakh 89,4562,3737,215,610,193,180,13,247,41.9,11,414.7,synthetic,ECI_aggregate_estimate
-PC153,Uttar Pradesh,Uttar Pradesh 90,6230,4863,642,725,151,93,58,456,69.0,10,623.0,synthetic,ECI_aggregate_estimate
-PC154,Maharashtra,Maharashtra 91,7709,6424,265,1020,608,370,238,679,32.5,2,3854.5,synthetic,ECI_aggregate_estimate
-PC155,West Bengal,West Bengal 92,5128,3878,389,861,402,337,65,440,48.6,4,1282.0,synthetic,ECI_aggregate_estimate
-PC156,Bihar,Bihar 93,8466,6639,804,1023,393,347,46,541,63.2,3,2822.0,synthetic,ECI_aggregate_estimate
-PC157,Madhya Pradesh,Madhya Pradesh 94,8314,7467,565,282,439,293,146,149,69.0,5,1662.8,synthetic,ECI_aggregate_estimate
-PC158,Tamil Nadu,Tamil Nadu 95,4241,3596,246,399,297,219,78,148,34.2,5,848.2,synthetic,ECI_aggregate_estimate
-PC159,Rajasthan,Rajasthan 96,7494,6647,391,456,216,194,22,164,69.2,8,936.8,synthetic,ECI_aggregate_estimate
-PC160,Karnataka,Karnataka 97,3739,3384,205,150,265,179,86,104,57.5,5,747.8,synthetic,ECI_aggregate_estimate
-PC161,Gujarat,Gujarat 98,3634,2906,325,403,173,121,52,146,43.7,4,908.5,synthetic,ECI_aggregate_estimate
-PC162,Andhra Pradesh,Andhra Pradesh 99,2483,1900,266,317,110,102,8,171,31.2,6,413.8,synthetic,ECI_aggregate_estimate
-PC163,Odisha,Odisha 100,8478,7569,466,443,151,91,60,259,71.6,2,4239.0,synthetic,ECI_aggregate_estimate
-PC164,Telangana,Telangana 101,8150,6309,574,1267,633,548,85,393,40.9,6,1358.3,synthetic,ECI_aggregate_estimate
-PC165,Kerala,Kerala 102,7939,6144,864,931,244,182,62,364,43.8,11,721.7,synthetic,ECI_aggregate_estimate
-PC166,Jharkhand,Jharkhand 103,8020,6596,868,556,368,261,107,330,69.6,2,4010.0,synthetic,ECI_aggregate_estimate
-PC167,Assam,Assam 104,4612,3654,402,556,253,189,64,260,44.1,9,512.4,synthetic,ECI_aggregate_estimate
-PC168,Punjab,Punjab 105,4291,3528,329,434,96,72,24,145,27.7,3,1430.3,synthetic,ECI_aggregate_estimate
-PC169,Chhattisgarh,Chhattisgarh 106,7092,5351,786,955,274,175,99,307,53.5,10,709.2,synthetic,ECI_aggregate_estimate
-PC170,Haryana,Haryana 107,7578,6260,418,900,425,391,34,479,58.7,9,842.0,synthetic,ECI_aggregate_estimate
-PC171,Uttarakhand,Uttarakhand 108,2736,2266,89,381,100,70,30,164,48.2,2,1368.0,synthetic,ECI_aggregate_estimate
-PC172,Himachal Pradesh,Himachal Pradesh 109,6856,5548,388,920,373,250,123,619,35.3,5,1371.2,synthetic,ECI_aggregate_estimate
-PC173,Tripura,Tripura 110,7837,6525,632,680,230,170,60,274,59.3,9,870.8,synthetic,ECI_aggregate_estimate
-PC174,Meghalaya,Meghalaya 111,7974,7308,884,0,417,366,51,0,54.9,9,886.0,synthetic,ECI_aggregate_estimate
-PC175,Manipur,Manipur 112,8703,6556,618,1529,652,475,177,525,47.3,7,1243.3,synthetic,ECI_aggregate_estimate
-PC176,Nagaland,Nagaland 113,6281,5362,420,499,393,292,101,314,66.3,3,2093.7,synthetic,ECI_aggregate_estimate
-PC177,Goa,Goa 114,7140,6035,469,636,454,416,38,438,35.3,6,1190.0,synthetic,ECI_aggregate_estimate
-PC178,Arunachal Pradesh,Arunachal Pradesh 115,4529,3836,232,461,268,202,66,290,57.7,6,754.8,synthetic,ECI_aggregate_estimate
-PC179,Mizoram,Mizoram 116,6636,5779,289,568,404,308,96,308,55.9,4,1659.0,synthetic,ECI_aggregate_estimate
-PC180,Sikkim,Sikkim 117,2561,1944,122,495,185,132,53,323,28.6,11,232.8,synthetic,ECI_aggregate_estimate
-PC181,Jammu and Kashmir,Jammu and Kashmir 118,5401,4874,292,235,329,236,93,121,29.8,6,900.2,synthetic,ECI_aggregate_estimate
-PC182,Ladakh,Ladakh 119,7488,6580,552,356,312,289,23,112,37.7,6,1248.0,synthetic,ECI_aggregate_estimate
-PC183,Uttar Pradesh,Uttar Pradesh 120,8778,7291,388,1099,476,385,91,409,68.1,10,877.8,synthetic,ECI_aggregate_estimate
-PC184,Maharashtra,Maharashtra 121,3555,3028,194,333,135,83,52,129,38.7,6,592.5,synthetic,ECI_aggregate_estimate
-PC185,West Bengal,West Bengal 122,5057,4097,314,646,140,126,14,363,60.4,8,632.1,synthetic,ECI_aggregate_estimate
-PC186,Bihar,Bihar 123,6361,5196,595,570,86,59,27,355,60.4,6,1060.2,synthetic,ECI_aggregate_estimate
-PC187,Madhya Pradesh,Madhya Pradesh 124,5973,4939,478,556,137,100,37,360,48.6,5,1194.6,synthetic,ECI_aggregate_estimate
-PC188,Tamil Nadu,Tamil Nadu 125,6886,5258,514,1114,361,339,22,450,60.8,11,626.0,synthetic,ECI_aggregate_estimate
-PC189,Rajasthan,Rajasthan 126,9127,8373,281,473,630,382,248,159,32.4,5,1825.4,synthetic,ECI_aggregate_estimate
-PC190,Karnataka,Karnataka 127,6042,4898,336,808,115,89,26,416,52.4,4,1510.5,synthetic,ECI_aggregate_estimate
-PC191,Gujarat,Gujarat 128,7835,6304,705,826,100,92,8,321,45.6,6,1305.8,synthetic,ECI_aggregate_estimate
-PC192,Andhra Pradesh,Andhra Pradesh 129,3467,2787,330,350,235,203,32,137,28.7,6,577.8,synthetic,ECI_aggregate_estimate
-PC193,Odisha,Odisha 130,8958,8037,856,65,542,367,175,38,41.4,4,2239.5,synthetic,ECI_aggregate_estimate
-PC194,Telangana,Telangana 131,2576,2171,147,258,165,112,53,165,59.5,3,858.7,synthetic,ECI_aggregate_estimate
-PC195,Kerala,Kerala 132,5964,4737,691,536,122,75,47,223,56.5,8,745.5,synthetic,ECI_aggregate_estimate
-PC196,Jharkhand,Jharkhand 133,5357,4081,291,985,169,119,50,346,66.2,10,535.7,synthetic,ECI_aggregate_estimate
-PC197,Assam,Assam 134,8245,7024,952,269,390,363,27,117,43.8,8,1030.6,synthetic,ECI_aggregate_estimate
-PC198,Punjab,Punjab 135,8628,7038,996,594,532,471,61,399,47.6,7,1232.6,synthetic,ECI_aggregate_estimate
-PC199,Chhattisgarh,Chhattisgarh 136,5683,4781,289,613,169,117,52,383,40.9,7,811.9,synthetic,ECI_aggregate_estimate
-PC200,Haryana,Haryana 137,5499,4856,493,150,202,121,81,67,46.8,5,1099.8,synthetic,ECI_aggregate_estimate
-PC201,Uttarakhand,Uttarakhand 138,8220,6388,873,959,267,224,43,492,69.3,4,2055.0,synthetic,ECI_aggregate_estimate
-PC202,Himachal Pradesh,Himachal Pradesh 139,7180,5861,680,639,574,527,47,389,42.6,2,3590.0,synthetic,ECI_aggregate_estimate
-PC203,Tripura,Tripura 140,2197,1825,123,249,164,146,18,150,34.7,7,313.9,synthetic,ECI_aggregate_estimate
-PC204,Meghalaya,Meghalaya 141,5174,4272,223,679,377,322,55,473,28.2,6,862.3,synthetic,ECI_aggregate_estimate
-PC205,Manipur,Manipur 142,7805,6156,407,1242,127,108,19,857,49.3,10,780.5,synthetic,ECI_aggregate_estimate
-PC206,Nagaland,Nagaland 143,8755,6749,795,1211,346,211,135,697,43.5,7,1250.7,synthetic,ECI_aggregate_estimate
-PC207,Goa,Goa 144,3530,3091,379,60,84,73,11,32,55.5,8,441.2,synthetic,ECI_aggregate_estimate
-PC208,Arunachal Pradesh,Arunachal Pradesh 145,7663,6384,547,732,249,166,83,253,51.1,11,696.6,synthetic,ECI_aggregate_estimate
-PC209,Mizoram,Mizoram 146,5061,4507,317,237,66,56,10,150,34.3,5,1012.2,synthetic,ECI_aggregate_estimate
-PC210,Sikkim,Sikkim 147,3549,3080,403,66,258,205,53,21,42.6,8,443.6,synthetic,ECI_aggregate_estimate
-PC211,Jammu and Kashmir,Jammu and Kashmir 148,6354,5039,518,797,485,426,59,272,49.7,9,706.0,synthetic,ECI_aggregate_estimate
-PC212,Ladakh,Ladakh 149,3508,3013,232,263,72,56,16,127,59.0,11,318.9,synthetic,ECI_aggregate_estimate
-PC213,Uttar Pradesh,Uttar Pradesh 150,3089,2781,236,72,209,145,64,33,32.3,5,617.8,synthetic,ECI_aggregate_estimate
-PC214,Maharashtra,Maharashtra 151,8928,8035,868,25,363,308,55,16,68.2,9,992.0,synthetic,ECI_aggregate_estimate
-PC215,West Bengal,West Bengal 152,4399,3724,137,538,324,298,26,205,61.2,10,439.9,synthetic,ECI_aggregate_estimate
-PC216,Bihar,Bihar 153,6971,5671,745,555,91,61,30,343,27.1,10,697.1,synthetic,ECI_aggregate_estimate
-PC217,Madhya Pradesh,Madhya Pradesh 154,3864,3147,171,546,284,258,26,238,29.9,5,772.8,synthetic,ECI_aggregate_estimate
-PC218,Tamil Nadu,Tamil Nadu 155,6176,5160,231,785,181,151,30,536,67.1,10,617.6,synthetic,ECI_aggregate_estimate
-PC219,Rajasthan,Rajasthan 156,3336,2832,170,334,173,122,51,108,44.3,2,1668.0,synthetic,ECI_aggregate_estimate
-PC220,Karnataka,Karnataka 157,5633,5024,488,121,198,176,22,80,26.9,2,2816.5,synthetic,ECI_aggregate_estimate
-PC221,Gujarat,Gujarat 158,5332,4381,533,418,384,346,38,182,30.9,6,888.7,synthetic,ECI_aggregate_estimate
-PC222,Andhra Pradesh,Andhra Pradesh 159,1876,1500,121,255,86,79,7,101,38.4,6,312.7,synthetic,ECI_aggregate_estimate
-PC223,Odisha,Odisha 160,5829,4901,381,547,459,367,92,297,61.9,12,485.8,synthetic,ECI_aggregate_estimate
-PC224,Telangana,Telangana 161,4102,3330,358,414,80,65,15,156,62.3,2,2051.0,synthetic,ECI_aggregate_estimate
-PC225,Kerala,Kerala 162,4380,3941,375,64,197,122,75,21,48.4,9,486.7,synthetic,ECI_aggregate_estimate
-PC226,Jharkhand,Jharkhand 163,3113,2501,245,367,211,130,81,157,48.8,3,1037.7,synthetic,ECI_aggregate_estimate
-PC227,Assam,Assam 164,2455,1879,198,378,69,42,27,263,44.7,3,818.3,synthetic,ECI_aggregate_estimate
-PC228,Punjab,Punjab 165,6403,4931,240,1232,117,85,32,768,46.6,10,640.3,synthetic,ECI_aggregate_estimate
-PC229,Chhattisgarh,Chhattisgarh 166,3762,3254,283,225,37,29,8,95,28.6,7,537.4,synthetic,ECI_aggregate_estimate
-PC230,Haryana,Haryana 167,5223,4630,237,356,194,150,44,177,64.4,2,2611.5,synthetic,ECI_aggregate_estimate
-PC231,Uttarakhand,Uttarakhand 168,2098,1759,202,137,135,127,8,91,46.7,7,299.7,synthetic,ECI_aggregate_estimate
-PC232,Himachal Pradesh,Himachal Pradesh 169,3218,2445,352,421,127,88,39,206,30.2,4,804.5,synthetic,ECI_aggregate_estimate
-PC233,Tripura,Tripura 170,2709,2374,124,211,61,46,15,64,50.6,2,1354.5,synthetic,ECI_aggregate_estimate
-PC234,Meghalaya,Meghalaya 171,6491,5055,443,993,223,167,56,369,40.8,11,590.1,synthetic,ECI_aggregate_estimate
-PC235,Manipur,Manipur 172,7181,6109,776,296,202,150,52,189,31.7,10,718.1,synthetic,ECI_aggregate_estimate
-PC236,Nagaland,Nagaland 173,8974,7958,1048,0,429,373,56,0,66.3,12,747.8,synthetic,ECI_aggregate_estimate
-PC237,Goa,Goa 174,2947,2657,285,5,224,167,57,3,48.4,8,368.4,synthetic,ECI_aggregate_estimate
-PC238,Arunachal Pradesh,Arunachal Pradesh 175,9083,7111,275,1697,396,279,117,742,47.8,8,1135.4,synthetic,ECI_aggregate_estimate
-PC239,Mizoram,Mizoram 176,9134,8329,425,380,374,283,91,207,49.8,8,1141.8,synthetic,ECI_aggregate_estimate
-PC240,Sikkim,Sikkim 177,3303,2579,235,489,118,88,30,153,44.0,12,275.2,synthetic,ECI_aggregate_estimate
-PC241,Jammu and Kashmir,Jammu and Kashmir 178,2158,1655,107,396,120,85,35,217,51.9,2,1079.0,synthetic,ECI_aggregate_estimate
-PC242,Ladakh,Ladakh 179,1970,1706,170,94,78,57,21,33,33.0,12,164.2,synthetic,ECI_aggregate_estimate
-PC243,Uttar Pradesh,Uttar Pradesh 180,5418,4893,573,0,267,170,97,0,36.6,12,451.5,synthetic,ECI_aggregate_estimate
-PC244,Maharashtra,Maharashtra 181,6101,5356,576,169,488,413,75,56,55.6,7,871.6,synthetic,ECI_aggregate_estimate
-PC245,West Bengal,West Bengal 182,7706,6976,243,487,371,322,49,176,39.9,2,3853.0,synthetic,ECI_aggregate_estimate
-PC246,Bihar,Bihar 183,5680,5165,422,93,413,326,87,41,64.2,12,473.3,synthetic,ECI_aggregate_estimate
-PC247,Madhya Pradesh,Madhya Pradesh 184,6430,5215,374,841,238,175,63,501,29.6,11,584.5,synthetic,ECI_aggregate_estimate
-PC248,Tamil Nadu,Tamil Nadu 185,6295,5146,445,704,429,264,165,467,41.5,6,1049.2,synthetic,ECI_aggregate_estimate
-PC249,Rajasthan,Rajasthan 186,3049,2309,206,534,125,92,33,245,48.2,7,435.6,synthetic,ECI_aggregate_estimate
-PC250,Karnataka,Karnataka 187,6302,5404,635,263,257,235,22,136,44.1,10,630.2,synthetic,ECI_aggregate_estimate
-PC251,Gujarat,Gujarat 188,6725,5131,381,1213,143,102,41,740,30.1,2,3362.5,synthetic,ECI_aggregate_estimate
-PC252,Andhra Pradesh,Andhra Pradesh 189,5835,4742,697,396,449,309,140,140,35.1,8,729.4,synthetic,ECI_aggregate_estimate
-PC253,Odisha,Odisha 190,2582,2285,87,210,141,126,15,138,28.2,11,234.7,synthetic,ECI_aggregate_estimate
-PC254,Telangana,Telangana 191,3762,3074,224,464,128,103,25,186,46.5,3,1254.0,synthetic,ECI_aggregate_estimate
-PC255,Kerala,Kerala 192,9308,8389,744,175,186,126,60,76,62.3,8,1163.5,synthetic,ECI_aggregate_estimate
-PC256,Jharkhand,Jharkhand 193,4862,4303,186,373,316,271,45,222,49.5,3,1620.7,synthetic,ECI_aggregate_estimate
-PC257,Assam,Assam 194,1827,1403,128,296,38,31,7,178,52.2,3,609.0,synthetic,ECI_aggregate_estimate
-PC258,Punjab,Punjab 195,8414,7106,647,661,305,234,71,443,59.9,4,2103.5,synthetic,ECI_aggregate_estimate
-PC259,Chhattisgarh,Chhattisgarh 196,4329,3884,465,0,287,190,97,0,64.5,10,432.9,synthetic,ECI_aggregate_estimate
-PC260,Haryana,Haryana 197,5476,4723,613,140,196,172,24,89,33.9,3,1825.3,synthetic,ECI_aggregate_estimate
-PC261,Uttarakhand,Uttarakhand 198,3236,2744,375,117,204,124,80,80,27.5,4,809.0,synthetic,ECI_aggregate_estimate
-PC262,Himachal Pradesh,Himachal Pradesh 199,4821,4203,276,342,100,61,39,208,33.2,7,688.7,synthetic,ECI_aggregate_estimate
-PC263,Tripura,Tripura 200,4190,3424,233,533,159,102,57,308,50.9,3,1396.7,synthetic,ECI_aggregate_estimate
-PC264,Meghalaya,Meghalaya 201,2560,2277,286,0,199,145,54,0,25.9,10,256.0,synthetic,ECI_aggregate_estimate
-PC265,Manipur,Manipur 202,4570,3632,389,549,128,104,24,288,32.7,2,2285.0,synthetic,ECI_aggregate_estimate
-PC266,Nagaland,Nagaland 203,8665,7096,283,1286,488,332,156,788,36.1,7,1237.9,synthetic,ECI_aggregate_estimate
-PC267,Goa,Goa 204,8087,6864,267,956,480,326,154,462,40.5,2,4043.5,synthetic,ECI_aggregate_estimate
-PC268,Arunachal Pradesh,Arunachal Pradesh 205,3042,2516,328,198,243,228,15,76,37.5,7,434.6,synthetic,ECI_aggregate_estimate
-PC269,Mizoram,Mizoram 206,8987,8208,662,117,614,527,87,74,67.0,8,1123.4,synthetic,ECI_aggregate_estimate
-PC270,Sikkim,Sikkim 207,5548,4454,380,714,249,198,51,358,40.2,9,616.4,synthetic,ECI_aggregate_estimate
-PC271,Jammu and Kashmir,Jammu and Kashmir 208,7589,5766,742,1081,282,244,38,594,49.9,9,843.2,synthetic,ECI_aggregate_estimate
-PC272,Ladakh,Ladakh 209,9833,9013,491,329,497,436,61,183,64.5,5,1966.6,synthetic,ECI_aggregate_estimate
-PC273,Uttar Pradesh,Uttar Pradesh 210,2283,1856,194,233,174,131,43,79,40.2,4,570.8,synthetic,ECI_aggregate_estimate
-PC274,Maharashtra,Maharashtra 211,3225,2430,118,677,190,126,64,368,62.2,7,460.7,synthetic,ECI_aggregate_estimate
-PC275,West Bengal,West Bengal 212,7160,6397,264,499,77,52,25,217,63.2,4,1790.0,synthetic,ECI_aggregate_estimate
-PC276,Bihar,Bihar 213,2338,1774,157,407,86,62,24,203,43.0,6,389.7,synthetic,ECI_aggregate_estimate
-PC277,Madhya Pradesh,Madhya Pradesh 214,5230,4426,578,226,400,320,80,82,32.2,3,1743.3,synthetic,ECI_aggregate_estimate
-PC278,Tamil Nadu,Tamil Nadu 215,6608,5050,699,859,251,152,99,393,55.3,12,550.7,synthetic,ECI_aggregate_estimate
-PC279,Rajasthan,Rajasthan 216,4801,4006,172,623,60,54,6,299,39.9,9,533.4,synthetic,ECI_aggregate_estimate
-PC280,Karnataka,Karnataka 217,3548,2749,295,504,84,58,26,190,26.5,9,394.2,synthetic,ECI_aggregate_estimate
-PC281,Gujarat,Gujarat 218,2784,2527,204,53,38,29,9,17,34.2,6,464.0,synthetic,ECI_aggregate_estimate
-PC282,Andhra Pradesh,Andhra Pradesh 219,5344,4609,628,107,207,179,28,37,65.7,9,593.8,synthetic,ECI_aggregate_estimate
-PC283,Odisha,Odisha 220,8573,6607,481,1485,615,498,117,941,63.7,5,1714.6,synthetic,ECI_aggregate_estimate
-PC284,Telangana,Telangana 221,5416,4084,214,1118,391,254,137,729,65.7,9,601.8,synthetic,ECI_aggregate_estimate
-PC285,Kerala,Kerala 222,3697,3162,322,213,278,188,90,74,51.7,10,369.7,synthetic,ECI_aggregate_estimate
-PC286,Jharkhand,Jharkhand 223,8851,7235,672,944,486,356,130,346,27.6,4,2212.8,synthetic,ECI_aggregate_estimate
-PC287,Assam,Assam 224,4208,3617,292,299,135,127,8,207,65.6,6,701.3,synthetic,ECI_aggregate_estimate
-PC288,Punjab,Punjab 225,4761,3984,432,345,181,170,11,144,34.2,10,476.1,synthetic,ECI_aggregate_estimate
-PC289,Chhattisgarh,Chhattisgarh 226,3153,2837,280,36,202,179,23,21,35.8,8,394.1,synthetic,ECI_aggregate_estimate
-PC290,Haryana,Haryana 227,3963,3525,241,197,238,148,90,93,31.7,8,495.4,synthetic,ECI_aggregate_estimate
-PC291,Uttarakhand,Uttarakhand 228,7032,6263,698,71,356,304,52,21,46.2,12,586.0,synthetic,ECI_aggregate_estimate
-PC292,Himachal Pradesh,Himachal Pradesh 229,8696,7430,429,837,494,363,131,494,44.8,2,4348.0,synthetic,ECI_aggregate_estimate
-PC293,Tripura,Tripura 230,8593,7275,1017,301,462,425,37,162,31.1,12,716.1,synthetic,ECI_aggregate_estimate
-PC294,Meghalaya,Meghalaya 231,8047,6406,537,1104,541,476,65,746,56.0,4,2011.8,synthetic,ECI_aggregate_estimate
-PC295,Manipur,Manipur 232,8796,7246,562,988,595,553,42,333,32.4,5,1759.2,synthetic,ECI_aggregate_estimate
-PC296,Nagaland,Nagaland 233,4623,3885,319,419,313,279,34,145,55.3,11,420.3,synthetic,ECI_aggregate_estimate
-PC297,Goa,Goa 234,7848,6044,264,1540,621,432,189,704,52.4,12,654.0,synthetic,ECI_aggregate_estimate
-PC298,Arunachal Pradesh,Arunachal Pradesh 235,7697,5923,709,1065,107,72,35,380,28.2,11,699.7,synthetic,ECI_aggregate_estimate
-PC299,Mizoram,Mizoram 236,8089,7131,247,711,547,464,83,450,34.6,8,1011.1,synthetic,ECI_aggregate_estimate
-PC300,Sikkim,Sikkim 237,4975,4293,463,219,278,229,49,114,51.2,7,710.7,synthetic,ECI_aggregate_estimate
-PC301,Jammu and Kashmir,Jammu and Kashmir 238,2702,2420,264,18,107,65,42,11,47.3,11,245.6,synthetic,ECI_aggregate_estimate
-PC302,Ladakh,Ladakh 239,8036,6135,460,1441,308,259,49,615,55.3,7,1148.0,synthetic,ECI_aggregate_estimate
-PC303,Uttar Pradesh,Uttar Pradesh 240,8433,7083,855,495,390,317,73,291,66.9,11,766.6,synthetic,ECI_aggregate_estimate
-PC304,Maharashtra,Maharashtra 241,9354,7569,756,1029,398,365,33,671,41.4,6,1559.0,synthetic,ECI_aggregate_estimate
-PC305,West Bengal,West Bengal 242,5755,4873,547,335,287,216,71,104,51.3,10,575.5,synthetic,ECI_aggregate_estimate
-PC306,Bihar,Bihar 243,5407,4099,354,954,298,189,109,584,59.7,6,901.2,synthetic,ECI_aggregate_estimate
-PC307,Madhya Pradesh,Madhya Pradesh 244,8397,6445,961,991,260,243,17,562,46.9,7,1199.6,synthetic,ECI_aggregate_estimate
-PC308,Tamil Nadu,Tamil Nadu 245,3394,2759,395,240,35,27,8,90,48.8,11,308.5,synthetic,ECI_aggregate_estimate
-PC309,Rajasthan,Rajasthan 246,2200,1702,109,389,74,69,5,268,45.9,8,275.0,synthetic,ECI_aggregate_estimate
-PC310,Karnataka,Karnataka 247,8203,7076,574,553,522,485,37,241,50.7,5,1640.6,synthetic,ECI_aggregate_estimate
-PC311,Gujarat,Gujarat 248,6705,5470,240,995,348,322,26,395,44.3,8,838.1,synthetic,ECI_aggregate_estimate
-PC312,Andhra Pradesh,Andhra Pradesh 249,9443,8459,884,100,365,221,144,67,69.7,8,1180.4,synthetic,ECI_aggregate_estimate
-PC313,Odisha,Odisha 250,3898,3270,190,438,198,187,11,280,49.0,2,1949.0,synthetic,ECI_aggregate_estimate
-PC314,Telangana,Telangana 251,4409,3803,503,103,178,119,59,44,28.2,10,440.9,synthetic,ECI_aggregate_estimate
-PC315,Kerala,Kerala 252,3450,2859,240,351,275,197,78,145,46.0,5,690.0,synthetic,ECI_aggregate_estimate
-PC316,Jharkhand,Jharkhand 253,7413,6318,798,297,211,126,85,201,39.3,2,3706.5,synthetic,ECI_aggregate_estimate
-PC317,Assam,Assam 254,8141,6378,927,836,206,130,76,468,27.5,4,2035.2,synthetic,ECI_aggregate_estimate
-PC318,Punjab,Punjab 255,9211,7298,573,1340,307,282,25,666,64.8,9,1023.4,synthetic,ECI_aggregate_estimate
-PC319,Chhattisgarh,Chhattisgarh 256,8863,6973,632,1258,557,422,135,785,37.7,4,2215.8,synthetic,ECI_aggregate_estimate
-PC320,Haryana,Haryana 257,7961,6049,322,1590,552,389,163,743,70.5,8,995.1,synthetic,ECI_aggregate_estimate
-PC321,Uttarakhand,Uttarakhand 258,5541,4202,229,1110,280,180,100,365,46.5,4,1385.2,synthetic,ECI_aggregate_estimate
-PC322,Himachal Pradesh,Himachal Pradesh 259,4217,3191,218,808,186,158,28,369,40.5,12,351.4,synthetic,ECI_aggregate_estimate
-PC323,Tripura,Tripura 260,5734,4525,688,521,123,73,50,287,58.6,2,2867.0,synthetic,ECI_aggregate_estimate
-PC324,Meghalaya,Meghalaya 261,4456,4035,352,69,69,64,5,31,39.2,3,1485.3,synthetic,ECI_aggregate_estimate
-PC325,Manipur,Manipur 262,6463,5043,716,704,153,124,29,443,41.3,4,1615.8,synthetic,ECI_aggregate_estimate
-PC326,Nagaland,Nagaland 263,8655,7752,995,0,470,326,144,0,70.9,6,1442.5,synthetic,ECI_aggregate_estimate
-PC327,Goa,Goa 264,7256,5767,673,816,521,368,153,550,57.5,11,659.6,synthetic,ECI_aggregate_estimate
-PC328,Arunachal Pradesh,Arunachal Pradesh 265,3973,3293,202,478,217,190,27,302,55.3,4,993.2,synthetic,ECI_aggregate_estimate
-PC329,Mizoram,Mizoram 266,2858,2221,274,363,143,125,18,147,45.6,2,1429.0,synthetic,ECI_aggregate_estimate
-PC330,Sikkim,Sikkim 267,8519,6895,919,705,462,426,36,376,34.9,8,1064.9,synthetic,ECI_aggregate_estimate
-PC331,Jammu and Kashmir,Jammu and Kashmir 268,8855,7531,715,609,562,371,191,192,45.4,8,1106.9,synthetic,ECI_aggregate_estimate
-PC332,Ladakh,Ladakh 269,7802,6731,868,203,287,206,81,94,28.5,11,709.3,synthetic,ECI_aggregate_estimate
-PC333,Uttar Pradesh,Uttar Pradesh 270,2299,1738,270,291,67,58,9,171,41.5,3,766.3,synthetic,ECI_aggregate_estimate
-PC334,Maharashtra,Maharashtra 271,9360,8403,702,255,504,437,67,109,60.4,10,936.0,synthetic,ECI_aggregate_estimate
-PC335,West Bengal,West Bengal 272,5507,4419,660,428,253,208,45,261,40.4,7,786.7,synthetic,ECI_aggregate_estimate
-PC336,Bihar,Bihar 273,8646,6898,434,1314,207,139,68,538,38.8,8,1080.8,synthetic,ECI_aggregate_estimate
-PC337,Madhya Pradesh,Madhya Pradesh 274,2243,1755,224,264,33,26,7,180,57.3,3,747.7,synthetic,ECI_aggregate_estimate
-PC338,Tamil Nadu,Tamil Nadu 275,8900,8062,376,462,546,328,218,314,66.0,10,890.0,synthetic,ECI_aggregate_estimate
-PC339,Rajasthan,Rajasthan 276,6481,5630,649,202,285,244,41,67,36.3,2,3240.5,synthetic,ECI_aggregate_estimate
-PC340,Karnataka,Karnataka 277,4738,3716,336,686,143,117,26,330,36.3,10,473.8,synthetic,ECI_aggregate_estimate
-PC341,Gujarat,Gujarat 278,5884,4966,276,642,145,87,58,275,60.7,9,653.8,synthetic,ECI_aggregate_estimate
-PC342,Andhra Pradesh,Andhra Pradesh 279,7046,6311,292,443,382,338,44,218,31.8,12,587.2,synthetic,ECI_aggregate_estimate
-PC343,Odisha,Odisha 280,6204,5072,436,696,459,413,46,288,35.8,5,1240.8,synthetic,ECI_aggregate_estimate
-PC344,Telangana,Telangana 281,7254,6270,389,595,444,297,147,281,70.2,9,806.0,synthetic,ECI_aggregate_estimate
-PC345,Kerala,Kerala 282,9305,8007,976,322,743,683,60,128,44.8,9,1033.9,synthetic,ECI_aggregate_estimate
-PC346,Jharkhand,Jharkhand 283,7358,6183,422,753,433,306,127,316,68.5,12,613.2,synthetic,ECI_aggregate_estimate
-PC347,Assam,Assam 284,7434,6051,381,1002,436,329,107,603,65.7,11,675.8,synthetic,ECI_aggregate_estimate
-PC348,Punjab,Punjab 285,6788,5348,425,1015,458,367,91,625,27.6,9,754.2,synthetic,ECI_aggregate_estimate
-PC349,Chhattisgarh,Chhattisgarh 286,2664,2265,182,217,127,95,32,123,58.9,6,444.0,synthetic,ECI_aggregate_estimate
-PC350,Haryana,Haryana 287,6465,5235,732,498,324,241,83,281,44.8,12,538.8,synthetic,ECI_aggregate_estimate
-PC351,Uttarakhand,Uttarakhand 288,4994,4367,467,160,348,244,104,98,63.2,2,2497.0,synthetic,ECI_aggregate_estimate
-PC352,Himachal Pradesh,Himachal Pradesh 289,5342,4765,573,4,287,172,115,1,60.8,2,2671.0,synthetic,ECI_aggregate_estimate
-PC353,Tripura,Tripura 290,4884,3674,540,670,161,115,46,322,59.7,11,444.0,synthetic,ECI_aggregate_estimate
-PC354,Meghalaya,Meghalaya 291,8732,7370,930,432,544,335,209,228,29.6,12,727.7,synthetic,ECI_aggregate_estimate
-PC355,Manipur,Manipur 292,7321,5629,867,825,439,349,90,468,62.5,9,813.4,synthetic,ECI_aggregate_estimate
-PC356,Nagaland,Nagaland 293,2986,2589,246,151,193,158,35,101,51.6,3,995.3,synthetic,ECI_aggregate_estimate
-PC357,Goa,Goa 294,5312,4813,349,150,75,62,13,97,60.7,7,758.9,synthetic,ECI_aggregate_estimate
-PC358,Arunachal Pradesh,Arunachal Pradesh 295,2044,1867,243,0,102,93,9,0,30.4,8,255.5,synthetic,ECI_aggregate_estimate
-PC359,Mizoram,Mizoram 296,8168,6299,821,1048,382,295,87,591,51.4,6,1361.3,synthetic,ECI_aggregate_estimate
-PC360,Sikkim,Sikkim 297,2658,2211,278,169,85,51,34,92,31.4,7,379.7,synthetic,ECI_aggregate_estimate
-PC361,Jammu and Kashmir,Jammu and Kashmir 298,6537,5682,709,146,159,144,15,74,56.8,4,1634.2,synthetic,ECI_aggregate_estimate
-PC362,Ladakh,Ladakh 299,8287,7453,579,255,410,271,139,120,46.9,4,2071.8,synthetic,ECI_aggregate_estimate
-PC363,Uttar Pradesh,Uttar Pradesh 300,3265,2512,283,470,53,38,15,304,27.6,2,1632.5,synthetic,ECI_aggregate_estimate
-PC364,Maharashtra,Maharashtra 301,5651,4327,541,783,173,125,48,504,44.4,6,941.8,synthetic,ECI_aggregate_estimate
-PC365,West Bengal,West Bengal 302,6263,5076,605,582,495,337,158,230,60.3,5,1252.6,synthetic,ECI_aggregate_estimate
-PC366,Bihar,Bihar 303,5716,4367,562,787,386,358,28,509,55.5,4,1429.0,synthetic,ECI_aggregate_estimate
-PC367,Madhya Pradesh,Madhya Pradesh 304,6552,5530,780,242,488,346,142,87,46.2,9,728.0,synthetic,ECI_aggregate_estimate
-PC368,Tamil Nadu,Tamil Nadu 305,8574,7642,656,276,609,487,122,169,33.6,9,952.7,synthetic,ECI_aggregate_estimate
-PC369,Rajasthan,Rajasthan 306,7848,7045,603,200,465,279,186,86,45.3,8,981.0,synthetic,ECI_aggregate_estimate
-PC370,Karnataka,Karnataka 307,8384,7621,272,491,432,276,156,234,65.6,9,931.6,synthetic,ECI_aggregate_estimate
-PC371,Gujarat,Gujarat 308,3234,2814,360,60,53,37,16,27,43.0,4,808.5,synthetic,ECI_aggregate_estimate
-PC372,Andhra Pradesh,Andhra Pradesh 309,6190,5417,324,449,490,369,121,259,49.9,7,884.3,synthetic,ECI_aggregate_estimate
-PC373,Odisha,Odisha 310,8352,6443,556,1353,266,228,38,480,61.8,4,2088.0,synthetic,ECI_aggregate_estimate
-PC374,Telangana,Telangana 311,5930,4968,464,498,227,170,57,170,36.2,4,1482.5,synthetic,ECI_aggregate_estimate
-PC375,Kerala,Kerala 312,3568,2803,288,477,172,125,47,280,63.8,3,1189.3,synthetic,ECI_aggregate_estimate
-PC376,Jharkhand,Jharkhand 313,6429,4857,391,1181,507,383,124,429,29.6,10,642.9,synthetic,ECI_aggregate_estimate
-PC377,Assam,Assam 314,1997,1696,126,175,99,78,21,92,22.9,5,399.4,synthetic,ECI_aggregate_estimate
-PC378,Punjab,Punjab 315,5457,4784,536,137,353,330,23,77,33.9,9,606.3,synthetic,ECI_aggregate_estimate
-PC379,Chhattisgarh,Chhattisgarh 316,8629,7309,846,474,522,417,105,167,61.8,10,862.9,synthetic,ECI_aggregate_estimate
-PC380,Haryana,Haryana 317,3501,2820,194,487,87,80,7,243,57.4,8,437.6,synthetic,ECI_aggregate_estimate
-PC381,Uttarakhand,Uttarakhand 318,3521,2816,194,511,137,93,44,313,27.3,7,503.0,synthetic,ECI_aggregate_estimate
-PC382,Himachal Pradesh,Himachal Pradesh 319,7355,5545,463,1347,371,307,64,903,50.4,11,668.6,synthetic,ECI_aggregate_estimate
-PC383,Tripura,Tripura 320,8865,7839,832,194,490,437,53,81,57.8,9,985.0,synthetic,ECI_aggregate_estimate
-PC384,Meghalaya,Meghalaya 321,6969,5575,579,815,244,190,54,279,42.4,12,580.8,synthetic,ECI_aggregate_estimate
-PC385,Manipur,Manipur 322,8203,7397,326,480,424,377,47,153,50.1,5,1640.6,synthetic,ECI_aggregate_estimate
-PC386,Nagaland,Nagaland 323,5943,5447,452,44,165,140,25,21,42.8,12,495.2,synthetic,ECI_aggregate_estimate
-PC387,Goa,Goa 324,8115,6815,393,907,103,79,24,609,72.0,11,737.7,synthetic,ECI_aggregate_estimate
-PC388,Arunachal Pradesh,Arunachal Pradesh 325,7826,6099,580,1147,354,318,36,727,47.9,9,869.6,synthetic,ECI_aggregate_estimate
-PC389,Mizoram,Mizoram 326,7024,5809,333,882,561,475,86,281,50.3,5,1404.8,synthetic,ECI_aggregate_estimate
-PC390,Sikkim,Sikkim 327,2478,1918,187,373,164,143,21,167,45.6,5,495.6,synthetic,ECI_aggregate_estimate
-PC391,Jammu and Kashmir,Jammu and Kashmir 328,6830,6006,761,63,435,391,44,34,48.2,12,569.2,synthetic,ECI_aggregate_estimate
-PC392,Ladakh,Ladakh 329,6770,5291,599,880,470,444,26,351,30.9,5,1354.0,synthetic,ECI_aggregate_estimate
-PC393,Uttar Pradesh,Uttar Pradesh 330,8227,7568,888,0,356,220,136,0,58.7,6,1371.2,synthetic,ECI_aggregate_estimate
-PC394,Maharashtra,Maharashtra 331,7111,5660,441,1010,101,94,7,444,35.8,10,711.1,synthetic,ECI_aggregate_estimate
-PC395,West Bengal,West Bengal 332,6062,4779,514,769,190,125,65,303,57.4,4,1515.5,synthetic,ECI_aggregate_estimate
-PC396,Bihar,Bihar 333,6126,5461,680,0,334,236,98,0,53.1,8,765.8,synthetic,ECI_aggregate_estimate
-PC397,Madhya Pradesh,Madhya Pradesh 334,4776,3715,401,660,381,237,144,398,27.4,8,597.0,synthetic,ECI_aggregate_estimate
-PC398,Tamil Nadu,Tamil Nadu 335,8575,6956,767,852,572,362,210,543,35.5,2,4287.5,synthetic,ECI_aggregate_estimate
-PC399,Rajasthan,Rajasthan 336,2720,2324,135,261,194,122,72,150,57.6,2,1360.0,synthetic,ECI_aggregate_estimate
-PC400,Karnataka,Karnataka 337,2709,2313,279,117,33,28,5,42,30.9,11,246.3,synthetic,ECI_aggregate_estimate
-PC401,Gujarat,Gujarat 338,3552,3167,347,38,48,37,11,16,42.2,7,507.4,synthetic,ECI_aggregate_estimate
-PC402,Andhra Pradesh,Andhra Pradesh 339,3046,2490,306,250,180,168,12,114,25.4,9,338.4,synthetic,ECI_aggregate_estimate
-PC403,Odisha,Odisha 340,6296,5124,517,655,382,332,50,236,56.4,12,524.7,synthetic,ECI_aggregate_estimate
-PC404,Telangana,Telangana 341,8511,7023,573,915,444,286,158,330,63.9,7,1215.9,synthetic,ECI_aggregate_estimate
-PC405,Kerala,Kerala 342,6874,6096,389,389,443,352,91,148,58.7,5,1374.8,synthetic,ECI_aggregate_estimate
-PC406,Jharkhand,Jharkhand 343,3669,2894,289,486,48,42,6,173,29.6,11,333.5,synthetic,ECI_aggregate_estimate
-PC407,Assam,Assam 344,3182,2721,295,166,43,28,15,90,32.4,5,636.4,synthetic,ECI_aggregate_estimate
-PC408,Punjab,Punjab 345,3913,3225,414,274,153,114,39,103,27.5,5,782.6,synthetic,ECI_aggregate_estimate
-PC409,Chhattisgarh,Chhattisgarh 346,6352,5699,259,394,452,426,26,181,59.4,6,1058.7,synthetic,ECI_aggregate_estimate
-PC410,Haryana,Haryana 347,4377,3724,319,334,333,213,120,198,25.2,11,397.9,synthetic,ECI_aggregate_estimate
-PC411,Uttarakhand,Uttarakhand 348,3559,2753,189,617,183,134,49,388,24.9,7,508.4,synthetic,ECI_aggregate_estimate
-PC412,Himachal Pradesh,Himachal Pradesh 349,6179,5080,718,381,72,49,23,176,32.9,9,686.6,synthetic,ECI_aggregate_estimate
-PC413,Tripura,Tripura 350,5252,4726,344,182,382,296,86,56,61.3,5,1050.4,synthetic,ECI_aggregate_estimate
-PC414,Meghalaya,Meghalaya 351,5398,4111,512,775,263,192,71,377,63.7,11,490.7,synthetic,ECI_aggregate_estimate
-PC415,Manipur,Manipur 352,4851,3994,556,301,118,99,19,154,30.7,4,1212.8,synthetic,ECI_aggregate_estimate
-PC416,Nagaland,Nagaland 353,8602,7104,916,582,486,350,136,350,58.3,7,1228.9,synthetic,ECI_aggregate_estimate
-PC417,Goa,Goa 354,6979,6171,641,167,555,413,142,62,30.4,10,697.9,synthetic,ECI_aggregate_estimate
-PC418,Arunachal Pradesh,Arunachal Pradesh 355,3214,2710,203,301,233,183,50,104,42.6,2,1607.0,synthetic,ECI_aggregate_estimate
-PC419,Mizoram,Mizoram 356,5074,4566,488,20,259,166,93,13,58.2,3,1691.3,synthetic,ECI_aggregate_estimate
-PC420,Sikkim,Sikkim 357,3433,2691,303,439,66,52,14,240,47.5,8,429.1,synthetic,ECI_aggregate_estimate
-PC421,Jammu and Kashmir,Jammu and Kashmir 358,4636,3722,428,486,136,128,8,172,44.4,11,421.5,synthetic,ECI_aggregate_estimate
-PC422,Ladakh,Ladakh 359,7822,5875,721,1226,230,182,48,576,31.8,10,782.2,synthetic,ECI_aggregate_estimate
-PC423,Uttar Pradesh,Uttar Pradesh 360,5913,5120,353,440,152,96,56,239,51.9,8,739.1,synthetic,ECI_aggregate_estimate
-PC424,Maharashtra,Maharashtra 361,5510,4926,186,398,373,273,100,278,57.4,6,918.3,synthetic,ECI_aggregate_estimate
-PC425,West Bengal,West Bengal 362,4135,3566,361,208,59,50,9,123,56.7,6,689.2,synthetic,ECI_aggregate_estimate
-PC426,Bihar,Bihar 363,5557,4463,640,454,426,391,35,158,32.2,7,793.9,synthetic,ECI_aggregate_estimate
-PC427,Madhya Pradesh,Madhya Pradesh 364,3288,2803,318,167,233,188,45,61,41.3,3,1096.0,synthetic,ECI_aggregate_estimate
-PC428,Tamil Nadu,Tamil Nadu 365,8279,7341,884,54,337,238,99,25,70.6,10,827.9,synthetic,ECI_aggregate_estimate
-PC429,Rajasthan,Rajasthan 366,6942,6329,332,281,343,205,138,192,27.5,3,2314.0,synthetic,ECI_aggregate_estimate
-PC430,Karnataka,Karnataka 367,4418,3450,452,516,186,167,19,233,50.6,11,401.6,synthetic,ECI_aggregate_estimate
-PC431,Gujarat,Gujarat 368,4003,3610,444,0,298,261,37,0,36.1,11,363.9,synthetic,ECI_aggregate_estimate
-PC432,Andhra Pradesh,Andhra Pradesh 369,8334,6377,842,1115,569,490,79,755,33.8,9,926.0,synthetic,ECI_aggregate_estimate
-PC433,Odisha,Odisha 370,2071,1864,113,94,86,69,17,51,55.4,2,1035.5,synthetic,ECI_aggregate_estimate
-PC434,Telangana,Telangana 371,5302,4840,383,79,414,248,166,51,60.5,10,530.2,synthetic,ECI_aggregate_estimate
-PC435,Kerala,Kerala 372,2467,2177,192,98,130,103,27,68,30.8,9,274.1,synthetic,ECI_aggregate_estimate
-PC436,Jharkhand,Jharkhand 373,5456,4466,413,577,115,82,33,397,27.7,8,682.0,synthetic,ECI_aggregate_estimate
-PC437,Assam,Assam 374,5707,4374,677,656,427,325,102,282,27.2,12,475.6,synthetic,ECI_aggregate_estimate
-PC438,Punjab,Punjab 375,5080,4499,428,153,145,116,29,80,49.7,7,725.7,synthetic,ECI_aggregate_estimate
-PC439,Chhattisgarh,Chhattisgarh 376,5024,4337,294,393,232,183,49,210,32.6,4,1256.0,synthetic,ECI_aggregate_estimate
-PC440,Haryana,Haryana 377,4373,3826,200,347,241,147,94,197,38.3,2,2186.5,synthetic,ECI_aggregate_estimate
-PC441,Uttarakhand,Uttarakhand 378,3305,2955,139,211,180,161,19,66,28.2,2,1652.5,synthetic,ECI_aggregate_estimate
-PC442,Himachal Pradesh,Himachal Pradesh 379,5876,4981,537,358,175,127,48,200,50.6,10,587.6,synthetic,ECI_aggregate_estimate
-PC443,Tripura,Tripura 380,7670,6682,759,229,168,101,67,121,43.6,6,1278.3,synthetic,ECI_aggregate_estimate
-PC444,Meghalaya,Meghalaya 381,4506,4007,349,150,327,255,72,94,33.0,3,1502.0,synthetic,ECI_aggregate_estimate
-PC445,Manipur,Manipur 382,5503,4882,476,145,343,249,94,83,49.9,2,2751.5,synthetic,ECI_aggregate_estimate
-PC446,Nagaland,Nagaland 383,5474,4788,269,417,276,206,70,134,54.2,7,782.0,synthetic,ECI_aggregate_estimate
-PC447,Goa,Goa 384,9100,6867,712,1521,461,371,90,691,68.8,9,1011.1,synthetic,ECI_aggregate_estimate
-PC448,Arunachal Pradesh,Arunachal Pradesh 385,2288,1905,271,112,69,45,24,62,43.8,12,190.7,synthetic,ECI_aggregate_estimate
-PC449,Mizoram,Mizoram 386,2331,1812,118,401,123,112,11,196,58.5,2,1165.5,synthetic,ECI_aggregate_estimate
-PC450,Sikkim,Sikkim 387,3033,2403,177,453,66,62,4,275,45.3,8,379.1,synthetic,ECI_aggregate_estimate
-PC451,Jammu and Kashmir,Jammu and Kashmir 388,5302,4753,291,258,296,186,110,163,50.6,5,1060.4,synthetic,ECI_aggregate_estimate
-PC452,Ladakh,Ladakh 389,7448,6009,889,550,100,80,20,248,32.0,11,677.1,synthetic,ECI_aggregate_estimate
-PC453,Uttar Pradesh,Uttar Pradesh 390,3293,2577,378,338,153,129,24,212,40.2,3,1097.7,synthetic,ECI_aggregate_estimate
-PC454,Maharashtra,Maharashtra 391,4458,3983,234,241,110,68,42,154,37.0,4,1114.5,synthetic,ECI_aggregate_estimate
-PC455,West Bengal,West Bengal 392,2309,2030,141,138,148,122,26,44,50.2,6,384.8,synthetic,ECI_aggregate_estimate
-PC456,Bihar,Bihar 393,4211,3365,417,429,233,199,34,181,62.1,11,382.8,synthetic,ECI_aggregate_estimate
-PC457,Madhya Pradesh,Madhya Pradesh 394,5619,5072,272,275,63,52,11,89,56.1,8,702.4,synthetic,ECI_aggregate_estimate
-PC458,Tamil Nadu,Tamil Nadu 395,8676,7876,411,389,168,125,43,118,29.6,2,4338.0,synthetic,ECI_aggregate_estimate
-PC459,Rajasthan,Rajasthan 396,3998,3124,149,725,231,208,23,359,34.8,9,444.2,synthetic,ECI_aggregate_estimate
-PC460,Karnataka,Karnataka 397,5423,4984,281,158,220,199,21,60,64.7,11,493.0,synthetic,ECI_aggregate_estimate
-PC461,Gujarat,Gujarat 398,7696,6376,548,772,165,138,27,255,40.6,6,1282.7,synthetic,ECI_aggregate_estimate
-PC462,Andhra Pradesh,Andhra Pradesh 399,7109,6335,439,335,492,434,58,177,61.7,7,1015.6,synthetic,ECI_aggregate_estimate
-PC463,Odisha,Odisha 400,3930,3364,215,351,297,255,42,110,50.9,4,982.5,synthetic,ECI_aggregate_estimate
-PC464,Telangana,Telangana 401,5213,4410,547,256,91,84,7,111,64.5,6,868.8,synthetic,ECI_aggregate_estimate
-PC465,Kerala,Kerala 402,6034,4756,619,659,165,147,18,275,30.4,7,862.0,synthetic,ECI_aggregate_estimate
-PC466,Jharkhand,Jharkhand 403,4350,3686,410,254,60,46,14,164,60.3,5,870.0,synthetic,ECI_aggregate_estimate
-PC467,Assam,Assam 404,5116,4598,190,328,354,312,42,157,47.9,3,1705.3,synthetic,ECI_aggregate_estimate
-PC468,Punjab,Punjab 405,7265,5594,296,1375,101,81,20,469,46.2,3,2421.7,synthetic,ECI_aggregate_estimate
-PC469,Chhattisgarh,Chhattisgarh 406,3963,3311,311,341,229,196,33,170,48.2,12,330.2,synthetic,ECI_aggregate_estimate
-PC470,Haryana,Haryana 407,5518,4459,572,487,283,217,66,254,50.2,6,919.7,synthetic,ECI_aggregate_estimate
-PC471,Uttarakhand,Uttarakhand 408,7686,6637,657,392,221,150,71,175,33.8,2,3843.0,synthetic,ECI_aggregate_estimate
-PC472,Himachal Pradesh,Himachal Pradesh 409,2845,2276,272,297,76,48,28,131,37.9,7,406.4,synthetic,ECI_aggregate_estimate
-PC473,Tripura,Tripura 410,1878,1494,117,267,94,79,15,139,53.8,12,156.5,synthetic,ECI_aggregate_estimate
-PC474,Meghalaya,Meghalaya 411,2906,2478,154,274,62,49,13,168,39.9,7,415.1,synthetic,ECI_aggregate_estimate
-PC475,Manipur,Manipur 412,2623,2295,200,128,36,23,13,53,35.4,4,655.8,synthetic,ECI_aggregate_estimate
-PC476,Nagaland,Nagaland 413,3165,2566,246,353,169,117,52,233,45.7,7,452.1,synthetic,ECI_aggregate_estimate
-PC477,Goa,Goa 414,2897,2361,264,272,139,121,18,131,55.4,9,321.9,synthetic,ECI_aggregate_estimate
-PC478,Arunachal Pradesh,Arunachal Pradesh 415,4274,3427,482,365,341,317,24,198,36.2,2,2137.0,synthetic,ECI_aggregate_estimate
-PC479,Mizoram,Mizoram 416,7284,5899,761,624,282,232,50,249,36.2,6,1214.0,synthetic,ECI_aggregate_estimate
-PC480,Sikkim,Sikkim 417,6133,5197,401,535,396,352,44,264,28.2,8,766.6,synthetic,ECI_aggregate_estimate
-PC481,Jammu and Kashmir,Jammu and Kashmir 418,6797,6054,696,47,101,87,14,16,27.3,2,3398.5,synthetic,ECI_aggregate_estimate
-PC482,Ladakh,Ladakh 419,2715,2149,286,280,145,108,37,172,47.9,2,1357.5,synthetic,ECI_aggregate_estimate
-PC483,Uttar Pradesh,Uttar Pradesh 420,4245,3766,257,222,206,138,68,126,51.7,8,530.6,synthetic,ECI_aggregate_estimate
-PC484,Maharashtra,Maharashtra 421,1964,1545,217,202,22,14,8,116,49.1,8,245.5,synthetic,ECI_aggregate_estimate
-PC485,West Bengal,West Bengal 422,8949,7736,981,232,354,249,105,113,33.6,6,1491.5,synthetic,ECI_aggregate_estimate
-PC486,Bihar,Bihar 423,6025,4989,237,799,327,262,65,367,28.4,11,547.7,synthetic,ECI_aggregate_estimate
-PC487,Madhya Pradesh,Madhya Pradesh 424,7940,6490,374,1076,563,438,125,749,27.1,9,882.2,synthetic,ECI_aggregate_estimate
-PC488,Tamil Nadu,Tamil Nadu 425,3451,2997,240,214,147,92,55,98,34.3,7,493.0,synthetic,ECI_aggregate_estimate
-PC489,Rajasthan,Rajasthan 426,6169,5152,423,594,66,59,7,368,60.5,5,1233.8,synthetic,ECI_aggregate_estimate
-PC490,Karnataka,Karnataka 427,3349,2830,349,170,165,136,29,80,62.5,10,334.9,synthetic,ECI_aggregate_estimate
-PC491,Gujarat,Gujarat 428,8392,7352,1005,35,483,421,62,22,28.9,5,1678.4,synthetic,ECI_aggregate_estimate
-PC492,Andhra Pradesh,Andhra Pradesh 429,6957,6012,304,641,394,267,127,333,59.3,5,1391.4,synthetic,ECI_aggregate_estimate
-PC493,Odisha,Odisha 430,9079,7932,302,845,449,311,138,451,35.9,5,1815.8,synthetic,ECI_aggregate_estimate
-PC494,Telangana,Telangana 431,3437,2962,159,316,225,146,79,122,34.8,2,1718.5,synthetic,ECI_aggregate_estimate
-PC495,Kerala,Kerala 432,5902,5126,189,587,245,175,70,289,40.3,6,983.7,synthetic,ECI_aggregate_estimate
-PC496,Jharkhand,Jharkhand 433,7721,5826,779,1116,491,361,130,427,37.8,8,965.1,synthetic,ECI_aggregate_estimate
-PC497,Assam,Assam 434,3235,2622,163,450,147,99,48,255,45.7,5,647.0,synthetic,ECI_aggregate_estimate
-PC498,Punjab,Punjab 435,7741,6700,912,129,399,357,42,46,45.2,3,2580.3,synthetic,ECI_aggregate_estimate
-PC499,Chhattisgarh,Chhattisgarh 436,3020,2597,172,251,49,35,14,125,52.4,5,604.0,synthetic,ECI_aggregate_estimate
-PC500,Haryana,Haryana 437,9141,7129,962,1050,106,82,24,659,38.3,11,831.0,synthetic,ECI_aggregate_estimate
-PC501,Uttarakhand,Uttarakhand 438,4092,3459,206,427,159,97,62,206,59.1,11,372.0,synthetic,ECI_aggregate_estimate
-PC502,Himachal Pradesh,Himachal Pradesh 439,1880,1597,104,179,78,55,23,98,23.4,11,170.9,synthetic,ECI_aggregate_estimate
-PC503,Tripura,Tripura 440,4675,4296,417,0,321,233,88,0,58.9,5,935.0,synthetic,ECI_aggregate_estimate
-PC504,Meghalaya,Meghalaya 441,1939,1713,96,130,38,29,9,80,46.6,6,323.2,synthetic,ECI_aggregate_estimate
-PC505,Manipur,Manipur 442,4838,3911,297,630,177,159,18,240,46.0,9,537.6,synthetic,ECI_aggregate_estimate
-PC506,Nagaland,Nagaland 443,7702,6447,486,769,120,73,47,263,60.7,9,855.8,synthetic,ECI_aggregate_estimate
-PC507,Goa,Goa 444,6159,5172,378,609,455,314,141,399,27.7,2,3079.5,synthetic,ECI_aggregate_estimate
-PC508,Arunachal Pradesh,Arunachal Pradesh 445,2214,1851,136,227,92,72,20,144,60.2,8,276.8,synthetic,ECI_aggregate_estimate
-PC509,Mizoram,Mizoram 446,4486,3663,484,339,52,38,14,208,65.2,5,897.2,synthetic,ECI_aggregate_estimate
-PC510,Sikkim,Sikkim 447,6490,5108,195,1187,412,341,71,732,37.1,6,1081.7,synthetic,ECI_aggregate_estimate
-PC511,Jammu and Kashmir,Jammu and Kashmir 448,4791,4128,317,346,346,263,83,171,48.8,11,435.5,synthetic,ECI_aggregate_estimate
-PC512,Ladakh,Ladakh 449,9232,8401,998,0,392,253,139,0,71.7,7,1318.9,synthetic,ECI_aggregate_estimate
-PC513,Uttar Pradesh,Uttar Pradesh 450,4007,3525,288,194,265,236,29,73,58.2,7,572.4,synthetic,ECI_aggregate_estimate
-PC514,Maharashtra,Maharashtra 451,2427,1922,135,370,129,116,13,214,25.6,9,269.7,synthetic,ECI_aggregate_estimate
-PC515,West Bengal,West Bengal 452,5102,4629,237,236,392,300,92,147,41.2,10,510.2,synthetic,ECI_aggregate_estimate
-PC516,Bihar,Bihar 453,6215,5676,512,27,99,65,34,17,50.6,11,565.0,synthetic,ECI_aggregate_estimate
-PC517,Madhya Pradesh,Madhya Pradesh 454,1833,1553,95,185,140,101,39,78,53.6,7,261.9,synthetic,ECI_aggregate_estimate
-PC518,Tamil Nadu,Tamil Nadu 455,3895,3001,283,611,166,111,55,336,36.8,3,1298.3,synthetic,ECI_aggregate_estimate
-PC519,Rajasthan,Rajasthan 456,6353,4775,592,986,397,258,139,628,31.0,12,529.4,synthetic,ECI_aggregate_estimate
-PC520,Karnataka,Karnataka 457,7393,6463,808,122,282,184,98,38,60.2,11,672.1,synthetic,ECI_aggregate_estimate
-PC521,Gujarat,Gujarat 458,7132,6358,379,395,412,389,23,250,67.6,4,1783.0,synthetic,ECI_aggregate_estimate
-PC522,Andhra Pradesh,Andhra Pradesh 459,6617,4997,431,1189,475,337,138,688,51.4,7,945.3,synthetic,ECI_aggregate_estimate
-PC523,Odisha,Odisha 460,5255,4017,188,1050,281,260,21,560,61.6,4,1313.8,synthetic,ECI_aggregate_estimate
-PC524,Telangana,Telangana 461,2137,1692,233,212,62,47,15,142,35.9,7,305.3,synthetic,ECI_aggregate_estimate
-PC525,Kerala,Kerala 462,3982,3021,247,714,76,63,13,305,50.1,2,1991.0,synthetic,ECI_aggregate_estimate
-PC526,Jharkhand,Jharkhand 463,8526,7272,627,627,283,186,97,395,46.3,6,1421.0,synthetic,ECI_aggregate_estimate
-PC527,Assam,Assam 464,3277,2764,266,247,145,126,19,74,29.0,9,364.1,synthetic,ECI_aggregate_estimate
-PC528,Punjab,Punjab 465,2597,2290,164,143,201,156,45,79,33.9,7,371.0,synthetic,ECI_aggregate_estimate
-PC529,Chhattisgarh,Chhattisgarh 466,2058,1677,96,285,162,116,46,179,27.8,3,686.0,synthetic,ECI_aggregate_estimate
-PC530,Haryana,Haryana 467,6495,5170,633,692,405,243,162,208,57.7,2,3247.5,synthetic,ECI_aggregate_estimate
-PC531,Uttarakhand,Uttarakhand 468,6308,4860,575,873,222,210,12,337,64.9,4,1577.0,synthetic,ECI_aggregate_estimate
-PC532,Himachal Pradesh,Himachal Pradesh 469,3389,2948,172,269,229,167,62,167,59.4,6,564.8,synthetic,ECI_aggregate_estimate
-PC533,Tripura,Tripura 470,3783,3180,344,259,210,176,34,103,63.0,5,756.6,synthetic,ECI_aggregate_estimate
-PC534,Meghalaya,Meghalaya 471,4734,3711,455,568,57,46,11,299,52.7,11,430.4,synthetic,ECI_aggregate_estimate
-PC535,Manipur,Manipur 472,2182,1857,124,201,44,40,4,85,28.2,12,181.8,synthetic,ECI_aggregate_estimate
-PC536,Nagaland,Nagaland 473,3134,2552,298,284,117,76,41,169,39.3,3,1044.7,synthetic,ECI_aggregate_estimate
-PC537,Goa,Goa 474,4305,3444,509,352,158,121,37,176,48.9,6,717.5,synthetic,ECI_aggregate_estimate
-PC538,Arunachal Pradesh,Arunachal Pradesh 475,6354,5498,250,606,103,75,28,267,65.7,5,1270.8,synthetic,ECI_aggregate_estimate
-PC539,Mizoram,Mizoram 476,2378,1830,257,291,127,107,20,133,47.4,5,475.6,synthetic,ECI_aggregate_estimate
-PC540,Sikkim,Sikkim 477,8987,6852,973,1162,586,537,49,517,52.5,2,4493.5,synthetic,ECI_aggregate_estimate
-PC541,Jammu and Kashmir,Jammu and Kashmir 478,9273,7579,803,891,224,156,68,586,44.1,10,927.3,synthetic,ECI_aggregate_estimate
-PC542,Ladakh,Ladakh 479,5351,4883,254,214,174,112,62,89,41.1,9,594.6,synthetic,ECI_aggregate_estimate
-PC543,Uttar Pradesh,Uttar Pradesh 480,8552,7032,939,581,276,229,47,208,61.2,9,950.2,synthetic,ECI_aggregate_estimate
+PC001,Maharashtra,Mumbai North,48140,44099,4734,0,1383,840,543,0,52.3,4,12035.0,synthetic,ECI_aggregate_estimate
+PC002,Maharashtra,Mumbai South,31729,25866,1693,4170,1421,975,446,2192,45.4,11,2884.5,synthetic,ECI_aggregate_estimate
+PC003,Maharashtra,Mumbai North West,44801,39538,2669,2594,2230,1519,711,1687,58.9,9,4977.9,synthetic,ECI_aggregate_estimate
+PC004,Maharashtra,Mumbai North East,42873,37342,2192,3339,1268,919,349,2023,51.2,10,4287.3,synthetic,ECI_aggregate_estimate
+PC005,Maharashtra,Mumbai North Central,45579,35985,2583,7011,2916,1972,944,3121,57.3,6,7596.5,synthetic,ECI_aggregate_estimate
+PC006,Maharashtra,Mumbai South Central,12548,9671,1254,1623,588,369,219,506,51.4,9,1394.2,synthetic,ECI_aggregate_estimate
+PC007,Maharashtra,Pune,32220,24655,3086,4479,1386,937,449,1441,72.6,5,6444.0,synthetic,ECI_aggregate_estimate
+PC008,Maharashtra,Nagpur,31173,26641,3518,1014,1356,880,476,421,48.3,8,3896.6,synthetic,ECI_aggregate_estimate
+PC009,Maharashtra,Thane,33250,25314,2276,5660,1052,960,92,2013,32.3,3,11083.3,synthetic,ECI_aggregate_estimate
+PC010,Maharashtra,Nashik,20088,16889,1445,1754,582,523,59,1042,46.9,2,10044.0,synthetic,ECI_aggregate_estimate
+PC011,Delhi,Chandni Chowk,49569,37584,2104,9881,3912,2683,1229,5886,77.1,5,9913.8,synthetic,ECI_aggregate_estimate
+PC012,Delhi,New Delhi,34696,31819,2724,153,2352,1772,580,74,56.6,12,2891.3,synthetic,ECI_aggregate_estimate
+PC013,Delhi,North East Delhi,24860,20991,1811,2058,1082,953,129,993,35.0,6,4143.3,synthetic,ECI_aggregate_estimate
+PC014,Delhi,East Delhi,53036,43166,4038,5832,3603,2161,1442,3591,72.3,11,4821.5,synthetic,ECI_aggregate_estimate
+PC015,Delhi,North West Delhi,29922,23685,2909,3328,1934,1757,177,1103,38.6,5,5984.4,synthetic,ECI_aggregate_estimate
+PC016,Delhi,West Delhi,39249,31932,3344,3973,3068,2583,485,2320,53.7,9,4361.0,synthetic,ECI_aggregate_estimate
+PC017,Delhi,South Delhi,56002,45357,5883,4762,974,594,380,2719,64.3,10,5600.2,synthetic,ECI_aggregate_estimate
+PC018,Karnataka,Bangalore North,16615,13600,1443,1572,1224,990,234,1032,60.6,11,1510.5,synthetic,ECI_aggregate_estimate
+PC019,Karnataka,Bangalore Central,24626,22375,1333,918,1546,1339,207,416,35.6,8,3078.2,synthetic,ECI_aggregate_estimate
+PC020,Karnataka,Bangalore South,15177,12164,1043,1970,1006,755,251,629,36.7,6,2529.5,synthetic,ECI_aggregate_estimate
+PC021,Karnataka,Bangalore Rural,22801,17949,2644,2208,391,324,67,926,53.5,11,2072.8,synthetic,ECI_aggregate_estimate
+PC022,Karnataka,Mysore,35568,30696,2085,2787,2770,2397,373,1299,80.4,2,17784.0,synthetic,ECI_aggregate_estimate
+PC023,Karnataka,Mangalore,24909,20071,808,4030,1077,686,391,2813,65.2,5,4981.8,synthetic,ECI_aggregate_estimate
+PC024,Tamil Nadu,Chennai North,41763,37896,3508,359,2737,2328,409,123,41.8,7,5966.1,synthetic,ECI_aggregate_estimate
+PC025,Tamil Nadu,Chennai South,41856,37191,1337,3328,1785,1218,567,1436,56.8,8,5232.0,synthetic,ECI_aggregate_estimate
+PC026,Tamil Nadu,Chennai Central,10983,8691,726,1566,716,450,266,907,28.0,9,1220.3,synthetic,ECI_aggregate_estimate
+PC027,Tamil Nadu,Coimbatore,38254,28704,3587,5963,1884,1510,374,3056,33.2,7,5464.9,synthetic,ECI_aggregate_estimate
+PC028,Tamil Nadu,Madurai,18944,14473,927,3544,989,798,191,1346,62.7,3,6314.7,synthetic,ECI_aggregate_estimate
+PC029,West Bengal,Kolkata North,40411,34728,4035,1648,1566,1304,262,861,61.5,10,4041.1,synthetic,ECI_aggregate_estimate
+PC030,West Bengal,Kolkata South,42129,36085,1527,4517,1687,1284,403,1475,40.9,11,3829.9,synthetic,ECI_aggregate_estimate
+PC031,West Bengal,Howrah,17443,16042,1977,0,855,728,127,0,55.2,12,1453.6,synthetic,ECI_aggregate_estimate
+PC032,West Bengal,Darjeeling,20222,17883,2141,198,594,362,232,122,45.3,9,2246.9,synthetic,ECI_aggregate_estimate
+PC033,Gujarat,Ahmedabad East,50950,39402,2696,8852,3406,2200,1206,5863,32.9,4,12737.5,synthetic,ECI_aggregate_estimate
+PC034,Gujarat,Ahmedabad West,27801,23151,1123,3527,769,705,64,1076,41.4,12,2316.8,synthetic,ECI_aggregate_estimate
+PC035,Gujarat,Surat,18828,15798,2082,948,1214,869,345,424,76.7,10,1882.8,synthetic,ECI_aggregate_estimate
+PC036,Gujarat,Vadodara,39518,34809,2796,1913,2601,1863,738,1058,68.1,8,4939.8,synthetic,ECI_aggregate_estimate
+PC037,Rajasthan,Jaipur,48736,43468,4531,737,3157,2632,525,223,48.6,10,4873.6,synthetic,ECI_aggregate_estimate
+PC038,Rajasthan,Jaipur Rural,30369,27691,3638,0,498,338,160,0,56.2,10,3036.9,synthetic,ECI_aggregate_estimate
+PC039,Rajasthan,Jodhpur,50700,42829,3646,4225,2769,2558,211,1629,67.6,10,5070.0,synthetic,ECI_aggregate_estimate
+PC040,Rajasthan,Udaipur,41147,37137,2542,1468,2376,2199,177,739,47.7,12,3428.9,synthetic,ECI_aggregate_estimate
+PC041,Uttar Pradesh,Lucknow,45123,40791,5018,0,1633,989,644,0,32.3,3,15041.0,synthetic,ECI_aggregate_estimate
+PC042,Uttar Pradesh,Kanpur,11904,9157,892,1855,917,589,328,650,67.5,7,1700.6,synthetic,ECI_aggregate_estimate
+PC043,Uttar Pradesh,Varanasi,11874,9796,451,1627,753,494,259,1035,38.5,5,2374.8,synthetic,ECI_aggregate_estimate
+PC044,Uttar Pradesh,Allahabad,12448,10055,589,1804,918,611,307,1255,58.8,3,4149.3,synthetic,ECI_aggregate_estimate
+PC045,Uttar Pradesh,Agra,16330,14839,1486,5,918,696,222,1,65.5,12,1360.8,synthetic,ECI_aggregate_estimate
+PC046,Uttar Pradesh,Meerut,13816,12122,1551,143,1001,750,251,77,58.5,10,1381.6,synthetic,ECI_aggregate_estimate
+PC047,Uttar Pradesh,Ghaziabad,50984,45265,3653,2066,2252,1394,858,1331,74.2,6,8497.3,synthetic,ECI_aggregate_estimate
+PC048,Uttar Pradesh,Noida,23056,18392,2414,2250,1317,932,385,701,56.3,6,3842.7,synthetic,ECI_aggregate_estimate
+PC049,Telangana,Hyderabad,16343,12515,1794,2034,704,564,140,893,35.0,6,2723.8,synthetic,ECI_aggregate_estimate
+PC050,Telangana,Secunderabad,35867,27564,1413,6890,524,435,89,2627,78.7,3,11955.7,synthetic,ECI_aggregate_estimate
+PC051,Kerala,Thiruvananthapuram,36244,32675,3024,545,799,618,181,183,81.3,7,5177.7,synthetic,ECI_aggregate_estimate
+PC052,Kerala,Ernakulam,47776,43289,5660,0,1371,1108,263,0,64.2,12,3981.3,synthetic,ECI_aggregate_estimate
+PC053,Kerala,Thrissur,24337,21540,2399,398,1123,998,125,222,52.2,11,2212.5,synthetic,ECI_aggregate_estimate
+PC054,Punjab,Amritsar,26423,20935,2564,2924,1503,1115,388,1139,77.4,11,2402.1,synthetic,ECI_aggregate_estimate
+PC055,Punjab,Ludhiana,36548,29454,1102,5992,555,358,197,4150,48.2,2,18274.0,synthetic,ECI_aggregate_estimate
+PC056,Haryana,Gurugram,17585,15669,1758,158,874,569,305,88,36.5,8,2198.1,synthetic,ECI_aggregate_estimate
+PC057,Haryana,Faridabad,18042,15565,1591,886,677,509,168,502,29.6,4,4510.5,synthetic,ECI_aggregate_estimate
+PC058,Bihar,Patna Sahib,25418,21328,1034,3056,542,406,136,1049,60.8,11,2310.7,synthetic,ECI_aggregate_estimate
+PC059,Bihar,Gaya,37263,32028,1574,3661,2325,1785,540,1578,39.2,12,3105.2,synthetic,ECI_aggregate_estimate
+PC060,Madhya Pradesh,Bhopal,25275,23194,2980,0,800,673,127,0,72.7,6,4212.5,synthetic,ECI_aggregate_estimate
+PC061,Madhya Pradesh,Indore,34642,29321,3371,1950,1346,1176,170,920,81.5,10,3464.2,synthetic,ECI_aggregate_estimate
+PC062,Andhra Pradesh,Visakhapatnam,49488,41162,4574,3752,3624,2917,707,2282,57.9,11,4498.9,synthetic,ECI_aggregate_estimate
+PC063,Andhra Pradesh,Vijayawada,38565,32017,4468,2080,1761,1401,360,1128,65.5,5,7713.0,synthetic,ECI_aggregate_estimate
+PC064,Maharashtra,Maharashtra 1,44240,33956,1858,8426,1281,919,362,4773,36.7,9,4915.6,synthetic,ECI_aggregate_estimate
+PC065,West Bengal,West Bengal 2,27718,22407,3084,2227,802,759,43,882,67.6,3,9239.3,synthetic,ECI_aggregate_estimate
+PC066,Bihar,Bihar 3,29202,22491,3388,3323,1703,1467,236,1998,74.1,5,5840.4,synthetic,ECI_aggregate_estimate
+PC067,Madhya Pradesh,Madhya Pradesh 4,27059,20754,1845,4460,270,233,37,1393,74.2,3,9019.7,synthetic,ECI_aggregate_estimate
+PC068,Tamil Nadu,Tamil Nadu 5,40178,31448,1829,6901,1210,751,459,2620,45.8,2,20089.0,synthetic,ECI_aggregate_estimate
+PC069,Rajasthan,Rajasthan 6,25470,21817,1479,2174,1961,1181,780,831,32.6,12,2122.5,synthetic,ECI_aggregate_estimate
+PC070,Karnataka,Karnataka 7,19597,17244,1619,734,1085,922,163,491,64.7,11,1781.5,synthetic,ECI_aggregate_estimate
+PC071,Gujarat,Gujarat 8,14189,11495,1129,1565,317,219,98,669,74.3,8,1773.6,synthetic,ECI_aggregate_estimate
+PC072,Andhra Pradesh,Andhra Pradesh 9,45487,37709,4939,2839,674,618,56,1127,57.9,2,22743.5,synthetic,ECI_aggregate_estimate
+PC073,Odisha,Odisha 10,52427,47125,2241,3061,2750,1870,880,1993,37.4,10,5242.7,synthetic,ECI_aggregate_estimate
+PC074,Telangana,Telangana 11,55308,44603,4507,6198,4035,3407,628,3670,65.2,3,18436.0,synthetic,ECI_aggregate_estimate
+PC075,Kerala,Kerala 12,46487,38507,5439,2541,511,460,51,930,33.4,12,3873.9,synthetic,ECI_aggregate_estimate
+PC076,Jharkhand,Jharkhand 13,50842,45477,4092,1273,2715,2328,387,887,78.2,7,7263.1,synthetic,ECI_aggregate_estimate
+PC077,Assam,Assam 14,38593,29700,3616,5277,1037,788,249,2759,67.7,9,4288.1,synthetic,ECI_aggregate_estimate
+PC078,Punjab,Punjab 15,25136,19602,2305,3229,1211,847,364,1068,32.9,2,12568.0,synthetic,ECI_aggregate_estimate
+PC079,Chhattisgarh,Chhattisgarh 16,37278,30353,2044,4881,1498,1096,402,1769,46.5,6,6213.0,synthetic,ECI_aggregate_estimate
+PC080,Haryana,Haryana 17,17745,14423,817,2505,1358,1258,100,805,31.5,8,2218.1,synthetic,ECI_aggregate_estimate
+PC081,Uttarakhand,Uttarakhand 18,52181,44476,2567,5138,590,366,224,3145,35.2,6,8696.8,synthetic,ECI_aggregate_estimate
+PC082,Himachal Pradesh,Himachal Pradesh 19,30297,23699,1929,4669,1361,954,407,2174,63.3,5,6059.4,synthetic,ECI_aggregate_estimate
+PC083,Tripura,Tripura 20,19294,15348,1105,2841,1459,1141,318,1461,71.6,4,4823.5,synthetic,ECI_aggregate_estimate
+PC084,Meghalaya,Meghalaya 21,37950,33342,2076,2532,2543,1801,742,1653,47.8,2,18975.0,synthetic,ECI_aggregate_estimate
+PC085,Manipur,Manipur 22,51444,45732,1792,3920,2044,1514,530,1872,78.6,10,5144.4,synthetic,ECI_aggregate_estimate
+PC086,Nagaland,Nagaland 23,38039,34732,2956,351,1640,1278,362,110,64.0,5,7607.8,synthetic,ECI_aggregate_estimate
+PC087,Goa,Goa 24,30522,25776,964,3782,1663,1117,546,1830,33.8,2,15261.0,synthetic,ECI_aggregate_estimate
+PC088,Arunachal Pradesh,Arunachal Pradesh 25,18637,14734,1910,1993,1263,1173,90,824,54.9,4,4659.2,synthetic,ECI_aggregate_estimate
+PC089,Mizoram,Mizoram 26,38132,33209,1560,3363,887,577,310,1195,47.0,12,3177.7,synthetic,ECI_aggregate_estimate
+PC090,Sikkim,Sikkim 27,26032,20120,3031,2881,1092,1020,72,1881,69.9,7,3718.9,synthetic,ECI_aggregate_estimate
+PC091,Jammu and Kashmir,Jammu and Kashmir 28,17074,13225,1199,2650,1244,837,407,1013,30.9,7,2439.1,synthetic,ECI_aggregate_estimate
+PC092,Ladakh,Ladakh 29,39488,35470,3397,621,2328,1980,348,420,38.8,2,19744.0,synthetic,ECI_aggregate_estimate
+PC093,Uttar Pradesh,Uttar Pradesh 30,45549,38883,5228,1438,1729,1564,165,542,81.4,10,4554.9,synthetic,ECI_aggregate_estimate
+PC094,Maharashtra,Maharashtra 31,49852,40753,3350,5749,3596,3183,413,3795,45.6,4,12463.0,synthetic,ECI_aggregate_estimate
+PC095,West Bengal,West Bengal 32,42980,34244,4800,3936,578,455,123,2471,34.4,2,21490.0,synthetic,ECI_aggregate_estimate
+PC096,Bihar,Bihar 33,18458,15984,609,1865,278,239,39,756,30.7,2,9229.0,synthetic,ECI_aggregate_estimate
+PC097,Madhya Pradesh,Madhya Pradesh 34,27157,22170,2314,2673,1673,1554,119,1248,36.3,6,4526.2,synthetic,ECI_aggregate_estimate
+PC098,Tamil Nadu,Tamil Nadu 35,34626,30781,2372,1473,2334,2061,273,978,70.2,6,5771.0,synthetic,ECI_aggregate_estimate
+PC099,Rajasthan,Rajasthan 36,31499,24920,2283,4296,2146,1465,681,2122,66.2,2,15749.5,synthetic,ECI_aggregate_estimate
+PC100,Karnataka,Karnataka 37,32083,27413,1923,2747,2169,1961,208,956,63.5,6,5347.2,synthetic,ECI_aggregate_estimate
+PC101,Gujarat,Gujarat 38,47217,41149,2235,3833,2122,1933,189,1898,41.7,11,4292.5,synthetic,ECI_aggregate_estimate
+PC102,Andhra Pradesh,Andhra Pradesh 39,14210,11455,717,2038,1050,957,93,839,40.0,6,2368.3,synthetic,ECI_aggregate_estimate
+PC103,Odisha,Odisha 40,21672,18331,1235,2106,1358,1119,239,662,77.6,12,1806.0,synthetic,ECI_aggregate_estimate
+PC104,Telangana,Telangana 41,42279,33933,4234,4112,3166,2895,271,2382,39.7,2,21139.5,synthetic,ECI_aggregate_estimate
+PC105,Kerala,Kerala 42,13605,12278,527,800,715,566,149,518,37.6,12,1133.8,synthetic,ECI_aggregate_estimate
+PC106,Jharkhand,Jharkhand 43,20325,16162,1808,2355,1493,1189,304,1490,56.3,5,4065.0,synthetic,ECI_aggregate_estimate
+PC107,Assam,Assam 44,48407,44373,3449,585,1469,933,536,297,85.2,5,9681.4,synthetic,ECI_aggregate_estimate
+PC108,Punjab,Punjab 45,18375,14700,2101,1574,295,188,107,669,33.1,11,1670.5,synthetic,ECI_aggregate_estimate
+PC109,Chhattisgarh,Chhattisgarh 46,39236,35732,4425,0,2971,2253,718,0,42.3,11,3566.9,synthetic,ECI_aggregate_estimate
+PC110,Haryana,Haryana 47,31187,26244,2708,2235,1457,945,512,958,59.8,8,3898.4,synthetic,ECI_aggregate_estimate
+PC111,Uttarakhand,Uttarakhand 48,14751,13427,624,700,413,328,85,452,75.6,8,1843.9,synthetic,ECI_aggregate_estimate
+PC112,Himachal Pradesh,Himachal Pradesh 49,11482,10333,1105,44,520,374,146,27,40.3,5,2296.4,synthetic,ECI_aggregate_estimate
+PC113,Tripura,Tripura 50,34775,28196,1306,5273,1990,1373,617,2420,60.1,4,8693.8,synthetic,ECI_aggregate_estimate
+PC114,Meghalaya,Meghalaya 51,18198,14911,1999,1288,1045,798,247,771,65.4,3,6066.0,synthetic,ECI_aggregate_estimate
+PC115,Manipur,Manipur 52,37150,28331,2476,6343,1061,957,104,2289,63.6,8,4643.8,synthetic,ECI_aggregate_estimate
+PC116,Nagaland,Nagaland 53,43497,34371,3660,5466,2622,2253,369,2336,74.7,4,10874.2,synthetic,ECI_aggregate_estimate
+PC117,Goa,Goa 54,40035,34375,2540,3120,1469,1175,294,1942,78.9,12,3336.2,synthetic,ECI_aggregate_estimate
+PC118,Arunachal Pradesh,Arunachal Pradesh 55,55669,50029,6104,0,2666,1626,1040,0,68.7,2,27834.5,synthetic,ECI_aggregate_estimate
+PC119,Mizoram,Mizoram 56,13472,11663,767,1042,546,398,148,703,37.6,2,6736.0,synthetic,ECI_aggregate_estimate
+PC120,Sikkim,Sikkim 57,30418,26220,1927,2271,1647,1513,134,1139,53.7,3,10139.3,synthetic,ECI_aggregate_estimate
+PC121,Jammu and Kashmir,Jammu and Kashmir 58,50824,40175,3119,7530,1221,975,246,2420,80.8,10,5082.4,synthetic,ECI_aggregate_estimate
+PC122,Ladakh,Ladakh 59,48984,41929,3467,3588,555,506,49,2315,53.0,5,9796.8,synthetic,ECI_aggregate_estimate
+PC123,Uttar Pradesh,Uttar Pradesh 60,28756,23075,3114,2567,2094,1858,236,1695,48.4,12,2396.3,synthetic,ECI_aggregate_estimate
+PC124,Maharashtra,Maharashtra 61,42023,36560,3692,1771,1153,845,308,1083,61.3,12,3501.9,synthetic,ECI_aggregate_estimate
+PC125,West Bengal,West Bengal 62,45254,36897,4625,3732,2967,1869,1098,2228,66.6,4,11313.5,synthetic,ECI_aggregate_estimate
+PC126,Bihar,Bihar 63,49484,43157,3639,2688,1297,1119,178,1879,52.7,2,24742.0,synthetic,ECI_aggregate_estimate
+PC127,Madhya Pradesh,Madhya Pradesh 64,39939,32457,2407,5075,1875,1574,301,1777,33.9,4,9984.8,synthetic,ECI_aggregate_estimate
+PC128,Tamil Nadu,Tamil Nadu 65,34489,29720,3572,1197,2488,2020,468,776,53.8,11,3135.4,synthetic,ECI_aggregate_estimate
+PC129,Rajasthan,Rajasthan 66,52861,44225,2825,5811,3996,3609,387,2165,66.9,7,7551.6,synthetic,ECI_aggregate_estimate
+PC130,Karnataka,Karnataka 67,46043,35155,2369,8519,3419,2516,903,5400,42.3,5,9208.6,synthetic,ECI_aggregate_estimate
+PC131,Gujarat,Gujarat 68,23770,18730,1332,3708,993,718,275,2256,46.4,7,3395.7,synthetic,ECI_aggregate_estimate
+PC132,Andhra Pradesh,Andhra Pradesh 69,30609,26979,3652,0,1561,1466,95,0,66.8,3,10203.0,synthetic,ECI_aggregate_estimate
+PC133,Odisha,Odisha 70,44404,33656,4385,6363,598,441,157,3766,52.4,3,14801.3,synthetic,ECI_aggregate_estimate
+PC134,Telangana,Telangana 71,30339,23307,1221,5811,2021,1777,244,1808,50.6,11,2758.1,synthetic,ECI_aggregate_estimate
+PC135,Kerala,Kerala 72,22949,20969,1150,830,592,489,103,551,37.7,10,2294.9,synthetic,ECI_aggregate_estimate
+PC136,Jharkhand,Jharkhand 73,47359,38460,5654,3245,1951,1685,266,1686,65.6,8,5919.9,synthetic,ECI_aggregate_estimate
+PC137,Assam,Assam 74,47597,41111,4894,1592,1803,1367,436,648,49.4,4,11899.2,synthetic,ECI_aggregate_estimate
+PC138,Punjab,Punjab 75,33833,27314,3026,3493,2066,1706,360,2075,70.2,4,8458.2,synthetic,ECI_aggregate_estimate
+PC139,Chhattisgarh,Chhattisgarh 76,57332,50917,6177,238,4058,2656,1402,100,55.8,11,5212.0,synthetic,ECI_aggregate_estimate
+PC140,Haryana,Haryana 77,60546,52024,2533,5989,1172,842,330,3539,66.3,10,6054.6,synthetic,ECI_aggregate_estimate
+PC141,Uttarakhand,Uttarakhand 78,16231,12956,1091,2184,1166,760,406,1307,56.7,9,1803.4,synthetic,ECI_aggregate_estimate
+PC142,Himachal Pradesh,Himachal Pradesh 79,57077,44260,2503,10314,3595,2519,1076,4510,65.3,10,5707.7,synthetic,ECI_aggregate_estimate
+PC143,Tripura,Tripura 80,21323,16682,1394,3247,1534,1380,154,990,32.5,3,7107.7,synthetic,ECI_aggregate_estimate
+PC144,Meghalaya,Meghalaya 81,24166,19202,1697,3267,947,662,285,1913,63.1,4,6041.5,synthetic,ECI_aggregate_estimate
+PC145,Manipur,Manipur 82,17656,14682,572,2402,1327,972,355,1353,31.1,3,5885.3,synthetic,ECI_aggregate_estimate
+PC146,Nagaland,Nagaland 83,49674,44852,5503,0,713,549,164,0,39.9,9,5519.3,synthetic,ECI_aggregate_estimate
+PC147,Goa,Goa 84,14069,12196,516,1357,811,579,232,626,37.6,8,1758.6,synthetic,ECI_aggregate_estimate
+PC148,Arunachal Pradesh,Arunachal Pradesh 85,42642,31981,4827,5834,1667,1523,144,2751,72.4,11,3876.5,synthetic,ECI_aggregate_estimate
+PC149,Mizoram,Mizoram 86,45040,35240,4909,4891,3418,2331,1087,2060,42.6,5,9008.0,synthetic,ECI_aggregate_estimate
+PC150,Sikkim,Sikkim 87,35542,31885,3687,0,2185,1747,438,0,35.2,2,17771.0,synthetic,ECI_aggregate_estimate
+PC151,Jammu and Kashmir,Jammu and Kashmir 88,24905,22493,2736,0,1253,797,456,0,63.3,4,6226.2,synthetic,ECI_aggregate_estimate
+PC152,Ladakh,Ladakh 89,55199,45870,3001,6328,3525,2328,1197,3900,48.8,11,5018.1,synthetic,ECI_aggregate_estimate
+PC153,Uttar Pradesh,Uttar Pradesh 90,57214,50682,3345,3187,3411,2473,938,1763,72.9,2,28607.0,synthetic,ECI_aggregate_estimate
+PC154,Maharashtra,Maharashtra 91,25678,20472,1589,3617,1924,1199,725,2253,43.9,3,8559.3,synthetic,ECI_aggregate_estimate
+PC155,West Bengal,West Bengal 92,15920,14328,1875,0,779,645,134,0,61.6,11,1447.3,synthetic,ECI_aggregate_estimate
+PC156,Bihar,Bihar 93,20532,17411,1194,1927,1228,907,321,696,38.2,5,4106.4,synthetic,ECI_aggregate_estimate
+PC157,Madhya Pradesh,Madhya Pradesh 94,53197,47185,2780,3232,1102,991,111,1206,79.2,3,17732.3,synthetic,ECI_aggregate_estimate
+PC158,Tamil Nadu,Tamil Nadu 95,20909,16142,1347,3420,274,227,47,1535,62.5,5,4181.8,synthetic,ECI_aggregate_estimate
+PC159,Rajasthan,Rajasthan 96,17700,14995,1792,913,204,179,25,326,48.7,4,4425.0,synthetic,ECI_aggregate_estimate
+PC160,Karnataka,Karnataka 97,24822,18996,2664,3162,938,877,61,2169,38.2,6,4137.0,synthetic,ECI_aggregate_estimate
+PC161,Gujarat,Gujarat 98,34164,30501,1881,1782,611,371,240,1131,80.7,9,3796.0,synthetic,ECI_aggregate_estimate
+PC162,Andhra Pradesh,Andhra Pradesh 99,23050,18184,2194,2672,1098,799,299,1235,78.2,2,11525.0,synthetic,ECI_aggregate_estimate
+PC163,Odisha,Odisha 100,48955,38559,1776,8620,2219,1730,489,4869,62.2,9,5439.4,synthetic,ECI_aggregate_estimate
+PC164,Telangana,Telangana 101,17047,14521,1704,822,1053,728,325,390,37.2,10,1704.7,synthetic,ECI_aggregate_estimate
+PC165,Kerala,Kerala 102,19916,15820,1239,2857,653,405,248,1687,68.5,9,2212.9,synthetic,ECI_aggregate_estimate
+PC166,Jharkhand,Jharkhand 103,12999,11722,1041,236,822,615,207,131,43.3,3,4333.0,synthetic,ECI_aggregate_estimate
+PC167,Assam,Assam 104,28966,23862,3321,1783,531,323,208,769,80.6,3,9655.3,synthetic,ECI_aggregate_estimate
+PC168,Punjab,Punjab 105,46887,41250,3838,1799,642,407,235,648,74.5,4,11721.8,synthetic,ECI_aggregate_estimate
+PC169,Chhattisgarh,Chhattisgarh 106,53749,41083,4258,8408,1546,1107,439,4001,84.4,10,5374.9,synthetic,ECI_aggregate_estimate
+PC170,Haryana,Haryana 107,35370,27727,2003,5640,454,327,127,3522,74.4,8,4421.2,synthetic,ECI_aggregate_estimate
+PC171,Uttarakhand,Uttarakhand 108,27850,23236,3328,1286,685,448,237,832,58.4,8,3481.2,synthetic,ECI_aggregate_estimate
+PC172,Himachal Pradesh,Himachal Pradesh 109,23467,19009,1338,3120,1206,1137,69,1141,56.7,6,3911.2,synthetic,ECI_aggregate_estimate
+PC173,Tripura,Tripura 110,48588,38470,3876,6242,2474,1501,973,4099,48.3,10,4858.8,synthetic,ECI_aggregate_estimate
+PC174,Meghalaya,Meghalaya 111,30337,22768,1498,6071,476,367,109,3856,71.8,8,3792.1,synthetic,ECI_aggregate_estimate
+PC175,Manipur,Manipur 112,19929,17142,1604,1183,445,377,68,406,76.3,8,2491.1,synthetic,ECI_aggregate_estimate
+PC176,Nagaland,Nagaland 113,36560,28764,2808,4988,1455,1261,194,3005,42.4,10,3656.0,synthetic,ECI_aggregate_estimate
+PC177,Goa,Goa 114,23961,19123,2396,2442,376,300,76,1210,38.3,2,11980.5,synthetic,ECI_aggregate_estimate
+PC178,Arunachal Pradesh,Arunachal Pradesh 115,29512,25978,3349,185,659,547,112,88,31.9,3,9837.3,synthetic,ECI_aggregate_estimate
+PC179,Mizoram,Mizoram 116,37608,32581,1475,3552,718,471,247,1658,71.6,12,3134.0,synthetic,ECI_aggregate_estimate
+PC180,Sikkim,Sikkim 117,44325,38803,1616,3906,1508,1304,204,2221,54.7,5,8865.0,synthetic,ECI_aggregate_estimate
+PC181,Jammu and Kashmir,Jammu and Kashmir 118,46359,42118,2175,2066,1525,1168,357,803,74.1,5,9271.8,synthetic,ECI_aggregate_estimate
+PC182,Ladakh,Ladakh 119,12696,10807,939,950,637,515,122,362,63.8,9,1410.7,synthetic,ECI_aggregate_estimate
+PC183,Uttar Pradesh,Uttar Pradesh 120,12796,11620,1485,0,490,449,41,0,65.5,3,4265.3,synthetic,ECI_aggregate_estimate
+PC184,Maharashtra,Maharashtra 121,52047,43409,3962,4676,3281,2043,1238,2591,81.6,12,4337.2,synthetic,ECI_aggregate_estimate
+PC185,West Bengal,West Bengal 122,54915,47160,4693,3062,1567,1056,511,1845,33.4,10,5491.5,synthetic,ECI_aggregate_estimate
+PC186,Bihar,Bihar 123,45034,38224,3130,3680,868,818,50,1601,69.8,12,3752.8,synthetic,ECI_aggregate_estimate
+PC187,Madhya Pradesh,Madhya Pradesh 124,16491,15012,1233,246,618,431,187,78,61.7,8,2061.4,synthetic,ECI_aggregate_estimate
+PC188,Tamil Nadu,Tamil Nadu 125,44339,36868,5232,2239,702,631,71,1445,40.0,5,8867.8,synthetic,ECI_aggregate_estimate
+PC189,Rajasthan,Rajasthan 126,39486,33982,4354,1150,1267,911,356,509,33.4,10,3948.6,synthetic,ECI_aggregate_estimate
+PC190,Karnataka,Karnataka 127,27582,22245,2415,2922,845,584,261,940,36.6,5,5516.4,synthetic,ECI_aggregate_estimate
+PC191,Gujarat,Gujarat 128,33657,29749,3567,341,2261,1910,351,102,65.9,8,4207.1,synthetic,ECI_aggregate_estimate
+PC192,Andhra Pradesh,Andhra Pradesh 129,37608,29941,2763,4904,804,657,147,3410,71.6,6,6268.0,synthetic,ECI_aggregate_estimate
+PC193,Odisha,Odisha 130,49896,43047,2859,3990,2748,1868,880,2607,68.5,3,16632.0,synthetic,ECI_aggregate_estimate
+PC194,Telangana,Telangana 131,32841,26089,3810,2942,836,518,318,1663,80.3,2,16420.5,synthetic,ECI_aggregate_estimate
+PC195,Kerala,Kerala 132,44474,36942,2004,5528,2646,1960,686,2173,47.4,3,14824.7,synthetic,ECI_aggregate_estimate
+PC196,Jharkhand,Jharkhand 133,44259,35996,5280,2983,543,382,161,1494,48.8,8,5532.4,synthetic,ECI_aggregate_estimate
+PC197,Assam,Assam 134,57337,46771,6622,3944,3805,2302,1503,1928,51.7,9,6370.8,synthetic,ECI_aggregate_estimate
+PC198,Punjab,Punjab 135,17268,13266,857,3145,231,207,24,1771,45.8,8,2158.5,synthetic,ECI_aggregate_estimate
+PC199,Chhattisgarh,Chhattisgarh 136,49501,43021,3121,3359,2967,2501,466,1365,59.1,4,12375.2,synthetic,ECI_aggregate_estimate
+PC200,Haryana,Haryana 137,51315,40246,4723,6346,1063,782,281,3053,37.2,3,17105.0,synthetic,ECI_aggregate_estimate
+PC201,Uttarakhand,Uttarakhand 138,37028,32903,4422,0,2568,1797,771,0,64.9,9,4114.2,synthetic,ECI_aggregate_estimate
+PC202,Himachal Pradesh,Himachal Pradesh 139,42288,32635,2808,6845,1889,1428,461,2725,57.3,12,3524.0,synthetic,ECI_aggregate_estimate
+PC203,Tripura,Tripura 140,30935,27042,2240,1653,1246,935,311,1040,68.4,2,15467.5,synthetic,ECI_aggregate_estimate
+PC204,Meghalaya,Meghalaya 141,39643,33816,1374,4453,1112,928,184,1999,79.6,6,6607.2,synthetic,ECI_aggregate_estimate
+PC205,Manipur,Manipur 142,19250,14540,1178,3532,776,495,281,1643,38.7,10,1925.0,synthetic,ECI_aggregate_estimate
+PC206,Nagaland,Nagaland 143,37886,31237,3718,2931,1580,964,616,1226,65.4,3,12628.7,synthetic,ECI_aggregate_estimate
+PC207,Goa,Goa 144,31878,29259,1395,1224,1903,1360,543,678,43.5,5,6375.6,synthetic,ECI_aggregate_estimate
+PC208,Arunachal Pradesh,Arunachal Pradesh 145,48053,41138,1955,4960,528,422,106,2390,77.5,9,5339.2,synthetic,ECI_aggregate_estimate
+PC209,Mizoram,Mizoram 146,42792,38677,4156,0,3171,2377,794,0,44.9,10,4279.2,synthetic,ECI_aggregate_estimate
+PC210,Sikkim,Sikkim 147,22857,19484,2522,851,1542,1340,202,488,37.9,10,2285.7,synthetic,ECI_aggregate_estimate
+PC211,Jammu and Kashmir,Jammu and Kashmir 148,23328,19324,1691,2313,1823,1727,96,1412,60.6,4,5832.0,synthetic,ECI_aggregate_estimate
+PC212,Ladakh,Ladakh 149,41697,37225,4130,342,782,517,265,159,44.9,11,3790.6,synthetic,ECI_aggregate_estimate
+PC213,Uttar Pradesh,Uttar Pradesh 150,39288,31038,4608,3642,1035,808,227,2275,34.8,10,3928.8,synthetic,ECI_aggregate_estimate
+PC214,Maharashtra,Maharashtra 151,11538,8891,1145,1502,117,93,24,838,57.7,3,3846.0,synthetic,ECI_aggregate_estimate
+PC215,West Bengal,West Bengal 152,42457,33965,4629,3863,2667,1948,719,2641,36.1,5,8491.4,synthetic,ECI_aggregate_estimate
+PC216,Bihar,Bihar 153,29444,25490,2180,1774,488,361,127,854,78.3,6,4907.3,synthetic,ECI_aggregate_estimate
+PC217,Madhya Pradesh,Madhya Pradesh 154,33906,25630,1519,6757,1994,1766,228,4436,53.0,8,4238.2,synthetic,ECI_aggregate_estimate
+PC218,Tamil Nadu,Tamil Nadu 155,11721,8829,380,2512,801,506,295,1691,69.6,7,1674.4,synthetic,ECI_aggregate_estimate
+PC219,Rajasthan,Rajasthan 156,17309,15658,2074,0,1088,804,284,0,46.2,10,1730.9,synthetic,ECI_aggregate_estimate
+PC220,Karnataka,Karnataka 157,25079,20598,2691,1790,1344,1091,253,1089,30.4,8,3134.9,synthetic,ECI_aggregate_estimate
+PC221,Gujarat,Gujarat 158,26724,22446,3032,1246,329,239,90,832,66.6,8,3340.5,synthetic,ECI_aggregate_estimate
+PC222,Andhra Pradesh,Andhra Pradesh 159,38407,28950,1562,7895,1852,1120,732,5485,66.0,11,3491.5,synthetic,ECI_aggregate_estimate
+PC223,Odisha,Odisha 160,13343,12110,988,245,253,155,98,158,73.1,4,3335.8,synthetic,ECI_aggregate_estimate
+PC224,Telangana,Telangana 161,24417,20812,1451,2154,1953,1439,514,1092,55.4,6,4069.5,synthetic,ECI_aggregate_estimate
+PC225,Kerala,Kerala 162,23790,20281,1596,1913,1157,802,355,1139,36.8,7,3398.6,synthetic,ECI_aggregate_estimate
+PC226,Jharkhand,Jharkhand 163,47110,42007,2348,2755,988,884,104,826,63.9,11,4282.7,synthetic,ECI_aggregate_estimate
+PC227,Assam,Assam 164,53170,45591,5063,2516,747,664,83,935,86.6,10,5317.0,synthetic,ECI_aggregate_estimate
+PC228,Punjab,Punjab 165,51262,46545,5741,0,2642,2267,375,0,47.1,4,12815.5,synthetic,ECI_aggregate_estimate
+PC229,Chhattisgarh,Chhattisgarh 166,19985,18187,1532,266,319,231,88,152,32.2,7,2855.0,synthetic,ECI_aggregate_estimate
+PC230,Haryana,Haryana 167,21637,19486,2234,0,381,258,123,0,57.2,5,4327.4,synthetic,ECI_aggregate_estimate
+PC231,Uttarakhand,Uttarakhand 168,31567,24055,3774,3738,2296,1517,779,2577,82.0,7,4509.6,synthetic,ECI_aggregate_estimate
+PC232,Himachal Pradesh,Himachal Pradesh 169,49792,44316,3636,1840,2189,1327,862,837,70.3,9,5532.4,synthetic,ECI_aggregate_estimate
+PC233,Tripura,Tripura 170,23544,21497,2396,0,871,533,338,0,32.2,7,3363.4,synthetic,ECI_aggregate_estimate
+PC234,Meghalaya,Meghalaya 171,25529,21179,2236,2114,779,704,75,695,56.5,8,3191.1,synthetic,ECI_aggregate_estimate
+PC235,Manipur,Manipur 172,45999,35326,3666,7007,2868,2210,658,4163,51.7,5,9199.8,synthetic,ECI_aggregate_estimate
+PC236,Nagaland,Nagaland 173,40089,32233,3346,4510,964,691,273,1919,83.6,2,20044.5,synthetic,ECI_aggregate_estimate
+PC237,Goa,Goa 174,47457,35748,4139,7570,2100,1394,706,4486,70.0,7,6779.6,synthetic,ECI_aggregate_estimate
+PC238,Arunachal Pradesh,Arunachal Pradesh 175,28790,24007,1728,3055,1515,1413,102,1955,60.0,8,3598.8,synthetic,ECI_aggregate_estimate
+PC239,Mizoram,Mizoram 176,19932,16062,1693,2177,561,477,84,1490,43.3,6,3322.0,synthetic,ECI_aggregate_estimate
+PC240,Sikkim,Sikkim 177,13242,12178,1067,0,453,296,157,0,72.9,3,4414.0,synthetic,ECI_aggregate_estimate
+PC241,Jammu and Kashmir,Jammu and Kashmir 178,21710,17074,1927,2709,1557,1366,191,1390,50.4,2,10855.0,synthetic,ECI_aggregate_estimate
+PC242,Ladakh,Ladakh 179,47039,41746,3313,1980,1919,1764,155,643,80.1,2,23519.5,synthetic,ECI_aggregate_estimate
+PC243,Uttar Pradesh,Uttar Pradesh 180,50432,46138,4792,0,1020,612,408,0,64.9,6,8405.3,synthetic,ECI_aggregate_estimate
+PC244,Maharashtra,Maharashtra 181,43312,34692,1336,7284,1812,1569,243,3579,55.9,4,10828.0,synthetic,ECI_aggregate_estimate
+PC245,West Bengal,West Bengal 182,15132,11530,1040,2562,177,139,38,918,64.0,10,1513.2,synthetic,ECI_aggregate_estimate
+PC246,Bihar,Bihar 183,42838,34318,1688,6832,2389,1781,608,4761,39.3,5,8567.6,synthetic,ECI_aggregate_estimate
+PC247,Madhya Pradesh,Madhya Pradesh 184,23364,18718,2797,1849,1238,887,351,1202,43.2,7,3337.7,synthetic,ECI_aggregate_estimate
+PC248,Tamil Nadu,Tamil Nadu 185,35524,27926,3847,3751,1957,1488,469,1250,42.8,12,2960.3,synthetic,ECI_aggregate_estimate
+PC249,Rajasthan,Rajasthan 186,10937,9670,1243,24,863,606,257,7,53.9,7,1562.4,synthetic,ECI_aggregate_estimate
+PC250,Karnataka,Karnataka 187,17091,15147,1661,283,198,178,20,112,54.7,4,4272.8,synthetic,ECI_aggregate_estimate
+PC251,Gujarat,Gujarat 188,30247,27609,2114,524,2149,1976,173,308,67.8,8,3780.9,synthetic,ECI_aggregate_estimate
+PC252,Andhra Pradesh,Andhra Pradesh 189,40436,30646,1925,7865,1137,915,222,3123,53.5,3,13478.7,synthetic,ECI_aggregate_estimate
+PC253,Odisha,Odisha 190,20888,18826,1670,392,394,267,127,165,64.3,8,2611.0,synthetic,ECI_aggregate_estimate
+PC254,Telangana,Telangana 191,39124,34632,1501,2991,2539,2184,355,1785,61.6,3,13041.3,synthetic,ECI_aggregate_estimate
+PC255,Kerala,Kerala 192,30152,23161,2125,4866,635,522,113,1801,74.6,3,10050.7,synthetic,ECI_aggregate_estimate
+PC256,Jharkhand,Jharkhand 193,16333,13795,1256,1282,605,465,140,875,61.9,4,4083.2,synthetic,ECI_aggregate_estimate
+PC257,Assam,Assam 194,32502,29162,3496,0,2277,1507,770,0,70.5,10,3250.2,synthetic,ECI_aggregate_estimate
+PC258,Punjab,Punjab 195,54828,47295,6141,1392,1689,1484,205,954,78.2,3,18276.0,synthetic,ECI_aggregate_estimate
+PC259,Chhattisgarh,Chhattisgarh 196,40961,34740,4751,1470,3166,1939,1227,593,34.5,5,8192.2,synthetic,ECI_aggregate_estimate
+PC260,Haryana,Haryana 197,35984,29185,3110,3689,1153,922,231,1202,57.4,8,4498.0,synthetic,ECI_aggregate_estimate
+PC261,Uttarakhand,Uttarakhand 198,35391,26560,3511,5320,2155,1593,562,1886,38.0,12,2949.2,synthetic,ECI_aggregate_estimate
+PC262,Himachal Pradesh,Himachal Pradesh 199,19704,17733,797,1174,348,314,34,735,39.9,10,1970.4,synthetic,ECI_aggregate_estimate
+PC263,Tripura,Tripura 200,50918,40470,4336,6112,1173,961,212,3827,39.7,2,25459.0,synthetic,ECI_aggregate_estimate
+PC264,Meghalaya,Meghalaya 201,42544,34843,1392,6309,2035,1387,648,4228,40.1,10,4254.4,synthetic,ECI_aggregate_estimate
+PC265,Manipur,Manipur 202,20231,15381,1880,2970,276,260,16,1351,49.0,11,1839.2,synthetic,ECI_aggregate_estimate
+PC266,Nagaland,Nagaland 203,46422,37202,4777,4443,1155,840,315,1632,37.4,6,7737.0,synthetic,ECI_aggregate_estimate
+PC267,Goa,Goa 204,51540,46712,3611,1217,1828,1531,297,385,73.0,10,5154.0,synthetic,ECI_aggregate_estimate
+PC268,Arunachal Pradesh,Arunachal Pradesh 205,25589,19618,2517,3454,892,754,138,1487,73.6,5,5117.8,synthetic,ECI_aggregate_estimate
+PC269,Mizoram,Mizoram 206,48058,41539,1669,4850,1244,977,267,1869,47.4,2,24029.0,synthetic,ECI_aggregate_estimate
+PC270,Sikkim,Sikkim 207,35751,31106,4200,445,1450,1183,267,277,55.8,12,2979.2,synthetic,ECI_aggregate_estimate
+PC271,Jammu and Kashmir,Jammu and Kashmir 208,34894,30892,1213,2789,1824,1107,717,1627,61.5,11,3172.2,synthetic,ECI_aggregate_estimate
+PC272,Ladakh,Ladakh 209,39220,29715,4427,5078,1797,1414,383,3418,67.5,11,3565.5,synthetic,ECI_aggregate_estimate
+PC273,Uttar Pradesh,Uttar Pradesh 210,18896,14767,929,3200,948,568,380,1450,40.2,2,9448.0,synthetic,ECI_aggregate_estimate
+PC274,Maharashtra,Maharashtra 211,39374,31134,3361,4879,1564,1251,313,3390,43.4,8,4921.8,synthetic,ECI_aggregate_estimate
+PC275,West Bengal,West Bengal 212,27621,24089,2288,1244,1623,1519,104,703,31.7,12,2301.8,synthetic,ECI_aggregate_estimate
+PC276,Bihar,Bihar 213,39957,36130,1443,2384,724,455,269,875,48.3,5,7991.4,synthetic,ECI_aggregate_estimate
+PC277,Madhya Pradesh,Madhya Pradesh 214,25574,19820,983,4771,1888,1690,198,1661,73.6,9,2841.6,synthetic,ECI_aggregate_estimate
+PC278,Tamil Nadu,Tamil Nadu 215,36172,31381,3616,1175,2182,1750,432,560,74.5,5,7234.4,synthetic,ECI_aggregate_estimate
+PC279,Rajasthan,Rajasthan 216,33086,25441,1542,6103,2129,1968,161,3956,51.7,12,2757.2,synthetic,ECI_aggregate_estimate
+PC280,Karnataka,Karnataka 217,23780,21557,2579,0,870,723,147,0,37.7,2,11890.0,synthetic,ECI_aggregate_estimate
+PC281,Gujarat,Gujarat 218,17449,15368,827,1254,351,234,117,555,53.6,4,4362.2,synthetic,ECI_aggregate_estimate
+PC282,Andhra Pradesh,Andhra Pradesh 219,25151,22739,1374,1038,2003,1291,712,648,69.4,12,2095.9,synthetic,ECI_aggregate_estimate
+PC283,Odisha,Odisha 220,28145,21917,1817,4411,2111,1478,633,3019,74.9,5,5629.0,synthetic,ECI_aggregate_estimate
+PC284,Telangana,Telangana 221,12491,9849,1105,1537,159,145,14,984,57.5,4,3122.8,synthetic,ECI_aggregate_estimate
+PC285,Kerala,Kerala 222,46415,40843,5408,164,521,384,137,77,73.9,10,4641.5,synthetic,ECI_aggregate_estimate
+PC286,Jharkhand,Jharkhand 223,46156,42178,2373,1605,2648,2032,616,749,60.8,4,11539.0,synthetic,ECI_aggregate_estimate
+PC287,Assam,Assam 224,32299,24420,3826,4053,756,460,296,2731,73.9,11,2936.3,synthetic,ECI_aggregate_estimate
+PC288,Punjab,Punjab 225,41975,36720,3612,1643,2950,2447,503,742,46.8,3,13991.7,synthetic,ECI_aggregate_estimate
+PC289,Chhattisgarh,Chhattisgarh 226,58202,45408,2830,9964,1711,1317,394,5278,46.9,6,9700.3,synthetic,ECI_aggregate_estimate
+PC290,Haryana,Haryana 227,32965,28512,1657,2796,1043,890,153,1307,49.7,11,2996.8,synthetic,ECI_aggregate_estimate
+PC291,Uttarakhand,Uttarakhand 228,31461,25660,2427,3374,1794,1122,672,1149,71.7,7,4494.4,synthetic,ECI_aggregate_estimate
+PC292,Himachal Pradesh,Himachal Pradesh 229,44046,40522,4473,0,2759,2078,681,0,33.7,12,3670.5,synthetic,ECI_aggregate_estimate
+PC293,Tripura,Tripura 230,48726,36544,3447,8735,1952,1638,314,3311,33.4,8,6090.8,synthetic,ECI_aggregate_estimate
+PC294,Meghalaya,Meghalaya 231,16651,14251,905,1495,349,261,88,888,65.4,11,1513.7,synthetic,ECI_aggregate_estimate
+PC295,Manipur,Manipur 232,13326,11893,919,514,668,596,72,174,58.3,11,1211.5,synthetic,ECI_aggregate_estimate
+PC296,Nagaland,Nagaland 233,28983,22321,976,5686,1713,1044,669,2969,70.3,5,5796.6,synthetic,ECI_aggregate_estimate
+PC297,Goa,Goa 234,31565,25252,3252,3061,2414,1553,861,2118,41.1,3,10521.7,synthetic,ECI_aggregate_estimate
+PC298,Arunachal Pradesh,Arunachal Pradesh 235,21339,17332,1834,2173,792,477,315,1225,50.9,9,2371.0,synthetic,ECI_aggregate_estimate
+PC299,Mizoram,Mizoram 236,29842,25145,2781,1916,2132,1761,371,968,56.2,7,4263.1,synthetic,ECI_aggregate_estimate
+PC300,Sikkim,Sikkim 237,21931,19646,2149,136,863,529,334,76,53.3,8,2741.4,synthetic,ECI_aggregate_estimate
+PC301,Jammu and Kashmir,Jammu and Kashmir 238,42414,35757,1720,4937,2740,2134,606,1902,55.4,2,21207.0,synthetic,ECI_aggregate_estimate
+PC302,Ladakh,Ladakh 239,38742,33792,4265,685,2553,2134,419,245,50.4,7,5534.6,synthetic,ECI_aggregate_estimate
+PC303,Uttar Pradesh,Uttar Pradesh 240,18340,16631,1708,1,859,728,131,0,33.7,11,1667.3,synthetic,ECI_aggregate_estimate
+PC304,Maharashtra,Maharashtra 241,40481,34340,1648,4493,2083,1435,648,1697,75.0,4,10120.2,synthetic,ECI_aggregate_estimate
+PC305,West Bengal,West Bengal 242,55722,48155,3058,4509,1452,951,501,2264,80.9,4,13930.5,synthetic,ECI_aggregate_estimate
+PC306,Bihar,Bihar 243,40556,36349,3766,441,2529,2075,454,252,57.6,11,3686.9,synthetic,ECI_aggregate_estimate
+PC307,Madhya Pradesh,Madhya Pradesh 244,12249,9695,845,1709,433,369,64,540,64.9,4,3062.2,synthetic,ECI_aggregate_estimate
+PC308,Tamil Nadu,Tamil Nadu 245,45038,39741,1924,3373,1909,1366,543,1976,72.7,2,22519.0,synthetic,ECI_aggregate_estimate
+PC309,Rajasthan,Rajasthan 246,27059,23422,2611,1026,1008,696,312,420,55.4,3,9019.7,synthetic,ECI_aggregate_estimate
+PC310,Karnataka,Karnataka 247,23993,20241,956,2796,629,566,63,1437,49.7,4,5998.2,synthetic,ECI_aggregate_estimate
+PC311,Gujarat,Gujarat 248,51937,44744,3132,4061,3444,2105,1339,1999,73.5,11,4721.5,synthetic,ECI_aggregate_estimate
+PC312,Andhra Pradesh,Andhra Pradesh 249,35621,30631,4068,922,1435,965,470,392,34.2,10,3562.1,synthetic,ECI_aggregate_estimate
+PC313,Odisha,Odisha 250,20315,16835,1415,2065,777,515,262,822,50.3,5,4063.0,synthetic,ECI_aggregate_estimate
+PC314,Telangana,Telangana 251,50384,44582,2121,3681,2146,1986,160,1553,46.0,5,10076.8,synthetic,ECI_aggregate_estimate
+PC315,Kerala,Kerala 252,15876,13097,1293,1486,1092,982,110,800,59.6,7,2268.0,synthetic,ECI_aggregate_estimate
+PC316,Jharkhand,Jharkhand 253,56489,45036,6380,5073,4264,3206,1058,3192,67.8,9,6276.6,synthetic,ECI_aggregate_estimate
+PC317,Assam,Assam 254,20865,16417,1489,2959,1146,869,277,1158,39.7,6,3477.5,synthetic,ECI_aggregate_estimate
+PC318,Punjab,Punjab 255,53213,43884,5145,4184,4149,3250,899,1788,38.6,8,6651.6,synthetic,ECI_aggregate_estimate
+PC319,Chhattisgarh,Chhattisgarh 256,46138,34996,1914,9228,2266,1459,807,6340,53.5,3,15379.3,synthetic,ECI_aggregate_estimate
+PC320,Haryana,Haryana 257,56088,47775,2902,5411,1714,1463,251,2643,47.5,12,4674.0,synthetic,ECI_aggregate_estimate
+PC321,Uttarakhand,Uttarakhand 258,43073,33993,5168,3912,962,577,385,2224,65.6,2,21536.5,synthetic,ECI_aggregate_estimate
+PC322,Himachal Pradesh,Himachal Pradesh 259,56593,51256,4476,861,767,718,49,438,46.2,3,18864.3,synthetic,ECI_aggregate_estimate
+PC323,Tripura,Tripura 260,38195,29803,4232,4160,1099,894,205,2389,46.3,9,4243.9,synthetic,ECI_aggregate_estimate
+PC324,Meghalaya,Meghalaya 261,29151,23650,3201,2300,651,525,126,1443,55.0,2,14575.5,synthetic,ECI_aggregate_estimate
+PC325,Manipur,Manipur 262,57093,45751,2531,8811,2614,1816,798,2685,83.2,7,8156.1,synthetic,ECI_aggregate_estimate
+PC326,Nagaland,Nagaland 263,15445,11771,1162,2512,526,345,181,991,75.6,6,2574.2,synthetic,ECI_aggregate_estimate
+PC327,Goa,Goa 264,35277,29468,1337,4472,2675,1680,995,1512,53.9,4,8819.2,synthetic,ECI_aggregate_estimate
+PC328,Arunachal Pradesh,Arunachal Pradesh 265,14074,11973,518,1583,1117,826,291,797,65.3,12,1172.8,synthetic,ECI_aggregate_estimate
+PC329,Mizoram,Mizoram 266,37103,29368,3876,3859,2920,2453,467,1929,33.4,3,12367.7,synthetic,ECI_aggregate_estimate
+PC330,Sikkim,Sikkim 267,24340,20383,2472,1485,462,329,133,674,66.7,4,6085.0,synthetic,ECI_aggregate_estimate
+PC331,Jammu and Kashmir,Jammu and Kashmir 268,46500,41598,4022,880,1677,1280,397,486,66.2,10,4650.0,synthetic,ECI_aggregate_estimate
+PC332,Ladakh,Ladakh 269,11606,9292,1278,1036,450,318,132,310,36.9,2,5803.0,synthetic,ECI_aggregate_estimate
+PC333,Uttar Pradesh,Uttar Pradesh 270,52830,46717,3846,2267,1529,1332,197,968,72.7,8,6603.8,synthetic,ECI_aggregate_estimate
+PC334,Maharashtra,Maharashtra 271,45786,37515,4961,3310,1670,1370,300,1886,78.0,4,11446.5,synthetic,ECI_aggregate_estimate
+PC335,West Bengal,West Bengal 272,56908,44451,5372,7085,3074,2147,927,2583,64.8,3,18969.3,synthetic,ECI_aggregate_estimate
+PC336,Bihar,Bihar 273,32900,29291,1902,1707,724,637,87,736,66.6,8,4112.5,synthetic,ECI_aggregate_estimate
+PC337,Madhya Pradesh,Madhya Pradesh 274,19271,16869,2204,198,904,798,106,109,41.6,5,3854.2,synthetic,ECI_aggregate_estimate
+PC338,Tamil Nadu,Tamil Nadu 275,51405,44075,5038,2292,2682,2128,554,1516,58.9,11,4673.2,synthetic,ECI_aggregate_estimate
+PC339,Rajasthan,Rajasthan 276,41667,34445,1915,5307,2202,1971,231,3170,64.0,12,3472.2,synthetic,ECI_aggregate_estimate
+PC340,Karnataka,Karnataka 277,45800,41358,5025,0,3043,2249,794,0,47.5,10,4580.0,synthetic,ECI_aggregate_estimate
+PC341,Gujarat,Gujarat 278,51082,46762,2492,1828,1333,1113,220,905,78.2,4,12770.5,synthetic,ECI_aggregate_estimate
+PC342,Andhra Pradesh,Andhra Pradesh 279,12537,10419,948,1170,222,133,89,789,61.1,12,1044.8,synthetic,ECI_aggregate_estimate
+PC343,Odisha,Odisha 280,39361,34409,3148,1804,2071,1325,746,1134,38.5,10,3936.1,synthetic,ECI_aggregate_estimate
+PC344,Telangana,Telangana 281,35703,31032,2113,2558,974,821,153,1116,65.6,11,3245.7,synthetic,ECI_aggregate_estimate
+PC345,Kerala,Kerala 282,50033,40277,3332,6424,1165,944,221,1963,59.9,9,5559.2,synthetic,ECI_aggregate_estimate
+PC346,Jharkhand,Jharkhand 283,33619,28525,2135,2959,920,798,122,931,70.6,10,3361.9,synthetic,ECI_aggregate_estimate
+PC347,Assam,Assam 284,20517,17780,1812,925,1470,920,550,588,41.9,10,2051.7,synthetic,ECI_aggregate_estimate
+PC348,Punjab,Punjab 285,39121,32413,1371,5337,1797,1369,428,2800,37.4,11,3556.5,synthetic,ECI_aggregate_estimate
+PC349,Chhattisgarh,Chhattisgarh 286,12165,9723,577,1865,131,116,15,701,38.6,9,1351.7,synthetic,ECI_aggregate_estimate
+PC350,Haryana,Haryana 287,20598,16463,1970,2165,722,583,139,1201,29.9,11,1872.5,synthetic,ECI_aggregate_estimate
+PC351,Uttarakhand,Uttarakhand 288,13348,10769,1235,1344,967,642,325,758,58.4,8,1668.5,synthetic,ECI_aggregate_estimate
+PC352,Himachal Pradesh,Himachal Pradesh 289,43164,39163,4996,0,1302,781,521,0,75.2,11,3924.0,synthetic,ECI_aggregate_estimate
+PC353,Tripura,Tripura 290,49600,37345,5518,6737,1565,1207,358,3226,74.9,8,6200.0,synthetic,ECI_aggregate_estimate
+PC354,Meghalaya,Meghalaya 291,29677,26097,2143,1437,959,613,346,556,43.7,2,14838.5,synthetic,ECI_aggregate_estimate
+PC355,Manipur,Manipur 292,25123,20136,1668,3319,339,282,57,1761,65.7,4,6280.8,synthetic,ECI_aggregate_estimate
+PC356,Nagaland,Nagaland 293,24687,19110,940,4637,1497,1203,294,2262,51.0,4,6171.8,synthetic,ECI_aggregate_estimate
+PC357,Goa,Goa 294,29784,25421,1076,3287,1504,1165,339,2094,54.4,6,4964.0,synthetic,ECI_aggregate_estimate
+PC358,Arunachal Pradesh,Arunachal Pradesh 295,47290,39347,4948,2995,1421,855,566,1580,40.4,7,6755.7,synthetic,ECI_aggregate_estimate
+PC359,Mizoram,Mizoram 296,44867,39000,4868,999,1205,1096,109,552,62.8,4,11216.8,synthetic,ECI_aggregate_estimate
+PC360,Sikkim,Sikkim 297,29067,26142,2034,891,1748,1153,595,615,72.1,7,4152.4,synthetic,ECI_aggregate_estimate
+PC361,Jammu and Kashmir,Jammu and Kashmir 298,43745,35828,3799,4118,781,573,208,2539,35.6,2,21872.5,synthetic,ECI_aggregate_estimate
+PC362,Ladakh,Ladakh 299,50156,38407,4803,6946,1444,1046,398,4249,51.4,6,8359.3,synthetic,ECI_aggregate_estimate
+PC363,Uttar Pradesh,Uttar Pradesh 300,22978,18625,2219,2134,1464,996,468,867,64.3,5,4595.6,synthetic,ECI_aggregate_estimate
+PC364,Maharashtra,Maharashtra 301,28987,22149,2853,3985,1608,1491,117,2290,60.5,4,7246.8,synthetic,ECI_aggregate_estimate
+PC365,West Bengal,West Bengal 302,45585,38475,5430,1680,2727,2289,438,959,43.1,6,7597.5,synthetic,ECI_aggregate_estimate
+PC366,Bihar,Bihar 303,33866,30734,1607,1525,2434,1947,487,946,37.6,5,6773.2,synthetic,ECI_aggregate_estimate
+PC367,Madhya Pradesh,Madhya Pradesh 304,12949,10804,1112,1033,295,198,97,618,37.0,11,1177.2,synthetic,ECI_aggregate_estimate
+PC368,Tamil Nadu,Tamil Nadu 305,37212,30684,4289,2239,2778,1775,1003,1019,69.6,9,4134.7,synthetic,ECI_aggregate_estimate
+PC369,Rajasthan,Rajasthan 306,29897,26022,3331,544,646,460,186,236,49.0,4,7474.2,synthetic,ECI_aggregate_estimate
+PC370,Karnataka,Karnataka 307,45896,40165,2405,3326,3202,2176,1026,1756,42.8,9,5099.6,synthetic,ECI_aggregate_estimate
+PC371,Gujarat,Gujarat 308,24630,19479,1311,3840,1459,911,548,2255,67.8,11,2239.1,synthetic,ECI_aggregate_estimate
+PC372,Andhra Pradesh,Andhra Pradesh 309,45908,36766,2995,6147,2309,2133,176,2919,69.5,7,6558.3,synthetic,ECI_aggregate_estimate
+PC373,Odisha,Odisha 310,19066,16875,982,1209,517,329,188,688,75.2,2,9533.0,synthetic,ECI_aggregate_estimate
+PC374,Telangana,Telangana 311,22057,19725,2158,174,1226,982,244,73,77.9,3,7352.3,synthetic,ECI_aggregate_estimate
+PC375,Kerala,Kerala 312,12769,9890,1362,1517,1009,885,124,476,51.9,9,1418.8,synthetic,ECI_aggregate_estimate
+PC376,Jharkhand,Jharkhand 313,12846,10357,1518,971,890,649,241,296,65.1,5,2569.2,synthetic,ECI_aggregate_estimate
+PC377,Assam,Assam 314,44045,35550,2723,5772,1730,1476,254,3906,68.0,7,6292.1,synthetic,ECI_aggregate_estimate
+PC378,Punjab,Punjab 315,23225,20250,2659,316,509,476,33,111,43.5,7,3317.9,synthetic,ECI_aggregate_estimate
+PC379,Chhattisgarh,Chhattisgarh 316,39992,35144,4017,831,1827,1114,713,372,44.6,11,3635.6,synthetic,ECI_aggregate_estimate
+PC380,Haryana,Haryana 317,40011,33712,2522,3777,1595,1320,275,1623,83.6,11,3637.4,synthetic,ECI_aggregate_estimate
+PC381,Uttarakhand,Uttarakhand 318,51679,41805,4851,5023,2125,1898,227,1878,62.8,9,5742.1,synthetic,ECI_aggregate_estimate
+PC382,Himachal Pradesh,Himachal Pradesh 319,34986,27988,2907,4091,1754,1372,382,1752,82.4,3,11662.0,synthetic,ECI_aggregate_estimate
+PC383,Tripura,Tripura 320,31388,28307,1247,1834,1684,1498,186,588,54.1,5,6277.6,synthetic,ECI_aggregate_estimate
+PC384,Meghalaya,Meghalaya 321,12133,11121,924,88,334,285,49,42,44.8,12,1011.1,synthetic,ECI_aggregate_estimate
+PC385,Manipur,Manipur 322,44731,37569,2170,4992,535,413,122,3259,77.0,12,3727.6,synthetic,ECI_aggregate_estimate
+PC386,Nagaland,Nagaland 323,41158,32079,3052,6027,1515,1362,153,4010,84.5,9,4573.1,synthetic,ECI_aggregate_estimate
+PC387,Goa,Goa 324,22535,18638,1069,2828,1371,1118,253,919,79.9,5,4507.0,synthetic,ECI_aggregate_estimate
+PC388,Arunachal Pradesh,Arunachal Pradesh 325,34346,26589,2596,5161,2589,2265,324,2459,53.6,5,6869.2,synthetic,ECI_aggregate_estimate
+PC389,Mizoram,Mizoram 326,51376,45178,5729,469,3451,3105,346,271,54.2,12,4281.3,synthetic,ECI_aggregate_estimate
+PC390,Sikkim,Sikkim 327,16613,12985,1472,2156,507,420,87,733,43.9,11,1510.3,synthetic,ECI_aggregate_estimate
+PC391,Jammu and Kashmir,Jammu and Kashmir 328,17400,14416,1984,1000,289,188,101,410,46.6,4,4350.0,synthetic,ECI_aggregate_estimate
+PC392,Ladakh,Ladakh 329,22621,20196,1731,694,1487,1236,251,349,39.8,10,2262.1,synthetic,ECI_aggregate_estimate
+PC393,Uttar Pradesh,Uttar Pradesh 330,25590,20174,2173,3243,778,515,263,1267,61.4,4,6397.5,synthetic,ECI_aggregate_estimate
+PC394,Maharashtra,Maharashtra 331,47003,41903,5218,0,2655,1876,779,0,59.1,8,5875.4,synthetic,ECI_aggregate_estimate
+PC395,West Bengal,West Bengal 332,59073,45958,4965,8150,1981,1210,771,3413,81.8,8,7384.1,synthetic,ECI_aggregate_estimate
+PC396,Bihar,Bihar 333,26248,19998,885,5365,1456,1110,346,2001,50.1,9,2916.4,synthetic,ECI_aggregate_estimate
+PC397,Madhya Pradesh,Madhya Pradesh 334,25987,23710,1679,598,442,326,116,206,41.0,5,5197.4,synthetic,ECI_aggregate_estimate
+PC398,Tamil Nadu,Tamil Nadu 335,22877,17318,2589,2970,1026,658,368,1725,46.5,3,7625.7,synthetic,ECI_aggregate_estimate
+PC399,Rajasthan,Rajasthan 336,26628,20352,1196,5080,1197,888,309,2141,44.8,6,4438.0,synthetic,ECI_aggregate_estimate
+PC400,Karnataka,Karnataka 337,35910,27812,3202,4896,1238,804,434,2662,73.2,6,5985.0,synthetic,ECI_aggregate_estimate
+PC401,Gujarat,Gujarat 338,51999,46807,3083,2109,2242,1521,721,712,62.4,12,4333.2,synthetic,ECI_aggregate_estimate
+PC402,Andhra Pradesh,Andhra Pradesh 339,16199,13368,1091,1740,879,567,312,635,65.8,7,2314.1,synthetic,ECI_aggregate_estimate
+PC403,Odisha,Odisha 340,46062,40853,2612,2597,3460,2749,711,1038,64.7,5,9212.4,synthetic,ECI_aggregate_estimate
+PC404,Telangana,Telangana 341,38640,30488,3050,5102,482,427,55,1754,36.6,11,3512.7,synthetic,ECI_aggregate_estimate
+PC405,Kerala,Kerala 342,39820,34060,3700,2060,604,398,206,820,77.3,7,5688.6,synthetic,ECI_aggregate_estimate
+PC406,Jharkhand,Jharkhand 343,35438,31369,2820,1249,514,348,166,514,57.3,8,4429.8,synthetic,ECI_aggregate_estimate
+PC407,Assam,Assam 344,25859,23155,2639,65,1746,1267,479,25,30.9,5,5171.8,synthetic,ECI_aggregate_estimate
+PC408,Punjab,Punjab 345,38348,28879,1863,7606,2034,1620,414,2294,70.0,10,3834.8,synthetic,ECI_aggregate_estimate
+PC409,Chhattisgarh,Chhattisgarh 346,48526,38474,3291,6761,863,559,304,4411,44.6,12,4043.8,synthetic,ECI_aggregate_estimate
+PC410,Haryana,Haryana 347,25806,20504,2646,2656,1367,825,542,1779,65.5,6,4301.0,synthetic,ECI_aggregate_estimate
+PC411,Uttarakhand,Uttarakhand 348,25921,19663,2529,3729,502,315,187,1769,63.1,3,8640.3,synthetic,ECI_aggregate_estimate
+PC412,Himachal Pradesh,Himachal Pradesh 349,22912,18468,743,3701,616,384,232,1678,50.4,8,2864.0,synthetic,ECI_aggregate_estimate
+PC413,Tripura,Tripura 350,38628,31083,1539,6006,1505,935,570,2192,76.5,2,19314.0,synthetic,ECI_aggregate_estimate
+PC414,Meghalaya,Meghalaya 351,43938,39535,2479,1924,2647,2192,455,872,60.6,2,21969.0,synthetic,ECI_aggregate_estimate
+PC415,Manipur,Manipur 352,40700,30758,3924,6018,1737,1522,215,3490,71.2,6,6783.3,synthetic,ECI_aggregate_estimate
+PC416,Nagaland,Nagaland 353,28509,26207,3197,0,1554,1087,467,0,51.6,3,9503.0,synthetic,ECI_aggregate_estimate
+PC417,Goa,Goa 354,38051,32602,4504,945,2008,1405,603,395,69.2,2,19025.5,synthetic,ECI_aggregate_estimate
+PC418,Arunachal Pradesh,Arunachal Pradesh 355,42015,31679,4125,6211,1007,635,372,4188,42.1,12,3501.2,synthetic,ECI_aggregate_estimate
+PC419,Mizoram,Mizoram 356,50782,38859,2824,9099,554,478,76,4007,84.4,8,6347.8,synthetic,ECI_aggregate_estimate
+PC420,Sikkim,Sikkim 357,32588,28288,2681,1619,1221,778,443,492,52.3,7,4655.4,synthetic,ECI_aggregate_estimate
+PC421,Jammu and Kashmir,Jammu and Kashmir 358,51128,44350,4526,2252,2238,1761,477,778,52.8,12,4260.7,synthetic,ECI_aggregate_estimate
+PC422,Ladakh,Ladakh 359,28649,26126,2124,399,2021,1871,150,152,55.3,6,4774.8,synthetic,ECI_aggregate_estimate
+PC423,Uttar Pradesh,Uttar Pradesh 360,29389,26299,2750,340,2206,1770,436,111,43.2,8,3673.6,synthetic,ECI_aggregate_estimate
+PC424,Maharashtra,Maharashtra 361,51973,43977,5136,2860,4058,2510,1548,1632,58.8,10,5197.3,synthetic,ECI_aggregate_estimate
+PC425,West Bengal,West Bengal 362,52777,40362,3461,8954,3603,2485,1118,5967,43.5,6,8796.2,synthetic,ECI_aggregate_estimate
+PC426,Bihar,Bihar 363,48126,36921,3407,7798,809,555,254,3262,59.4,7,6875.1,synthetic,ECI_aggregate_estimate
+PC427,Madhya Pradesh,Madhya Pradesh 364,40271,35723,3827,721,2121,1573,548,262,32.3,4,10067.8,synthetic,ECI_aggregate_estimate
+PC428,Tamil Nadu,Tamil Nadu 365,42287,36434,4364,1489,542,325,217,986,71.0,8,5285.9,synthetic,ECI_aggregate_estimate
+PC429,Rajasthan,Rajasthan 366,37274,28857,3925,4492,1197,837,360,1511,70.4,3,12424.7,synthetic,ECI_aggregate_estimate
+PC430,Karnataka,Karnataka 367,36820,29479,4064,3277,2401,2171,230,2119,79.9,8,4602.5,synthetic,ECI_aggregate_estimate
+PC431,Gujarat,Gujarat 368,30776,27707,1711,1358,515,327,188,943,49.6,7,4396.6,synthetic,ECI_aggregate_estimate
+PC432,Andhra Pradesh,Andhra Pradesh 369,24993,21415,2232,1346,940,712,228,573,31.6,10,2499.3,synthetic,ECI_aggregate_estimate
+PC433,Odisha,Odisha 370,46310,40595,3061,2654,693,645,48,1844,59.3,3,15436.7,synthetic,ECI_aggregate_estimate
+PC434,Telangana,Telangana 371,49507,44652,3755,1100,989,710,279,544,34.7,10,4950.7,synthetic,ECI_aggregate_estimate
+PC435,Kerala,Kerala 372,20546,18197,1128,1221,1329,1200,129,452,31.2,12,1712.2,synthetic,ECI_aggregate_estimate
+PC436,Jharkhand,Jharkhand 373,32562,28841,2749,972,1087,874,213,573,55.7,7,4651.7,synthetic,ECI_aggregate_estimate
+PC437,Assam,Assam 374,37934,32747,2222,2965,1839,1452,387,1635,38.6,4,9483.5,synthetic,ECI_aggregate_estimate
+PC438,Punjab,Punjab 375,42993,37622,1972,3399,2019,1231,788,1764,45.3,2,21496.5,synthetic,ECI_aggregate_estimate
+PC439,Chhattisgarh,Chhattisgarh 376,25835,23102,1087,1646,1441,1295,146,517,34.2,2,12917.5,synthetic,ECI_aggregate_estimate
+PC440,Haryana,Haryana 377,14968,12688,1369,911,617,449,168,459,52.6,10,1496.8,synthetic,ECI_aggregate_estimate
+PC441,Uttarakhand,Uttarakhand 378,20891,18200,2069,622,1334,952,382,419,77.3,9,2321.2,synthetic,ECI_aggregate_estimate
+PC442,Himachal Pradesh,Himachal Pradesh 379,39052,32545,3025,3482,2650,2068,582,1200,39.0,9,4339.1,synthetic,ECI_aggregate_estimate
+PC443,Tripura,Tripura 380,56211,43438,4912,7861,1195,925,270,3928,46.8,2,28105.5,synthetic,ECI_aggregate_estimate
+PC444,Meghalaya,Meghalaya 381,22641,18226,1212,3203,983,810,173,1092,32.4,9,2515.7,synthetic,ECI_aggregate_estimate
+PC445,Manipur,Manipur 382,32198,25262,2750,4186,1400,1184,216,1455,77.3,9,3577.6,synthetic,ECI_aggregate_estimate
+PC446,Nagaland,Nagaland 383,14652,12309,1367,976,295,232,63,374,52.5,11,1332.0,synthetic,ECI_aggregate_estimate
+PC447,Goa,Goa 384,30328,26718,1200,2410,1064,805,259,733,46.2,9,3369.8,synthetic,ECI_aggregate_estimate
+PC448,Arunachal Pradesh,Arunachal Pradesh 385,41577,32199,4209,5169,2661,1864,797,2063,39.7,5,8315.4,synthetic,ECI_aggregate_estimate
+PC449,Mizoram,Mizoram 386,47085,36504,5429,5152,3221,2515,706,2502,57.6,4,11771.2,synthetic,ECI_aggregate_estimate
+PC450,Sikkim,Sikkim 387,15028,13257,737,1034,446,345,101,477,75.1,11,1366.2,synthetic,ECI_aggregate_estimate
+PC451,Jammu and Kashmir,Jammu and Kashmir 388,17924,14027,2057,1840,1149,975,174,998,45.2,3,5974.7,synthetic,ECI_aggregate_estimate
+PC452,Ladakh,Ladakh 389,24065,21506,1264,1295,506,314,192,538,42.0,9,2673.9,synthetic,ECI_aggregate_estimate
+PC453,Uttar Pradesh,Uttar Pradesh 390,32428,29420,1302,1706,2068,1748,320,569,58.2,6,5404.7,synthetic,ECI_aggregate_estimate
+PC454,Maharashtra,Maharashtra 391,28031,22400,2776,2855,1047,895,152,1280,67.1,11,2548.3,synthetic,ECI_aggregate_estimate
+PC455,West Bengal,West Bengal 392,22574,20378,1094,1102,253,211,42,361,61.1,8,2821.8,synthetic,ECI_aggregate_estimate
+PC456,Bihar,Bihar 393,44908,40769,2130,2009,778,581,197,1303,34.6,2,22454.0,synthetic,ECI_aggregate_estimate
+PC457,Madhya Pradesh,Madhya Pradesh 394,28378,25540,2349,489,1222,1146,76,203,54.8,3,9459.3,synthetic,ECI_aggregate_estimate
+PC458,Tamil Nadu,Tamil Nadu 395,50639,40136,1615,8888,2780,2502,278,5763,79.6,7,7234.1,synthetic,ECI_aggregate_estimate
+PC459,Rajasthan,Rajasthan 396,28611,25743,1878,990,1797,1518,279,341,62.0,4,7152.8,synthetic,ECI_aggregate_estimate
+PC460,Karnataka,Karnataka 397,29781,23308,2773,3700,2055,1233,822,2432,56.4,7,4254.4,synthetic,ECI_aggregate_estimate
+PC461,Gujarat,Gujarat 398,26978,20994,2049,3935,1545,1317,228,1797,64.5,2,13489.0,synthetic,ECI_aggregate_estimate
+PC462,Andhra Pradesh,Andhra Pradesh 399,32607,28632,2311,1664,749,492,257,805,35.7,5,6521.4,synthetic,ECI_aggregate_estimate
+PC463,Odisha,Odisha 400,12244,10311,478,1455,478,315,163,504,43.4,2,6122.0,synthetic,ECI_aggregate_estimate
+PC464,Telangana,Telangana 401,25269,20446,818,4005,484,413,71,2599,51.9,2,12634.5,synthetic,ECI_aggregate_estimate
+PC465,Kerala,Kerala 402,25852,21567,1279,3006,1535,1391,144,1235,45.5,11,2350.2,synthetic,ECI_aggregate_estimate
+PC466,Jharkhand,Jharkhand 403,13466,11957,711,798,685,610,75,285,45.5,4,3366.5,synthetic,ECI_aggregate_estimate
+PC467,Assam,Assam 404,13864,11135,1516,1213,386,241,145,553,47.8,6,2310.7,synthetic,ECI_aggregate_estimate
+PC468,Punjab,Punjab 405,34002,31195,3795,0,1172,978,194,0,37.2,4,8500.5,synthetic,ECI_aggregate_estimate
+PC469,Chhattisgarh,Chhattisgarh 406,21930,19068,2173,689,1039,909,130,283,59.4,12,1827.5,synthetic,ECI_aggregate_estimate
+PC470,Haryana,Haryana 407,52484,40280,3365,8839,1017,611,406,3942,42.8,4,13121.0,synthetic,ECI_aggregate_estimate
+PC471,Uttarakhand,Uttarakhand 408,15530,12086,897,2547,834,527,307,866,74.2,11,1411.8,synthetic,ECI_aggregate_estimate
+PC472,Himachal Pradesh,Himachal Pradesh 409,51253,44244,1918,5091,2400,1470,930,3288,40.7,4,12813.2,synthetic,ECI_aggregate_estimate
+PC473,Tripura,Tripura 410,26824,22604,1588,2632,1702,1079,623,804,77.9,6,4470.7,synthetic,ECI_aggregate_estimate
+PC474,Meghalaya,Meghalaya 411,46835,38561,4784,3490,1323,983,340,1242,59.4,7,6690.7,synthetic,ECI_aggregate_estimate
+PC475,Manipur,Manipur 412,36998,30687,3524,2787,2497,1925,572,1944,64.2,4,9249.5,synthetic,ECI_aggregate_estimate
+PC476,Nagaland,Nagaland 413,51511,39617,2525,9369,588,378,210,4059,81.5,5,10302.2,synthetic,ECI_aggregate_estimate
+PC477,Goa,Goa 414,23876,18232,2523,3121,613,460,153,1766,52.7,4,5969.0,synthetic,ECI_aggregate_estimate
+PC478,Arunachal Pradesh,Arunachal Pradesh 415,45982,38805,2843,4334,830,569,261,2466,37.4,11,4180.2,synthetic,ECI_aggregate_estimate
+PC479,Mizoram,Mizoram 416,22528,18157,2358,2013,1645,1223,422,656,46.5,11,2048.0,synthetic,ECI_aggregate_estimate
+PC480,Sikkim,Sikkim 417,33003,25790,3843,3370,1278,1125,153,1514,36.4,7,4714.7,synthetic,ECI_aggregate_estimate
+PC481,Jammu and Kashmir,Jammu and Kashmir 418,57762,44895,1994,10873,1487,1166,321,4437,33.9,9,6418.0,synthetic,ECI_aggregate_estimate
+PC482,Ladakh,Ladakh 419,22412,18332,1013,3067,336,247,89,1644,75.9,2,11206.0,synthetic,ECI_aggregate_estimate
+PC483,Uttar Pradesh,Uttar Pradesh 420,53514,44347,5987,3180,3918,3274,644,1188,44.7,2,26757.0,synthetic,ECI_aggregate_estimate
+PC484,Maharashtra,Maharashtra 421,11879,10740,421,718,850,592,258,315,36.0,9,1319.9,synthetic,ECI_aggregate_estimate
+PC485,West Bengal,West Bengal 422,53051,45726,1825,5500,4193,3675,518,1834,50.9,6,8841.8,synthetic,ECI_aggregate_estimate
+PC486,Bihar,Bihar 423,46344,36806,4863,4675,2558,2428,130,2558,71.8,5,9268.8,synthetic,ECI_aggregate_estimate
+PC487,Madhya Pradesh,Madhya Pradesh 424,20497,16009,2055,2433,834,724,110,1082,43.3,8,2562.1,synthetic,ECI_aggregate_estimate
+PC488,Tamil Nadu,Tamil Nadu 425,11546,9642,792,1112,126,112,14,714,62.5,5,2309.2,synthetic,ECI_aggregate_estimate
+PC489,Rajasthan,Rajasthan 426,29267,24733,3056,1478,2069,1484,585,790,30.9,5,5853.4,synthetic,ECI_aggregate_estimate
+PC490,Karnataka,Karnataka 427,13626,12271,1523,0,879,767,112,0,29.9,5,2725.2,synthetic,ECI_aggregate_estimate
+PC491,Gujarat,Gujarat 428,16647,14386,729,1532,1006,764,242,676,45.3,9,1849.7,synthetic,ECI_aggregate_estimate
+PC492,Andhra Pradesh,Andhra Pradesh 429,41689,31850,1640,8199,2330,1801,529,5662,56.9,3,13896.3,synthetic,ECI_aggregate_estimate
+PC493,Odisha,Odisha 430,45238,36281,3321,5636,2946,1921,1025,2140,76.2,2,22619.0,synthetic,ECI_aggregate_estimate
+PC494,Telangana,Telangana 431,14102,12248,453,1401,513,368,145,874,42.3,6,2350.3,synthetic,ECI_aggregate_estimate
+PC495,Kerala,Kerala 432,34801,26260,3515,5026,2005,1474,531,1882,42.8,8,4350.1,synthetic,ECI_aggregate_estimate
+PC496,Jharkhand,Jharkhand 433,18486,14988,935,2563,1109,750,359,1732,50.7,5,3697.2,synthetic,ECI_aggregate_estimate
+PC497,Assam,Assam 434,49882,43175,5877,830,3954,3516,438,541,74.4,4,12470.5,synthetic,ECI_aggregate_estimate
+PC498,Punjab,Punjab 435,18094,14971,925,2198,1296,962,334,1439,40.1,3,6031.3,synthetic,ECI_aggregate_estimate
+PC499,Chhattisgarh,Chhattisgarh 436,53561,40799,1879,10883,2911,2432,479,4247,84.5,10,5356.1,synthetic,ECI_aggregate_estimate
+PC500,Haryana,Haryana 437,49554,39885,5543,4126,3515,2860,655,1834,57.6,4,12388.5,synthetic,ECI_aggregate_estimate
+PC501,Uttarakhand,Uttarakhand 438,13801,12420,1547,0,927,779,148,0,66.3,3,4600.3,synthetic,ECI_aggregate_estimate
+PC502,Himachal Pradesh,Himachal Pradesh 439,43671,37285,1334,5052,2888,1822,1066,2414,84.6,5,8734.2,synthetic,ECI_aggregate_estimate
+PC503,Tripura,Tripura 440,25466,23412,2524,0,1303,1128,175,0,33.2,12,2122.2,synthetic,ECI_aggregate_estimate
+PC504,Meghalaya,Meghalaya 441,23427,19220,1474,2733,1546,1373,173,1899,51.8,11,2129.7,synthetic,ECI_aggregate_estimate
+PC505,Manipur,Manipur 442,24764,21311,1832,1621,919,643,276,541,32.8,11,2251.3,synthetic,ECI_aggregate_estimate
+PC506,Nagaland,Nagaland 443,37444,29982,4388,3074,2950,2431,519,1745,60.2,4,9361.0,synthetic,ECI_aggregate_estimate
+PC507,Goa,Goa 444,12870,11721,536,613,431,319,112,400,29.7,2,6435.0,synthetic,ECI_aggregate_estimate
+PC508,Arunachal Pradesh,Arunachal Pradesh 445,54043,45196,3338,5509,3125,2510,615,2112,59.9,11,4913.0,synthetic,ECI_aggregate_estimate
+PC509,Mizoram,Mizoram 446,53895,47749,6391,0,673,607,66,0,47.9,3,17965.0,synthetic,ECI_aggregate_estimate
+PC510,Sikkim,Sikkim 447,47638,40639,2833,4166,1559,1113,446,1767,56.9,7,6805.4,synthetic,ECI_aggregate_estimate
+PC511,Jammu and Kashmir,Jammu and Kashmir 448,47305,43473,2498,1334,3184,2643,541,419,45.4,11,4300.5,synthetic,ECI_aggregate_estimate
+PC512,Ladakh,Ladakh 449,28053,23226,1974,2853,825,567,258,856,71.8,4,7013.2,synthetic,ECI_aggregate_estimate
+PC513,Uttar Pradesh,Uttar Pradesh 450,32151,25852,2831,3468,2061,1890,171,1792,59.8,6,5358.5,synthetic,ECI_aggregate_estimate
+PC514,Maharashtra,Maharashtra 451,13982,12563,989,430,260,178,82,231,46.0,8,1747.8,synthetic,ECI_aggregate_estimate
+PC515,West Bengal,West Bengal 452,44075,39596,3689,790,2338,2160,178,527,69.3,9,4897.2,synthetic,ECI_aggregate_estimate
+PC516,Bihar,Bihar 453,56078,47824,1877,6377,2868,2139,729,4302,61.7,8,7009.8,synthetic,ECI_aggregate_estimate
+PC517,Madhya Pradesh,Madhya Pradesh 454,27369,24987,857,1525,2133,1519,614,866,77.5,10,2736.9,synthetic,ECI_aggregate_estimate
+PC518,Tamil Nadu,Tamil Nadu 455,42673,32537,4401,5735,2202,1511,691,3863,42.5,6,7112.2,synthetic,ECI_aggregate_estimate
+PC519,Rajasthan,Rajasthan 456,18113,14201,1196,2716,497,303,194,915,47.4,12,1509.4,synthetic,ECI_aggregate_estimate
+PC520,Karnataka,Karnataka 457,43479,33694,2665,7120,1363,1166,197,2620,36.5,2,21739.5,synthetic,ECI_aggregate_estimate
+PC521,Gujarat,Gujarat 458,44403,34451,2964,6988,2656,1709,947,4828,43.0,4,11100.8,synthetic,ECI_aggregate_estimate
+PC522,Andhra Pradesh,Andhra Pradesh 459,42435,36306,4394,1735,1803,1446,357,1143,58.6,3,14145.0,synthetic,ECI_aggregate_estimate
+PC523,Odisha,Odisha 460,51541,39751,4318,7472,1054,737,317,2252,55.9,9,5726.8,synthetic,ECI_aggregate_estimate
+PC524,Telangana,Telangana 461,16588,15081,1762,0,759,666,93,0,60.3,3,5529.3,synthetic,ECI_aggregate_estimate
+PC525,Kerala,Kerala 462,14700,13434,945,321,975,585,390,146,59.7,12,1225.0,synthetic,ECI_aggregate_estimate
+PC526,Jharkhand,Jharkhand 463,42012,38583,3457,0,2777,2206,571,0,75.3,11,3819.3,synthetic,ECI_aggregate_estimate
+PC527,Assam,Assam 464,53769,45040,6257,2472,1758,1578,180,1034,49.6,10,5376.9,synthetic,ECI_aggregate_estimate
+PC528,Punjab,Punjab 465,39447,30152,3157,6138,2583,1834,749,3767,31.9,8,4930.9,synthetic,ECI_aggregate_estimate
+PC529,Chhattisgarh,Chhattisgarh 466,55462,45210,3511,6741,4317,3640,677,4451,42.8,7,7923.1,synthetic,ECI_aggregate_estimate
+PC530,Haryana,Haryana 467,29467,24021,1377,4069,1744,1257,487,1415,35.8,7,4209.6,synthetic,ECI_aggregate_estimate
+PC531,Uttarakhand,Uttarakhand 468,45420,39611,4433,1376,3183,1909,1274,414,63.7,2,22710.0,synthetic,ECI_aggregate_estimate
+PC532,Himachal Pradesh,Himachal Pradesh 469,24342,18755,2222,3365,881,835,46,1315,68.9,4,6085.5,synthetic,ECI_aggregate_estimate
+PC533,Tripura,Tripura 470,37234,32393,1891,2950,535,476,59,1455,56.7,12,3102.8,synthetic,ECI_aggregate_estimate
+PC534,Meghalaya,Meghalaya 471,32351,27201,2945,2205,1707,1437,270,869,70.0,5,6470.2,synthetic,ECI_aggregate_estimate
+PC535,Manipur,Manipur 472,32882,25779,3165,3938,412,337,75,2216,58.7,11,2989.3,synthetic,ECI_aggregate_estimate
+PC536,Nagaland,Nagaland 473,53752,45765,3067,4920,916,851,65,1884,37.2,12,4479.3,synthetic,ECI_aggregate_estimate
+PC537,Goa,Goa 474,43641,35539,4154,3948,1822,1197,625,2531,47.3,3,14547.0,synthetic,ECI_aggregate_estimate
+PC538,Arunachal Pradesh,Arunachal Pradesh 475,50206,40174,5942,4090,1427,1093,334,1797,55.9,6,8367.7,synthetic,ECI_aggregate_estimate
+PC539,Mizoram,Mizoram 476,29619,25632,1167,2820,623,458,165,1540,69.7,5,5923.8,synthetic,ECI_aggregate_estimate
+PC540,Sikkim,Sikkim 477,19440,14967,2101,2372,1028,869,159,1083,53.4,5,3888.0,synthetic,ECI_aggregate_estimate
+PC541,Jammu and Kashmir,Jammu and Kashmir 478,22473,17136,2434,2903,1219,1118,101,1547,55.5,2,11236.5,synthetic,ECI_aggregate_estimate
+PC542,Ladakh,Ladakh 479,14065,11496,1218,1351,272,190,82,528,45.1,2,7032.5,synthetic,ECI_aggregate_estimate
+PC543,Uttar Pradesh,Uttar Pradesh 480,18988,16153,1012,1823,1497,969,528,1251,45.1,5,3797.6,synthetic,ECI_aggregate_estimate
